@@ -12,3 +12,5 @@ title: "Update and Events"
 
 ![I am pleased to share that I attended the PharmaSUG 2025 Conference not just as an attendee, but as a proud Student Scholarship Recipient. It was an incredible opportunity to engage with experts in Statistical Programming, Clinical Data Science, and Biostatistics.](IMG_0649.jpg){fig-align="center" width="500px"}
 
+-   **Old Events In Archive**
+*Chill*~ **Move**
