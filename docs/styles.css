@@ -1,0 +1,38 @@
+
+/* css styles */
+.project-list img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.project-list img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.quarto-grid-item .card-title,
+.quarto-grid-item .card-description {
+  text-align: center;
+}
+
+.project-list .quarto-grid {
+  gap: 2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .project-list .quarto-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* make our .gstat span blue */
+.gstat {
+  color: #722F37;
+}
+

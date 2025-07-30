@@ -1,0 +1,7 @@
+---
+title: "Teaching and Training"
+---
+
+# Lecture 1
+
+A hands-on tutorial introducing key concepts in descriptive statistics and statistical inference using R—designed to build a strong foundation for analyzing data in research contexts. [Link](https://drive.google.com/file/d/1jldVQlu6QmWFpEEX1RWY9ukYDiDhBdr-/view?usp=drive_link)

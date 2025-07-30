@@ -1,0 +1,60 @@
+---
+title: "Awards & Honors "
+subtitle: "Recognitions, Scholarships, and Distinctions"
+title-block-banner: false
+page-layout: full
+---
+
+### Motivation
+
+My motivation stems from a deep conviction that statistical thinking can transform how we understand disease, deliver treatment, and personalize care. My ultimate focus is the intersection of **Bayesian statistcis, clinical trials, causal inference, and precision medicine, survival modeling, machine (deep) learning **, where data-driven findings and the power of novel statistical methods can directly inform therapeutic development. My commitment to advancing **evidence-based public health** through rigorous statistical modeling and innovation drives both my academic research and professional ambitions. 
+
+## 2025
+- **PharmaSUG 2025 Conference Travel Grant** – *Western Michigan University*  
+  Awarded a conference travel grant of $1,000 to attend PharmaSUG 2025 in San Diego, recognizing excellence in clinical research and statistical programming.
+
+
+- **PharmaSUG 2025 Student Scholarship** – *June 2025*. Recipient of a competitive award recognizing outstanding potential in clinical research and statistical programming across the entire US.
+
+
+
+
+## 2024
+- **Gerald Sievers Memorial Scholarship** – *May 2024*. \$2,000 merit-based scholarship awarded to the most outstanding statistics graduate student at Western Michigan University.
+
+- **ASA Diversity Mentoring Program Scholar** – *2024*. Selected for a national program supporting underrepresented students in statistics through mentorship and career development. \$800.
+
+- **Full-Time Offer from Eli Lilly** – *Sept 2024*. Extended a post-internship role after delivering impactful tools and research in the Neuroscience and Immunology therapeutic area.
+
+## 2023
+- **Best Teaching Assistant Award**, University of Ghana – *June 2023*. Honored by the School of Mathematical Sciences for exceptional commitment to undergraduate instruction and mentoring. Selected as top-performing TA out of 20+ departmental TAs
+
+
+
+## 2022
+- **Certification of Honor**  
+  *University of Ghana Actuarial and Statistics Society* — Honored for tremendous service and commitment through 2 years of effective transformative leadership as Deputy Project and Program Head.
+
+
+## 2018
+- **Ghana National Petroleum Corporation STEM Scholarship Recipient** – *2018–2022*. Fully funded four-year national scholarship awarded to top STEM students in Ghana. First year: Gh9,000 and Gh7000 for the remaining 3-years.
+
+## 2017
+- **Best Economics Student**, WASSCE 2017 – *ADA Senior H.T School*. Graduated with distinction in Economics, recognized as the highest-performing student in the subject across the school cohort.
+
+## 2015
+- **Less Endowed Scholar 2015- 2017**,  – *ADA Senior H.T School*. A tuition scholarship awarded to the top 3 students in each department school-wide. Recognized among the top 3 in the Business Department.
+
+
+## Volunteer
+
+- **Volunteer Judge**, PharmaSUG 2025 – *Feb 2025*. Reviewed statistical research presentations for clarity, rigor, and innovation in clinical trial applications.
+
+- **Planning Committee Member**, ASA StatFest – *2023–Present*. Helped organize national outreach events promoting statistics among underrepresented communities.
+
+
+- **Academic Integrity Committee Representative** Western Michigan University-*2024-2025*
+Promoted academic integrity by reviewing cases and setting standards for student across the University
+
+- **Emergency Team Leader**- International Student Week Celebration, Western Michigan University-*Oct 2023* 
+Led emergency response planning to ensure event safety

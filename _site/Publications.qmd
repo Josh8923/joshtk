@@ -1,0 +1,18 @@
+---
+title: "Publications"
+author: "Josh T.K"
+---
+
+## Manuscript Under Review
+
+1.   Kubuafor, E., Baidoo, D., Joshua, O.O., Amevor, R., Arhin, G.,**Korley, J.T.**, & Adefila, A. (2025). Forecasting Cancer Mortality Using Age-Specific Trends in Ghana: An Application of Functional Time Series Modeling. *Springer Proceedings in Mathematics & Statistics* (In Press).
+
+## Manuscripts In Preparation
+
+1.  **Korley, J.T.** (2025). Estimating Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy. *Under review in a general applied statistics journal*.
+
+2.   Kubuafor, E., Baidoo, D., Joshua, O.O., Amevor, R., & Arhin, G. (2025), **Korley, J.T.**. Socio-Demographic Determinants of Obesity Among Young Adults in Ghana: A Penalized Regression Approach. *Springer Proceedings in Mathematics & Statistics* (In Press).
+
+3.  ##New Concept
+*High-Dimensional Mediation Analysis with Survival Outcomes*: A Double Machine Learning and Causal Inference Approach.  
+    - Development of `JsurvMediateML`, an R package for implementing high-dimensional survival mediation analysis with clinical applications.

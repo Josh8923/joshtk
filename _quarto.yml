@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: docs
+
+# Meta
+description-meta: "Academic website for Emmanuel Kubuafor, statistician and data scientist."
+author-meta: "Josh Korley"
+
+website:
+  title: "JTK"
+  image: josh.jpg
+  description: "Personal academic site for research, teaching, and projects"
+  navbar:
+    background: gray
+    left:
+      - href: index.qmd
+        text: Home
+      - Publications.qmd
+      - Projects.qmd
+      - Training.qmd
+      - about.qmd
+      - Updates.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/Josh8923
+        target: _blank
+      - icon: file-text
+        text: Rpubs
+        href: https://rpubs.com/Josh8923
+        target: _blank
+
+  page-navigation: true
+
+  page-footer:
+    left: "[Josh Korley](https://github.com/EmmanuelKubuafor) &copy; <script>document.write(new Date().getFullYear())</script>"
+    center: "Built with [Quarto](https://quarto.org) • Adapted from [Danny's] template"
+    right:
+      - icon: github
+        href: https://github.com/Josh8923
+        target: _blank
+      - icon: file-text
+        text: Rpubs
+        href: https://rpubs.com/Josh8923
+        target: _blank
+
+  search:
+    location: navbar
+    type: textbox
+
+  reader-mode: true
+
+
+  repo-url: https://github.com/Josh8923
+
+  open-graph: true
+  twitter-card: true
+
+  site-url: "https://Josh8923.github.io"
+
+#   google-analytics:
+#     tracking-id: ""  # Add your own ID if needed
+#     anonymize-ip: true
+#
+# bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-align: center
+    link-external-icon: false
+    link-external-newwindow: true
+    email-obfuscation: javascript
+    include-in-header: "files/includes/_academic.qmd"
+
+
+
+
+

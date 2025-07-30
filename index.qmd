@@ -1,0 +1,69 @@
+---
+title: "Josh T'K,[Gstat](https://ww2.amstat.org/accreditation/roster.cfm)" 
+description-meta: "Academic website for Josh Korley, specializing in statistical modeling and clinical science."
+page-title: false          # ← hides the auto-generated H1
+image: josh.jpg
+page-navigation: false
+toc: false
+page-layout: full
+about:
+  template: trestles
+  id: hero-heading
+  image-width: 20em
+  image-shape: round
+  links:
+    - icon: linkedIn
+      text: LinkedIn
+      href: https://www.linkedin.com/in/josh-t%E2%80%99korley-86a0621b5/
+    - icon: github
+      text: Github
+      href: https://github.com/Josh8923
+    - icon: Rpubs
+      text: Rpubs
+      href: https://rpubs.com/Josh8923  
+    - icon: email
+      text: Email
+      href: "mailto:joshtkorley@gmail.com"
+---
+
+::: {#hero-heading}
+
+
+
+![**JTK's Personal Website**](giff.gif){fig-align="left" width="50px"}
+
+### Current Academic Focus
+
+My research interests lie at the intersection of **Bayesian Statistics, Causal Inference**, **Survival Analysis**, and **Machine Learning**, with applications in **Clinical Trial Design**, **Neuroscience**, **Genomics**, and **Precision Medicine**.
+
+### Hobbies & Interests
+
+Beyond research and statistics, I enjoy:
+
+- Reading scientific **literature** and **Programming** 📈💻 
+- Watching **aircraft documentaries** and aviation technology features 🛩️ 
+- A little bit **drumming \& cooking** 😎   
+- Listening to **music** to unwind 🎶 
+- Academic **discussions \& debates** 💻
+
+:::
+
+## Experience
+
+*Graduate Student Researcher \& Instructor*~ **WMU**
+
+*Ex-Intern, Masters Statistician*~ **Eli Lilly \& Company**
+
+*Teaching \& Research Assistant*~ **UG**
+
+## Education
+
+*Non-Degree in Biostatistics | Summer 2025* ~ **UCONN**
+
+*MS in Statistics \& Certificate in Biostatistics| Aug 2023 – April 2025* ~ **WMU**
+
+*BSC in Mathematical (Actuarial) Sciences | Aug 2018 – Nov 2022*~ **UG**
+
+## About Me
+
+Hello! I’m **Josh Korley**, a motivated and research-driven incoming doctoral student in **Biotatistics** at **Arnold School Of Public Health, USC, Columbia**. With a strong foundation in statistics and data science. I am passionate about using data to advance healthcare—particularly in clinical trials, neuroscience \& oncology drug development, and personalized medicine.

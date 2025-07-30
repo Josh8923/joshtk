@@ -1,0 +1,224 @@
+---
+title: "Teaching and Training"
+subtitle: "Courses I Taught And Assisted with."
+title-block-banner: false
+---
+![**JTK**](giff.gif){fig-align="left" width="50px"}
+
+
+## Graduate Student Instructor  
+**Western Michigan University, Department of Statistics**  
+**Aug 2023 – Apr 2025**
+
+### STAT 1600 – Discovery With Data
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_1.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics*  
+**Instructor**  
+[Spring & Fall 2023-2025](#)
+
+Served as Graduate Student instructor and provided lab sessions in undergraduate statistics; covering descriptive stats, hypothesis testing, and simple regression.
+:::
+
+:::
+
+---
+
+### STAT 2160 – Business Statistics
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_2.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics*  
+**Tutor**  
+[Fall 2023, Spring 2024](#)
+Led weekly labs and grading for undergraduate business statistics, covering descriptive stats, hypothesis testing, and regression.
+:::
+
+:::
+
+
+---
+
+### STAT STAT 3620 – Probability
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_3.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics*  
+**Tutor**  
+[(Fall 2023, Fall 2024](#)
+Delivered lab sessions and tutorials on combinatorics, discrete/continuous distributions, and probability theory.
+:::
+
+:::
+
+---
+
+### STAT 2600 – R Statistical Programming and Computing
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_4.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics*  
+**Tutor**  
+[Spring 2024,2025](#)
+Provided lab sessions in R programming for undergraduate students.
+:::
+
+:::
+  
+
+---
+
+## Research & Teaching Assistant  
+**University of Ghana, Department of Statistics & Actuarial Science**  
+**Aug 2018 – Aug 2023**
+
+---
+
+
+### STAT 111 – Introduction to Statistics
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_5.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics \& Actuarial Science*  
+**Instructor**  
+[(2022–2023)](#)
+Conducted tutorials and assessments for introductory topics in descriptive and inferential statistics.
+:::
+
+:::
+
+---
+
+
+### STAT 221 – Intro. to Statistical And Probability  I
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_6.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics \& Actuarial Science*  
+**Instructor/ TA**  
+[(2023)](#)
+Aided in teaching probability foundations, moment-generating functions, and common distributions
+:::
+
+:::  
+  
+---
+
+
+### STAT 333 – Statistical Inference
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_7.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics \& Actuarial Science*  
+**Tutor**  
+[(2023)](#)
+Supported instruction as a TA in hypothesis testing, sampling distributions, and interval estimation.
+:::
+
+:::  
+
+---
+
+
+### ACTU 605- Actuarial Mathematics
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_9.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics \& Actuarial Science*  
+**TA**  
+[(2022-2023)](#)
+Provided teaching assistant duties in life contingencies, survival models, and premium calculation principles for Mphil students.
+:::
+
+:::  
+ 
+---
+
+
+### ACTU 405- Actuarial Economics
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_10.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics \& Actuarial Science*  
+**Instructor/ TA**  
+[(2022-2023)](#)
+Served as both instructor and TA for topics blending economic principles with actuarial valuation and risk theory.
+:::
+
+::: 
+
+---
+
+### ACTU 345- Actuarial Statistics
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_9.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics \& Actuarial Science*  
+**TA**  
+[(2023)](#)
+Provided teaching assistant duties in interests rates, Annuities, Bonds, and premium calculation principles to Undergraduates students.
+:::
+
+:::  
+ 
+---
+
+### Statistics and Actuarial Consulting Unit (SACU)
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](t_11.png)
+:::
+
+::: {.g-col-12 .g-col-md-10}
+ *Department of Statistics \& Actuarial Science*  
+**Research Assistant**  
+[(2022-2023)](#)
+Collaborated with faculty on research in reserach activities and statistical and actuarial consulting.
+:::
+
+:::
+
+
