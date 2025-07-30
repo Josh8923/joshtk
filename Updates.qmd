@@ -6,7 +6,7 @@ title: "Update and Events"
 
 -   **June 2nd, 2025**
 
-![Honored by the PharmaSUG Conference Committee with a Scholarship Award and Certificate of Achievement for my commitment to advancing clinical research and data science.](images/phar.jpg){fig-align="center" width="500px"}
+![Honored by the PharmaSUG Conference Committee with a Scholarship Award and Certificate of Achievement for my commitment to advancing clinical research and data science.](pharm1.jpg){fig-align="center" width="500px"}
 
 -   **June 1st - 4th, 2025**
 
