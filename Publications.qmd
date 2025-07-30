@@ -9,7 +9,7 @@ author: "Josh T.K"
 
 ## Manuscripts In Preparation
 
-1.  **Korley, J.T. \& Enoch, A.** (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.
+1.  **Korley, J.T. \& Adu-Bonso, E.** (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.
 
 2.  **Korley, J.T.** (2025). Estimating Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.
 
