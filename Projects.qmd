@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-*Projects Links And Documents Under Constructions!*
+*Some Projects Links And Documents Under Constructions!*
 
 ## Clinical Trials 
 ::: {.g-col-12}
