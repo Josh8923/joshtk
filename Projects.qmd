@@ -4,6 +4,27 @@ title: "Projects"
 
 *Projects Links And Documents Under Constructions!*
 
+## Clinical Trials 
+::: {.g-col-12}
+
+**[ Biopharmaceutical Research Project: Dose-Finding and Missing Data in Psoriasis Trial ](https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing)**  
+[images/psorias.jpg](https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing)  
+*Biopharmaceutical Research Project: Dose-Finding and Missing Data in Psoriasis Trial*  
+
+**Affiliation**: Biopharmaceutical Summer Academy, University of Connecticut | Jul 2025 – Aug 2025  
+**Dataset**: Simulated Phase II Trial Data for Uconnemab (Psoriasis Therapy)  
+**Purpose**: To determine optimal dosing and evaluate the robustness of early efficacy signals under clinically realistic dropout scenarios  
+**Methods**:  
+- Logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints  
+- Simulated missingness mechanisms: MCAR, MAR (response-based), MNAR (toxicity-index based)  
+- Sensitivity analyses via complete-case analysis and non-responder imputation  
+
+**Result**: Across all modeling strategies, the 140mg and 210mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. Findings support the advancement of 140mg and 210mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility.
+
+:::
+
+---
+
 ## Survival/ Causal Inference Analysis
 
 ::: {.g-col-12}
@@ -76,7 +97,7 @@ Structural Equation Modeling (SEM) for mediation analysis of prognostic variable
 
 ---
 
-## Clinical Trial- Epi/Biostatistics
+## Epi/Biostatistics
 ::: {.g-col-12}
 
 **[ Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis ](https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing)**  

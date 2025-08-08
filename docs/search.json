@@ -187,5 +187,19 @@
     "title": "Update and Events",
     "section": "",
     "text": "July, 2025- Present Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts. ~ Current Research\nJune 2nd, 2025\n\n\n\n\nHonored by the PharmaSUG Conference Committee with a Scholarship Award and Certificate of Achievement for my commitment to advancing clinical research and data science.\n\n\n\nJune 1st - 4th, 2025\n\n\n\n\nI am pleased to share that I attended the PharmaSUG 2025 Conference not just as an attendee, but as a proud Student Scholarship Recipient. It was an incredible opportunity to engage with experts in Statistical Programming, Clinical Data Science, and Biostatistics.\n\n\n\nOld Events In Archive\n\nChill~ Move"
+  },
+  {
+    "objectID": "Projects.html#clinical-trials",
+    "href": "Projects.html#clinical-trials",
+    "title": "Projects",
+    "section": "Clinical Trials",
+    "text": "Clinical Trials\n\nBiopharmaceutical Research Project: Dose-Finding and Missing Data in Psoriasis Trial\nimages/psorias.jpg\nBiopharmaceutical Research Project: Dose-Finding and Missing Data in Psoriasis Trial\nAffiliation: Biopharmaceutical Summer Academy, University of Connecticut | Jul 2025 – Aug 2025\nDataset: Simulated Phase II Trial Data for Uconnemab (Psoriasis Therapy)\nPurpose: To determine optimal dosing and evaluate the robustness of early efficacy signals under clinically realistic dropout scenarios\nMethods:\n- Logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints\n- Simulated missingness mechanisms: MCAR, MAR (response-based), MNAR (toxicity-index based)\n- Sensitivity analyses via complete-case analysis and non-responder imputation\nResult: Across all modeling strategies, the 140mg and 210mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. Findings support the advancement of 140mg and 210mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility."
+  },
+  {
+    "objectID": "Projects.html#epibiostatistics",
+    "href": "Projects.html#epibiostatistics",
+    "title": "Projects",
+    "section": "Epi/Biostatistics",
+    "text": "Epi/Biostatistics\n\nClinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis\n Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis \nAffiliation: Summer Research, Western Michigan University | Jun 2024 – Aug 2024\nDataset: ACTC Solanezumab Preclinical Trial Data\nPurpose: To assess subgroup-specific treatment effects and identify cognitive decline risk factors\nMethods:\n- Regression modeling on MMSE and ARIA endpoints\n- Subgroup analyses by APOE4 status, centiloid level, education, and BMI\nResult: Found that surrogate endpoint selection (MMSE vs. ARIA) influences identified risk profiles. APOE4 status and centiloid level showed consistent association with AD progression across subgroups."
   }
 ]
