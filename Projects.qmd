@@ -8,8 +8,8 @@ title: "Projects"
 ::: {.g-col-12}
 
 **[ Biopharmaceutical Research Project: Dose-Finding and Missing Data in Psoriasis Trial ](https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing)**  
-[images/psorias.jpg](https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing)  
-*Biopharmaceutical Research Project: Dose-Finding and Missing Data in Psoriasis Trial*  
+[psorias.jpg](https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing)  
+*Biopharmaceutical Research Project: Dose-Finding and Missing Data Analysis in Psoriasis Trial*  
 
 **Affiliation**: Biopharmaceutical Summer Academy, University of Connecticut | Jul 2025 – Aug 2025  
 **Dataset**: Simulated Phase II Trial Data for Uconnemab (Psoriasis Therapy)  
