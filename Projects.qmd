@@ -97,7 +97,7 @@ Structural Equation Modeling (SEM) for mediation analysis of prognostic variable
 
 ---
 
-## Epi/Biostatistics
+## Epidemiology/Biostatistics
 ::: {.g-col-12}
 
 **[ Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis ](https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing)**  

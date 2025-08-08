@@ -201,5 +201,12 @@
     "title": "Projects",
     "section": "Epi/Biostatistics",
     "text": "Epi/Biostatistics\n\nClinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis\n Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis \nAffiliation: Summer Research, Western Michigan University | Jun 2024 – Aug 2024\nDataset: ACTC Solanezumab Preclinical Trial Data\nPurpose: To assess subgroup-specific treatment effects and identify cognitive decline risk factors\nMethods:\n- Regression modeling on MMSE and ARIA endpoints\n- Subgroup analyses by APOE4 status, centiloid level, education, and BMI\nResult: Found that surrogate endpoint selection (MMSE vs. ARIA) influences identified risk profiles. APOE4 status and centiloid level showed consistent association with AD progression across subgroups."
+  },
+  {
+    "objectID": "Projects.html#epidemiologybiostatistics",
+    "href": "Projects.html#epidemiologybiostatistics",
+    "title": "Projects",
+    "section": "Epidemiology/Biostatistics",
+    "text": "Epidemiology/Biostatistics\n\nClinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis\n Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis \nAffiliation: Summer Research, Western Michigan University | Jun 2024 – Aug 2024\nDataset: ACTC Solanezumab Preclinical Trial Data\nPurpose: To assess subgroup-specific treatment effects and identify cognitive decline risk factors\nMethods:\n- Regression modeling on MMSE and ARIA endpoints\n- Subgroup analyses by APOE4 status, centiloid level, education, and BMI\nResult: Found that surrogate endpoint selection (MMSE vs. ARIA) influences identified risk profiles. APOE4 status and centiloid level showed consistent association with AD progression across subgroups."
   }
 ]
