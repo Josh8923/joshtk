@@ -154,9 +154,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#clinical-trials" id="toc-clinical-trials" class="nav-link active" data-scroll-target="#clinical-trials">Clinical Trials</a></li>
+  <li><a href="#methodology-numerical-method-based-estimation" id="toc-methodology-numerical-method-based-estimation" class="nav-link active" data-scroll-target="#methodology-numerical-method-based-estimation">Methodology &amp; Numerical Method Based Estimation</a></li>
+  <li><a href="#clinical-trials" id="toc-clinical-trials" class="nav-link" data-scroll-target="#clinical-trials">Clinical Trials</a></li>
   <li><a href="#survival-causal-inference-analysis" id="toc-survival-causal-inference-analysis" class="nav-link" data-scroll-target="#survival-causal-inference-analysis">Survival/ Causal Inference Analysis</a></li>
-  <li><a href="#numerical-method-based-estimation" id="toc-numerical-method-based-estimation" class="nav-link" data-scroll-target="#numerical-method-based-estimation">Numerical Method Based Estimation</a></li>
   <li><a href="#epidemiologybiostatistics" id="toc-epidemiologybiostatistics" class="nav-link" data-scroll-target="#epidemiologybiostatistics">Epidemiology/Biostatistics</a></li>
   <li><a href="#health-epidemiology" id="toc-health-epidemiology" class="nav-link" data-scroll-target="#health-epidemiology">Health &amp; Epidemiology</a></li>
   <li><a href="#never-ending-analysis" id="toc-never-ending-analysis" class="nav-link" data-scroll-target="#never-ending-analysis">Never Ending-Analysis</a>
@@ -189,6 +189,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><em>Some Projects Links And Documents Under Constructions!</em></p>
+<section id="methodology-numerical-method-based-estimation" class="level2">
+<h2 class="anchored" data-anchor-id="methodology-numerical-method-based-estimation">Methodology &amp; Numerical Method Based Estimation</h2>
+<div class="g-col-12">
+<p><strong><a href="https://drive.google.com/file/d/1nqpqJttV87">Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application</a></strong><br>
+<a href="https://drive.google.com/file/d/1nqpqJttV87"><img src="em.png" class="img-fluid"></a><br>
+<em>Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application</em></p>
+<p><strong>Affiliation</strong>: Arnold School of Public Health | Aug 2025 – <em>Present</em></p>
+<p><strong>Dataset</strong>: Simulated interval-censored survival data (true Weibull baseline) and real-world ovarian cancer dataset with periodic follow-up visits</p>
+<p><strong>Objective</strong>: To evaluate the accuracy, predictive performance, and practical utility of the EM algorithm for interval-censored survival analysis, benchmarked against parametric and Bayesian AFT models.</p>
+<p><strong>Methods</strong><br>
+- Turnbull’s Nonparametric Maximum Likelihood Estimator (NPMLE) via the EM algorithm for distribution-free baseline survival estimation<br>
+- Parametric Weibull AFT models with covariates for individualized prediction<br>
+- Bayesian AFT models for uncertainty quantification and posterior predictive checks<br>
+- Performance evaluation using Integrated Squared Error (ISE) in simulation and Integrated Brier Score (IBS) in real data</p>
+<p><strong>Results</strong><br>
+- <strong>EM algorithm</strong>: High-fidelity recovery of the true survival curve (ISE = 0.0921; 95% CI: 0.0404–0.1793) without parametric constraints<br>
+- <strong>Weibull AFT</strong>: Outperformed Kaplan–Meier in predictive accuracy on real data (IBS = 0.064 vs.&nbsp;0.066)<br>
+- <strong>Bayesian AFT</strong>: Enhanced uncertainty quantification and model selection capabilities<br>
+- Proposed a three-phase modeling workflow: EM for initial shape recovery, AFT for predictive modeling, and Bayesian AFT for robust uncertainty propagation—validated in both simulated and applied settings.</p>
+</div>
+</section>
 <section id="clinical-trials" class="level2">
 <h2 class="anchored" data-anchor-id="clinical-trials">Clinical Trials</h2>
 <div class="g-col-12">
@@ -235,25 +256,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <hr>
 </section>
-<section id="numerical-method-based-estimation" class="level2">
-<h2 class="anchored" data-anchor-id="numerical-method-based-estimation">Numerical Method Based Estimation</h2>
-<div class="g-col-12">
-<p><strong><a href="">Censored Survival Time Estimation Using EM Algorithm</a></strong><br>
-<a href="https://drive.google"><img src="that_3.png" class="img-fluid"></a> <em>Censored Survival Time Estimation Using EM Algorithm</em><br>
-<strong>Affiliation</strong>: Dept. of Statistics, Western Michigan University | Aug 2024 – Present<br>
-<strong>Dataset</strong>: Motorette lifespan data (Schnee &amp; Hahn, 1979)<br>
-<strong>Purpose</strong>: To explore statistical modeling strategies for analyzing censored time-to-event data<br>
-<strong>Methods</strong>:<br>
-- Leveraged the power of Expectation–Maximization (EM) algorithm to estimate patients’ interval censored survival time. - Kaplan–Meier and parametric survival modeling (visuals)</p>
-<p><strong>Result</strong>: EM algorithm demonstrated strong performance in recovering latent survival distribution under random censoring. Insights were applied to inform experimental design strategies in clinical trials.</p>
-</div>
-<hr>
-</section>
 <section id="epidemiologybiostatistics" class="level2">
 <h2 class="anchored" data-anchor-id="epidemiologybiostatistics">Epidemiology/Biostatistics</h2>
 <div class="g-col-12">
-<p><strong><a href="https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing">Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis</a></strong><br>
-<a href="https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing"><img src="that_2.png" class="img-fluid"></a> <em>Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis </em></p>
+<p><strong><a href="https://rpubs.com/Josh8923/1335128">Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis</a></strong><br>
+<a href="https://rpubs.com/Josh8923/1335128"><img src="that_2.png" class="img-fluid"></a> <em>Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis </em></p>
 <p><strong>Affiliation</strong>: Summer Research, Western Michigan University | Jun 2024 – Aug 2024<br>
 <strong>Dataset</strong>: ACTC Solanezumab Preclinical Trial Data<br>
 <strong>Purpose</strong>: To assess subgroup-specific treatment effects and identify cognitive decline risk factors<br>

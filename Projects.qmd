@@ -4,6 +4,32 @@ title: "Projects"
 
 *Some Projects Links And Documents Under Constructions!*
 
+## Methodology \& Numerical Method Based Estimation
+::: {.g-col-12}
+**[Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application](https://drive.google.com/file/d/1nqpqJttV87)**  
+[![](em.png)](https://drive.google.com/file/d/1nqpqJttV87)  
+*Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application*  
+
+**Affiliation**: Arnold School of Public Health | Aug 2025 – *Present*  
+
+**Dataset**: Simulated interval-censored survival data (true Weibull baseline) and real-world ovarian cancer dataset with periodic follow-up visits  
+
+**Objective**: To evaluate the accuracy, predictive performance, and practical utility of the EM algorithm for interval-censored survival analysis, benchmarked against parametric and Bayesian AFT models.  
+
+**Methods**  
+- Turnbull’s Nonparametric Maximum Likelihood Estimator (NPMLE) via the EM algorithm for distribution-free baseline survival estimation  
+- Parametric Weibull AFT models with covariates for individualized prediction  
+- Bayesian AFT models for uncertainty quantification and posterior predictive checks  
+- Performance evaluation using Integrated Squared Error (ISE) in simulation and Integrated Brier Score (IBS) in real data  
+
+**Results**  
+- **EM algorithm**: High-fidelity recovery of the true survival curve (ISE = 0.0921; 95% CI: 0.0404–0.1793) without parametric constraints  
+- **Weibull AFT**: Outperformed Kaplan–Meier in predictive accuracy on real data (IBS = 0.064 vs. 0.066)  
+- **Bayesian AFT**: Enhanced uncertainty quantification and model selection capabilities  
+- Proposed a three-phase modeling workflow: EM for initial shape recovery, AFT for predictive modeling, and Bayesian AFT for robust uncertainty propagation—validated in both simulated and applied settings.  
+:::
+
+
 ## Clinical Trials 
 ::: {.g-col-12}
 
@@ -78,30 +104,12 @@ Structural Equation Modeling (SEM) for mediation analysis of prognostic variable
 
 ---
 
-## Numerical Method Based Estimation
-::: {.g-col-12}
-**[ Censored Survival Time Estimation Using EM Algorithm]()**  
-[![](that_3.png)](https://drive.google)
- *Censored Survival Time Estimation Using EM Algorithm*  
-**Affiliation**: Dept. of Statistics, Western Michigan University | Aug 2024 – Present  
-**Dataset**: Motorette lifespan data (Schnee & Hahn, 1979)  
-**Purpose**: To explore statistical modeling strategies for analyzing censored time-to-event data  
-**Methods**:  
-- Leveraged the power of Expectation–Maximization (EM) algorithm to estimate patients' interval censored survival time.
-- Kaplan–Meier and parametric survival modeling (visuals)
-
-**Result**: EM algorithm demonstrated strong performance in recovering latent survival distribution under random censoring. Insights were applied to inform experimental design strategies in clinical trials.
-:::
-
-
-
----
 
 ## Epidemiology/Biostatistics
 ::: {.g-col-12}
 
-**[ Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis ](https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing)**  
-[![](that_2.png)](https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing)
+**[ Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis ](https://rpubs.com/Josh8923/1335128)**  
+[![](that_2.png)](https://rpubs.com/Josh8923/1335128)
  *Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis *  
 
 **Affiliation**: Summer Research, Western Michigan University | Jun 2024 – Aug 2024  
