@@ -6,8 +6,8 @@ title: "Projects"
 
 ## Bayesian \& Numerical Method Based Estimation
 ::: {.g-col-12}
-**[Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application](https://drive.google.com/file/d/1nqpqJttV87)**  
-[![](em.png)](https://drive.google.com/file/d/1nqpqJttV87)  
+**[Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application](https://rpubs.com/Josh8923/1335128)**  
+[![](em.png)](https://rpubs.com/Josh8923/1335128)  
 *Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application*  
 
 **Affiliation**: Arnold School of Public Health | Aug 2025 – *Present*  
@@ -51,7 +51,7 @@ title: "Projects"
 
 ---
 
-## Survival/ Causal Inference Analysis
+## Survival \& Causal Inference Analysis
 
 ::: {.g-col-12}
 **[Estimating Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy](https://drive.google.com/file/d/1nqpqJttV87)**  
@@ -105,11 +105,11 @@ Structural Equation Modeling (SEM) for mediation analysis of prognostic variable
 ---
 
 
-## Epidemiology/Biostatistics
+## Epidemiology \& Biostatistics
 ::: {.g-col-12}
 
-**[ Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis ](https://rpubs.com/Josh8923/1335128)**  
-[![](that_2.png)](https://rpubs.com/Josh8923/1335128)
+**[ Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis ](https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing)**  
+[![](that_2.png)](https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing)
  *Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis *  
 
 **Affiliation**: Summer Research, Western Michigan University | Jun 2024 – Aug 2024  
