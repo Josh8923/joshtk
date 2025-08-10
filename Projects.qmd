@@ -4,7 +4,7 @@ title: "Projects"
 
 *Some Projects Links And Documents Under Constructions!*
 
-## Methodology \& Numerical Method Based Estimation
+## Bayesian \& Numerical Method Based Estimation
 ::: {.g-col-12}
 **[Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application](https://drive.google.com/file/d/1nqpqJttV87)**  
 [![](em.png)](https://drive.google.com/file/d/1nqpqJttV87)  
