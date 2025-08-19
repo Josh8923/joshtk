@@ -54,9 +54,9 @@ title: "Projects"
 ## Survival \& Causal Inference Analysis
 
 ::: {.g-col-12}
-**[Estimating Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy](https://drive.google.com/file/d/1nqpqJttV87)**  
-[![](that_4.png)](https://drive.google)
- *Estimating Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy* 
+**[Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy](https://drive.google.com/file/d/1k0xkbo2NvVKXhuJaR6ogImU0DpjHYqJG/view?usp=sharing)**  
+[![](that_4.png)](https://drive.google.com/file/d/1k0xkbo2NvVKXhuJaR6ogImU0DpjHYqJG/view?usp=sharing)
+ *Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy* 
  
 **Affiliation**: Western Michigan University | April 2025 – *Present*  
 
