@@ -127,7 +127,7 @@ Structural Equation Modeling (SEM) for mediation analysis of prognostic variable
 
 ## Health & Epidemiology
 ::: {.g-col-12}
-[![](lung.jpg)]{fig-align="left" width="450px"}(https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing)  
+[![](lung.jpg)]{fig-align="left" width="350px"}(https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing)  
 **[Forecasting Lung Cancer Mortality](https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing)**  
 Compared time series models (SES, HDES, ARIMA) for lung cancer prediction in the U.S.
 :::
