@@ -1,6 +1,6 @@
 /* ================================
    JTK Website Custom Styling
-   Modern Dark Theme + Accessible Colors
+   Modern Dark Theme + Blended Accents
    ================================ */
 
 /* ---------- Global Background ---------- */
@@ -13,7 +13,9 @@ body {
 
 /* ---------- Navbar ---------- */
 .navbar {
-  background: #3a86ff !important; /* vivid accessible blue */
+  background: rgba(76, 201, 240, 0.12) !important; /* soft transparent aqua */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 6px 20px rgba(0,0,0,.4);
 }
 .navbar .navbar-brand,
@@ -24,21 +26,15 @@ body {
 .navbar .nav-link:hover {
   color: #ff6b6b !important; /* coral hover */
 }
-.navbar .navbar-toggler {
-  border-color: rgba(255,255,255,.35);
-}
-.navbar .navbar-toggler-icon {
-  filter: invert(1) brightness(2);
-}
 
 /* ---------- Headings ---------- */
 h1, h2, h3 {
-  color: #3a86ff; /* vivid accessible blue */
+  color: rgba(76, 201, 240, 0.85); /* blended aqua with opacity */
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 h4, h5, h6 {
-  color: #4cc9f0; /* aqua for subheadings */
+  color: rgba(148, 210, 189, 0.85); /* muted teal-green for subheadings */
   font-weight: 600;
 }
 
@@ -50,21 +46,22 @@ h4, h5, h6 {
 
 /* ---------- Links ---------- */
 a {
-  color: #4cc9f0; /* bright aqua */
+  color: rgba(76, 201, 240, 0.85); /* blended aqua */
   transition: color .2s ease, text-shadow .2s ease;
 }
 a:hover {
   color: #ff6b6b;
-  text-shadow: 0 0 8px rgba(255,107,107,.6);
+  text-shadow: 0 0 8px rgba(255,107,107,.5);
 }
 
 /* ---------- Cards / Grid Items ---------- */
 .card, .quarto-grid .card, .quarto-grid-item {
-  background: #1c2541;
-  border: 1px solid rgba(255,255,255,.1);
+  background: rgba(28, 37, 65, 0.9); /* translucent navy */
+  border: 1px solid rgba(255,255,255,.08);
   border-radius: 18px;
   box-shadow: 0 10px 28px rgba(0,0,0,.4);
   transition: transform .2s ease, box-shadow .2s ease;
+  backdrop-filter: blur(6px);
 }
 .card:hover, .quarto-grid .card:hover, .quarto-grid-item:hover {
   transform: translateY(-4px);
@@ -72,7 +69,7 @@ a:hover {
 }
 
 .quarto-grid-item .card-title {
-  color: #4cc9f0; /* aqua for titles */
+  color: rgba(76, 201, 240, 0.85);
   font-weight: 600;
   text-align: center;
 }
@@ -106,28 +103,29 @@ a:hover {
 .btn, .quarto-about-buttons a {
   border-radius: 999px !important;
   padding: 0.45rem 0.9rem !important;
-  background: #3a86ff !important; /* vivid blue */
-  border: none !important;
-  color: #fff !important;
+  background: rgba(76, 201, 240, 0.2) !important; /* translucent aqua */
+  border: 1px solid rgba(76, 201, 240, 0.35) !important;
+  color: #e5e7eb !important;
   box-shadow: 0 6px 18px rgba(0,0,0,.35);
-  transition: background .2s ease, transform .2s ease;
+  transition: background .2s ease, transform .2s ease, border-color .2s ease;
 }
 .btn:hover, .quarto-about-buttons a:hover {
   background: #ff6b6b !important; /* coral hover */
   color: #fff !important;
   transform: translateY(-2px);
+  border-color: #ff6b6b !important;
 }
 
 /* ---------- Profile Avatar ---------- */
 .about-image img, img.avatar, .profile-pic {
   border-radius: 50%;
   border: 4px solid #fff;
-  box-shadow: 0 10px 28px rgba(0,0,0,.4), 0 0 0 6px rgba(76,201,240,.3);
+  box-shadow: 0 10px 28px rgba(0,0,0,.4), 0 0 0 6px rgba(76,201,240,.25);
 }
 
 /* ---------- Horizontal Rule ---------- */
 hr {
-  border-top: 1px solid rgba(255,255,255,.15);
+  border-top: 1px solid rgba(255,255,255,.12);
   margin: 2rem 0;
 }
 
