@@ -5,7 +5,7 @@ author: "Josh T.K"
 
 ## Manuscript Under Review
 
-**[1.Kubuafor, E., Korley, J.T*._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. *Springer Proceedings in Mathematics & Statistics* (In Press.)](https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing)**
+**[1.Kubuafor, E., Korley, J.T*._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. *Springer Proceedings in Mathematics & Statistics* (In Press.)](https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing)**
 
 ## Preprints
 
