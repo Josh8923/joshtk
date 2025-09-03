@@ -9,7 +9,7 @@ author: "Josh T.K"
 
 ## Preprints
 
-**[1. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.(https://arxiv.org/abs/2508.16894)]**
+**[1. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.](https://arxiv.org/abs/2508.16894)**
 
 **[2. Kubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & Korley, J. T.* (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052.](https://arxiv.org/abs/2508.16052)**
 
