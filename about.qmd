@@ -7,7 +7,7 @@ page-layout: full
 
 ### Motivation
 
-My motivation stems from a deep conviction that statistical thinking can transform how we understand disease, deliver treatment, and personalize care. My ultimate focus is the intersection of **Bayesian statistcis, clinical trials, causal inference, and precision medicine, survival modeling, machine (deep) learning **, where data-driven findings and the power of novel statistical methods can directly inform therapeutic development. My commitment to advancing **evidence-based public health** through rigorous statistical modeling and innovation drives both my academic research and professional ambitions. 
+My motivation stems from a deep conviction that statistical thinking can transform how we understand disease, deliver treatment, and personalize care. My ultimate focus is the intersection of **Bayesian statistcis, clinical trials, causal inference, precision medicine, survival modeling, Hidden Markov Chains, machine (deep) learning **, where data-driven findings and the power of novel statistical methods can directly inform therapeutic development. My commitment to advancing **evidence-based public health** through rigorous statistical modeling and innovation drives both my academic research and professional ambitions. 
 
 ## 2025
 - **PharmaSUG 2025 Conference Travel Grant** – *Western Michigan University*  

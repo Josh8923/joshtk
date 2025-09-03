@@ -7,6 +7,12 @@ author: "Josh T.K"
 
 1. Kubuafor, E., **Korley, J.T.**, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. *Springer Proceedings in Mathematics & Statistics* (In Press).
 
+## Preprints
+
+1. Korley, J. T. (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.(https://arxiv.org/abs/2508.16894)
+
+2. Kubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & **Korley, J. T.** (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052.(https://arxiv.org/abs/2508.16052)
+
 ## Manuscripts In Preparation
 
 1.  **Korley, J.T. \& Adu-Bonso, E.** (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.

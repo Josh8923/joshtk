@@ -1,5 +1,4 @@
-
-/* css styles */
+/* --- Global Project List Styles --- */
 .project-list img {
   border-radius: 16px;
   width: 100%;
@@ -7,32 +6,53 @@
   max-height: 220px;
   object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 .project-list img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: scale(1.04);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
-.quarto-grid-item .card-title,
+/* --- Card Titles & Descriptions --- */
+.quarto-grid-item .card-title {
+  text-align: center;
+  font-weight: 600;
+  color: #264653; /* deep teal */
+}
+
 .quarto-grid-item .card-description {
   text-align: center;
+  color: #6b7280; /* neutral gray-blue */
+  font-size: 0.95rem;
 }
 
+/* --- Grid Layout --- */
 .project-list .quarto-grid {
   gap: 2rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  background: #fdfdfd; /* clean white */
+  border-radius: 20px;
 }
 
+/* Mobile responsive */
 @media (max-width: 768px) {
   .project-list .quarto-grid {
     grid-template-columns: 1fr !important;
   }
 }
 
-/* make our .gstat span blue */
+/* --- Stats / Highlight Text --- */
 .gstat {
-  color: #722F37;
+  color: #e76f51; /* warm terracotta accent */
+  font-weight: 500;
 }
 
+/* --- Accent Hover Links (optional) --- */
+a {
+  color: #2a9d8f; /* soft teal */
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #e76f51; /* warm accent */
+}

@@ -25,7 +25,7 @@
     "href": "about.html",
     "title": "Awards & Honors",
     "section": "",
-    "text": "My motivation stems from a deep conviction that statistical thinking can transform how we understand disease, deliver treatment, and personalize care. My ultimate focus is the intersection of Bayesian statistcis, clinical trials, causal inference, and precision medicine, survival modeling, machine (deep) learning , where data-driven findings and the power of novel statistical methods can directly inform therapeutic development. My commitment to advancing evidence-based public health through rigorous statistical modeling and innovation drives both my academic research and professional ambitions."
+    "text": "My motivation stems from a deep conviction that statistical thinking can transform how we understand disease, deliver treatment, and personalize care. My ultimate focus is the intersection of Bayesian statistcis, clinical trials, causal inference, precision medicine, survival modeling, Hidden Markov Chains, machine (deep) learning , where data-driven findings and the power of novel statistical methods can directly inform therapeutic development. My commitment to advancing evidence-based public health through rigorous statistical modeling and innovation drives both my academic research and professional ambitions."
   },
   {
     "objectID": "about.html#section",
@@ -229,5 +229,12 @@
     "title": "Projects",
     "section": "Epidemiology & Biostatistics",
     "text": "Epidemiology & Biostatistics\n\nClinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis\n Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis \nAffiliation: Summer Research, Western Michigan University | Jun 2024 – Aug 2024\nDataset: ACTC Solanezumab Preclinical Trial Data\nPurpose: To assess subgroup-specific treatment effects and identify cognitive decline risk factors\nMethods:\n- Regression modeling on MMSE and ARIA endpoints\n- Subgroup analyses by APOE4 status, centiloid level, education, and BMI\nResult: Found that surrogate endpoint selection (MMSE vs. ARIA) influences identified risk profiles. APOE4 status and centiloid level showed consistent association with AD progression across subgroups."
+  },
+  {
+    "objectID": "Publications.html#preprints",
+    "href": "Publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\nKorley, J. T. (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.(https://arxiv.org/abs/2508.16894)\nKubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & Korley, J. T. (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052.(https://arxiv.org/abs/2508.16052)"
   }
 ]
