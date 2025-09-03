@@ -69,4 +69,4 @@ Beyond research and statistics, I enjoy:
 
 ## About Me
 
-Hello! I’m **Josh Korley**, a motivated and research-driven doctoral student in **Biotatistics** at **Arnold School Of Public Health, USC**. With a strong foundation in statistics and data science, I am passionate about using statistical methods to advance healthcare; especially in clinical trials, neuroscience \& oncology drug development, and personalized medicine.
+Hello! I’m **Josh Korley**, a motivated and research-driven doctoral student in **Biotatistics** at **Arnold School Of Public Health, USC**. With a strong foundation in statistics, data and actuarial science.

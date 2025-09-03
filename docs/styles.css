@@ -1,6 +1,6 @@
 /* ================================
    JTK Website Custom Styling
-   Modern Dark Theme + Bright Accents
+   Modern Dark Theme + Accessible Colors
    ================================ */
 
 /* ---------- Global Background ---------- */
@@ -13,7 +13,7 @@ body {
 
 /* ---------- Navbar ---------- */
 .navbar {
-  background: #0096c7 !important; /* brighter teal */
+  background: #3a86ff !important; /* vivid accessible blue */
   box-shadow: 0 6px 20px rgba(0,0,0,.4);
 }
 .navbar .navbar-brand,
@@ -22,7 +22,7 @@ body {
   font-weight: 500;
 }
 .navbar .nav-link:hover {
-  color: #ff6b6b !important;
+  color: #ff6b6b !important; /* coral hover */
 }
 .navbar .navbar-toggler {
   border-color: rgba(255,255,255,.35);
@@ -33,12 +33,12 @@ body {
 
 /* ---------- Headings ---------- */
 h1, h2, h3 {
-  color: #0096c7; /* strong bright teal */
+  color: #3a86ff; /* vivid accessible blue */
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 h4, h5, h6 {
-  color: #4cc9f0;
+  color: #4cc9f0; /* aqua for subheadings */
   font-weight: 600;
 }
 
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .quarto-grid-item .card-title {
-  color: #4cc9f0;
+  color: #4cc9f0; /* aqua for titles */
   font-weight: 600;
   text-align: center;
 }
@@ -106,14 +106,14 @@ a:hover {
 .btn, .quarto-about-buttons a {
   border-radius: 999px !important;
   padding: 0.45rem 0.9rem !important;
-  background: #0096c7 !important;
+  background: #3a86ff !important; /* vivid blue */
   border: none !important;
   color: #fff !important;
   box-shadow: 0 6px 18px rgba(0,0,0,.35);
   transition: background .2s ease, transform .2s ease;
 }
 .btn:hover, .quarto-about-buttons a:hover {
-  background: #ff6b6b !important;
+  background: #ff6b6b !important; /* coral hover */
   color: #fff !important;
   transform: translateY(-2px);
 }
@@ -136,5 +136,7 @@ hr {
   .project-list .quarto-grid {
     grid-template-columns: 1fr !important;
   }
-  .navbar { box-shadow: 0 4px 12px rgba(0,0,0,.25); }
+  .navbar {
+    box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  }
 }
