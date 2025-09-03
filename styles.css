@@ -23,16 +23,21 @@
 
 .quarto-grid-item .card-description {
   text-align: center;
-  color: #6b7280; /* neutral gray-blue */
+  color: #495057; /* darker neutral for better contrast */
   font-size: 0.95rem;
 }
 
-/* --- Grid Layout --- */
+/* --- Grid Layout with Beautiful Background --- */
 .project-list .quarto-grid {
   gap: 2rem;
-  padding: 1.5rem;
-  background: #fdfdfd; /* clean white */
+  padding: 2rem;
   border-radius: 20px;
+
+  /* Gradient background for modern aesthetic */
+  background: linear-gradient(135deg, #fef6e4, #e0f7fa, #f9e5e5);
+
+  /* Optional subtle shadow */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
 }
 
 /* Mobile responsive */
@@ -45,14 +50,18 @@
 /* --- Stats / Highlight Text --- */
 .gstat {
   color: #e76f51; /* warm terracotta accent */
-  font-weight: 500;
+  font-weight: 600;
+  background: rgba(231, 111, 81, 0.08);
+  padding: 0.2em 0.5em;
+  border-radius: 8px;
 }
 
-/* --- Accent Hover Links (optional) --- */
+/* --- Accent Hover Links --- */
 a {
   color: #2a9d8f; /* soft teal */
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 a:hover {
   color: #e76f51; /* warm accent */
+  text-shadow: 0 1px 6px rgba(231, 111, 81, 0.3);
 }
