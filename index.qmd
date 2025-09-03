@@ -50,6 +50,8 @@ Beyond research and statistics, I enjoy:
 
 ## Experience
 
+*Research Asssitant*~ **USC**
+
 *Graduate Student Instructor*~ **WMU**
 
 *Ex-Intern, Masters Statistician*~ **Eli Lilly \& Company**
@@ -57,6 +59,7 @@ Beyond research and statistics, I enjoy:
 *Teaching \& Research Assistant*~ **UG**
 
 ## Education
+*PhD in Biostatistics | Aug 2025 – Present* ~ **USC**
 
 *Non-Degree in Biostatistics | Summer 2025* ~ **UCONN**
 
@@ -66,4 +69,4 @@ Beyond research and statistics, I enjoy:
 
 ## About Me
 
-Hello! I’m **Josh Korley**, a motivated and research-driven incoming doctoral student in **Biotatistics** at **Arnold School Of Public Health, USC**. With a strong foundation in statistics and data science, I am passionate about using statistical methods to advance healthcare—particularly in clinical trials, neuroscience \& oncology drug development, and personalized medicine.
+Hello! I’m **Josh Korley**, a motivated and research-driven doctoral student in **Biotatistics** at **Arnold School Of Public Health, USC**. With a strong foundation in statistics and data science, I am passionate about using statistical methods to advance healthcare; especially in clinical trials, neuroscience \& oncology drug development, and personalized medicine.

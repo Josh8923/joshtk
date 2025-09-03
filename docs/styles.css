@@ -1,40 +1,29 @@
-/* ===========================
-   JTK aesthetic refresh (Quarto/Bootstrap)
-   Palette: deep teal + soft teal + warm accent
-   =========================== */
+/* ================================
+   JTK Website Custom Styling
+   Modern Dark Theme + Bright Accents
+   ================================ */
 
-:root{
-  --brand-900:#1b2a2f;
-  --brand-800:#1f3940;
-  --brand-700:#264653;   /* navbar + headings */
-  --brand-500:#2a9d8f;   /* links & accents */
-  --accent-500:#e76f51;  /* highlights */
-  --text-700:#1f2937;
-  --text-500:#495057;
-  --card-bg: #ffffffee;  /* translucent white for glassy look */
-}
-
-/* ---------- Page background (goodbye ash) ---------- */
+/* ---------- Global Background ---------- */
 body {
-  background:
-    radial-gradient(1200px 600px at -10% -10%, #eafaf5 0%, transparent 60%),
-    radial-gradient(1000px 500px at 110% -10%, #fff1ec 0%, transparent 60%),
-    linear-gradient(180deg, #f7fbfd 0%, #f9fafb 100%) !important;
-  color: var(--text-700);
+  background: linear-gradient(180deg, #0b132b, #1c2541) !important;
+  color: #e5e7eb;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
 }
 
-/* ---------- Navbar (solid, branded) ---------- */
+/* ---------- Navbar ---------- */
 .navbar {
-  background: var(--brand-700) !important;
-  box-shadow: 0 6px 20px rgba(0,0,0,.12);
+  background: #0096c7 !important; /* brighter teal */
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
 }
 .navbar .navbar-brand,
-.navbar .nav-link,
-.navbar .navbar-text {
-  color: #ecf7f5 !important;
+.navbar .nav-link {
+  color: #fdfdfd !important;
+  font-weight: 500;
 }
-.navbar .nav-link:hover,
-.navbar .navbar-brand:hover { color: #ffeadf !important; }
+.navbar .nav-link:hover {
+  color: #ff6b6b !important;
+}
 .navbar .navbar-toggler {
   border-color: rgba(255,255,255,.35);
 }
@@ -42,38 +31,58 @@ body {
   filter: invert(1) brightness(2);
 }
 
-/* ---------- Section headings ---------- */
+/* ---------- Headings ---------- */
 h1, h2, h3 {
-  color: var(--brand-700);
-  letter-spacing: .2px;
+  color: #0096c7; /* strong bright teal */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+h4, h5, h6 {
+  color: #4cc9f0;
+  font-weight: 600;
 }
 
-/* ---------- “About” avatar ring ---------- */
-.about-image img,        /* Quarto about pages */
-img.avatar, .profile-pic { /* fallback selectors */
-  border-radius: 50%;
-  border: 4px solid #fff;
-  box-shadow: 0 10px 28px rgba(0,0,0,.18), 0 0 0 8px rgba(42,157,143,.08);
+/* ---------- Accent text ---------- */
+.gstat {
+  color: #ff6b6b; /* coral red */
+  font-weight: 600;
 }
 
-/* ---------- Cards / project tiles ---------- */
-.card, .quarto-grid .card,
-.quarto-grid-item, .listing .card {
-  background: var(--card-bg);
-  border: 1px solid rgba(42,157,143,.12);
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.06);
-  backdrop-filter: blur(6px);
-  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+/* ---------- Links ---------- */
+a {
+  color: #4cc9f0; /* bright aqua */
+  transition: color .2s ease, text-shadow .2s ease;
 }
-.card:hover, .quarto-grid .card:hover,
-.quarto-grid-item:hover, .listing .card:hover {
+a:hover {
+  color: #ff6b6b;
+  text-shadow: 0 0 8px rgba(255,107,107,.6);
+}
+
+/* ---------- Cards / Grid Items ---------- */
+.card, .quarto-grid .card, .quarto-grid-item {
+  background: #1c2541;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.4);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover, .quarto-grid .card:hover, .quarto-grid-item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 38px rgba(0,0,0,.12);
-  border-color: rgba(42,157,143,.28);
+  box-shadow: 0 14px 36px rgba(0,0,0,.55);
 }
 
-/* Project images (your existing styles, tuned slightly) */
+.quarto-grid-item .card-title {
+  color: #4cc9f0;
+  font-weight: 600;
+  text-align: center;
+}
+.quarto-grid-item .card-description {
+  color: #d9d9d9;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* ---------- Project List Images ---------- */
 .project-list img {
   border-radius: 16px;
   width: 100%;
@@ -88,66 +97,44 @@ img.avatar, .profile-pic { /* fallback selectors */
   box-shadow: 0 10px 24px rgba(0,0,0,.18);
 }
 
-/* Card titles & descriptions */
-.quarto-grid-item .card-title {
-  text-align: center;
-  font-weight: 700;
-  color: var(--brand-700);
-}
-.quarto-grid-item .card-description {
-  text-align: center;
-  color: var(--text-500);
-  font-size: .96rem;
-}
-
-/* Grid spacing */
 .project-list .quarto-grid {
   gap: 2rem;
   padding: 1.5rem;
 }
 
-/* ---------- Links & badges ---------- */
-a { color: var(--brand-500); transition: color .15s ease, text-shadow .15s ease; }
-a:hover { color: var(--accent-500); text-shadow: 0 1px 8px rgba(231,111,81,.25); }
-
-/* Social/link buttons that look like your “LinkedIn/GitHub/Rpubs/Email” chips */
-.btn, .btn-outline, .btn-light, .quarto-about-buttons a {
+/* ---------- Buttons ---------- */
+.btn, .quarto-about-buttons a {
   border-radius: 999px !important;
-  padding: .45rem .9rem !important;
-  border: 1px solid rgba(42,157,143,.28) !important;
-  background: #ffffff !important;
-  color: var(--brand-700) !important;
-  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+  padding: 0.45rem 0.9rem !important;
+  background: #0096c7 !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35);
+  transition: background .2s ease, transform .2s ease;
 }
-.btn:hover, .btn-outline:hover, .btn-light:hover, .quarto-about-buttons a:hover {
-  background: #f0fbf7 !important;
-  border-color: var(--brand-500) !important;
+.btn:hover, .quarto-about-buttons a:hover {
+  background: #ff6b6b !important;
+  color: #fff !important;
+  transform: translateY(-2px);
 }
 
-/* ---------- Accents ---------- */
-.gstat { color: var(--accent-500); font-weight: 600; }
-hr { border-top: 1px solid rgba(15,23,42,.08); }
+/* ---------- Profile Avatar ---------- */
+.about-image img, img.avatar, .profile-pic {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 28px rgba(0,0,0,.4), 0 0 0 6px rgba(76,201,240,.3);
+}
 
-/* ---------- Mobile ---------- */
+/* ---------- Horizontal Rule ---------- */
+hr {
+  border-top: 1px solid rgba(255,255,255,.15);
+  margin: 2rem 0;
+}
+
+/* ---------- Mobile Adjustments ---------- */
 @media (max-width: 768px) {
-  .project-list .quarto-grid { grid-template-columns: 1fr !important; }
-  .navbar { box-shadow: 0 4px 12px rgba(0,0,0,.12); }
-}
-
-/* ---------- Optional: automatic dark mode ---------- */
-@media (prefers-color-scheme: dark) {
-  body {
-    background: linear-gradient(180deg, #0f172a, #111827) !important;
-    color: #e5e7eb;
+  .project-list .quarto-grid {
+    grid-template-columns: 1fr !important;
   }
-  .navbar { background: #0f2a2e !important; }
-  .card, .quarto-grid .card, .quarto-grid-item, .listing .card {
-    background: #0f1a1d;
-    border-color: rgba(255,255,255,.06);
-    box-shadow: 0 16px 40px rgba(0,0,0,.5);
-  }
-  .quarto-grid-item .card-title { color: #cfe8e3; }
-  .quarto-grid-item .card-description { color: #cbd5e1; }
-  a { color: #7ed3c8; }
-  a:hover { color: #ffb39e; }
+  .navbar { box-shadow: 0 4px 12px rgba(0,0,0,.25); }
 }
