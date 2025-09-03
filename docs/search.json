@@ -158,21 +158,21 @@
     "href": "Publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Kubuafor, E., Korley, J.T., et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. Springer Proceedings in Mathematics & Statistics (In Press)."
+    "text": "[1.Kubuafor, E., Korley, J.T._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. Springer Proceedings in Mathematics & Statistics* (In Press.)]"
   },
   {
     "objectID": "Publications.html#manuscript-under-review",
     "href": "Publications.html#manuscript-under-review",
     "title": "Publications",
     "section": "",
-    "text": "Kubuafor, E., Korley, J.T., et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. Springer Proceedings in Mathematics & Statistics (In Press)."
+    "text": "[1.Kubuafor, E., Korley, J.T._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. Springer Proceedings in Mathematics & Statistics* (In Press.)]"
   },
   {
     "objectID": "Publications.html#manuscripts-in-preparation",
     "href": "Publications.html#manuscripts-in-preparation",
     "title": "Publications",
     "section": "Manuscripts In Preparation",
-    "text": "Manuscripts In Preparation\n\nKorley, J.T. & Adu-Bonso, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.\nKorley, J.T. (2025). Estimating Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy."
+    "text": "Manuscripts In Preparation\n[1. Korley, J.T.* & Adu-Bonso, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.]\n[2.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.]"
   },
   {
     "objectID": "Publications.html#new-project--framework",
@@ -186,7 +186,7 @@
     "href": "Updates.html",
     "title": "Update and Events",
     "section": "",
-    "text": "July, 2025- Present Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts. ~ Current Research\nJune 2nd, 2025\n\n\n\n\nHonored by the PharmaSUG Conference Committee with a Scholarship Award and Certificate of Achievement for my commitment to advancing clinical research and data science.\n\n\n\nJune 1st - 4th, 2025\n\n\n\n\nI am pleased to share that I attended the PharmaSUG 2025 Conference not just as an attendee, but as a proud Student Scholarship Recipient. It was an incredible opportunity to engage with experts in Statistical Programming, Clinical Data Science, and Biostatistics.\n\n\n\nOld Events In Archive\n\nChill~ Move"
+    "text": "NACC- July, 2025- Present Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts. ~ Current Research\nJune 2nd, 2025\n\n\n\n\nHonored by the PharmaSUG Conference Committee with a Scholarship Award and Certificate of Achievement for my commitment to advancing clinical research and data science.\n\n\n\nJune 1st - 4th, 2025\n\n\n\n\nI am pleased to share that I attended the PharmaSUG 2025 Conference not just as an attendee, but as a proud Student Scholarship Recipient. It was an incredible opportunity to engage with experts in Statistical Programming, Clinical Data Science, and Biostatistics.\n\n\n\nOld Events In Archive\n\nChill~ Move"
   },
   {
     "objectID": "Projects.html#clinical-trials",
@@ -235,6 +235,6 @@
     "href": "Publications.html#preprints",
     "title": "Publications",
     "section": "Preprints",
-    "text": "Preprints\n\nKorley, J. T. (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.(https://arxiv.org/abs/2508.16894)\nKubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & Korley, J. T. (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052.(https://arxiv.org/abs/2508.16052)"
+    "text": "Preprints\n[1. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.(https://arxiv.org/abs/2508.16894)]\n2. Kubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & Korley, J. T.* (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052."
   }
 ]
