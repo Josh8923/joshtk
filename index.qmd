@@ -50,7 +50,7 @@ Beyond research and statistics, I enjoy:
 
 ## Experience
 
-*Research Asssitant*~ **USC**
+*Research Assitant*~ **USC**
 
 - Bayesian methodologies • Hidden Markov Models • Graphical Models • Dynamical time series • Neuroscience • Variable Selection
 
