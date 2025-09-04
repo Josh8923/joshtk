@@ -6,7 +6,7 @@ title: "Projects"
 
 ## Bayesian \& Numerical Method Based Estimation
 ::: {.g-col-12}
-**[Robust Survival Estimation under Interval Censoring: EM Algorithm \& Bayesian Assessment via Simulation and Application](https://rpubs.com/Josh8923/1335128)**  
+**[Robust Survival Estimation under Interval Censoring: EM Algorithm \& Bayesian Assessment via Simulation and Application](https://arxiv.org/html/2509.02634v1)**  
 [![](em.png)](https://arxiv.org/html/2509.02634v1)  
 *Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application*  
 
