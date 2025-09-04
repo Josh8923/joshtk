@@ -7,6 +7,8 @@ author: "Josh T.K"
 
 **[1.Kubuafor, E., Korley, J.T*._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. *Springer Proceedings in Mathematics & Statistics* (In Press.)](https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing)**
 
+---
+
 ## Preprints
 
 **[1. Korley, J. T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application. arXiv preprint arXiv:2508.16894.](https://arxiv.org/html/2509.02634v1)**
@@ -14,6 +16,8 @@ author: "Josh T.K"
 **[2. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.](https://arxiv.org/abs/2508.16894)**
 
 **[3. Kubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & Korley, J. T.* (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052.](https://arxiv.org/abs/2508.16052)**
+
+--- 
 
 ## Manuscripts In Preparation
 
@@ -23,7 +27,19 @@ author: "Josh T.K"
 
 **3.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.**
 
+---
 
 ## New Project- Framework
 *High-Dimensional Mediation Analysis with Survival Outcomes*: A Double Machine Learning and Causal Inference Approach.  
     - Development of `JsurvMediateML`, an R package for implementing high-dimensional survival mediation analysis with clinical applications.
+
+---
+
+## Conference Proceedings: Poster Presentations
+
+**[1.Sukanya B. , Korley, J. T.*, Peng Y., Wang R.(2025). Dose-Finding and Missing Data Analysis in a Simulated Phase II Psoriasis Trial. Statistics In Pharceutical-UCONN 2025.](https://events.stat.uconn.edu/SIP2025/posters2025.html)**
+
+
+**[2. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. Statistics In Pharceutical-UCONN 2025.](https://events.stat.uconn.edu/SIP2025/posters2025.html)**
+
+
