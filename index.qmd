@@ -34,7 +34,7 @@ about:
 
 ### Current Academic Focus
 
-My research interests lie at the intersection of **Bayesian Statistics, Causal Inference**, **Survival Analysis**, and **Machine Learning**, with applications in **Clinical Trial Design**, **Neuroscience**, **Genomics**, and **Precision Medicine**.
+ My research lies at the interface of statistics and science, with a particular focus on the development of **Bayesian, survival, and causal methodologies** for the analysis of **complex dynamical time series, Precision Medicine, clinical trial design, genomics and neuroscience**. 
 
 ### Hobbies & Interests
 
