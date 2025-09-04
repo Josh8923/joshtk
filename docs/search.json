@@ -156,28 +156,28 @@
   {
     "objectID": "Publications.html",
     "href": "Publications.html",
-    "title": "Publications",
+    "title": "Publications & Conference Proceedings",
     "section": "",
     "text": "1.Kubuafor, E., Korley, J.T._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. Springer Proceedings in Mathematics & Statistics* (In Press.)"
   },
   {
     "objectID": "Publications.html#manuscript-under-review",
     "href": "Publications.html#manuscript-under-review",
-    "title": "Publications",
+    "title": "Publications & Conference Proceedings",
     "section": "",
     "text": "1.Kubuafor, E., Korley, J.T._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. Springer Proceedings in Mathematics & Statistics* (In Press.)"
   },
   {
     "objectID": "Publications.html#manuscripts-in-preparation",
     "href": "Publications.html#manuscripts-in-preparation",
-    "title": "Publications",
+    "title": "Publications & Conference Proceedings",
     "section": "Manuscripts In Preparation",
     "text": "Manuscripts In Preparation\n1. Korley, J.T.* & Adu-Bonso, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.\n2.Korley, J.T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application.\n3.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy."
   },
   {
     "objectID": "Publications.html#new-project--framework",
     "href": "Publications.html#new-project--framework",
-    "title": "Publications",
+    "title": "Publications & Conference Proceedings",
     "section": "New Project- Framework",
     "text": "New Project- Framework\nHigh-Dimensional Mediation Analysis with Survival Outcomes: A Double Machine Learning and Causal Inference Approach.\n- Development of JsurvMediateML, an R package for implementing high-dimensional survival mediation analysis with clinical applications."
   },
@@ -233,14 +233,14 @@
   {
     "objectID": "Publications.html#preprints",
     "href": "Publications.html#preprints",
-    "title": "Publications",
+    "title": "Publications & Conference Proceedings",
     "section": "Preprints",
     "text": "Preprints\n1. Korley, J. T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application. arXiv preprint arXiv:2508.16894.\n2. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.\n3. Kubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & Korley, J. T.* (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052."
   },
   {
     "objectID": "Publications.html#conference-proceedings-poster-presentations",
     "href": "Publications.html#conference-proceedings-poster-presentations",
-    "title": "Publications",
+    "title": "Publications & Conference Proceedings",
     "section": "Conference Proceedings: Poster Presentations",
     "text": "Conference Proceedings: Poster Presentations\n1.Sukanya B. , Korley, J. T.*, Peng Y., Wang R.(2025). Dose-Finding and Missing Data Analysis in a Simulated Phase II Psoriasis Trial. Statistics In Pharceutical-UCONN 2025.\n2. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. Statistics In Pharceutical-UCONN 2025."
   }
