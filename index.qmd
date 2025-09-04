@@ -1,5 +1,5 @@
 ---
-title: "Josh T'K,[Gstat](https://ww2.amstat.org/accreditation/roster.cfm)" 
+title: "Josh T'K, [Gstat](https://ww2.amstat.org/accreditation/roster.cfm)" 
 description-meta: "Academic website for Josh Korley, specializing in statistical modeling and clinical science."
 page-title: false          # ← hides the auto-generated H1
 image: josh.jpg
