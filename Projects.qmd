@@ -7,7 +7,7 @@ title: "Projects"
 ## Bayesian \& Numerical Method Based Estimation
 ::: {.g-col-12}
 **[Robust Survival Estimation under Interval Censoring: EM Algorithm \& Bayesian Assessment via Simulation and Application](https://rpubs.com/Josh8923/1335128)**  
-[![](em.png)]((https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing))  
+[![](em.png)](https://arxiv.org/html/2509.02634v1)  
 *Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application*  
 
 **Affiliation**: Arnold School of Public Health | Aug 2025 – *Present*  
