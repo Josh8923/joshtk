@@ -21,7 +21,7 @@ author: "Josh T.K"
 
 ## Manuscripts In Preparation
 
-**1.  Korley, J.T.* \& Adu-Bonso, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
+**1.  Korley, J.T.* \& Adu Bonsu, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
 
 **2.Korley, J.T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application.**
 
