@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Academic website for Emmanuel Kubuafor, statistician and data scientist."
+description-meta: "Academic website for Josh Korley, statistician and data scientist."
 author-meta: "Josh Korley"
 
 website:
@@ -21,6 +21,9 @@ website:
       - about.qmd
       - Updates.qmd
     right:
+    - icon: researchgate
+        href: https://www.researchgate.net/profile/Joshua-Korley-2/stats
+        target: _blank
       - icon: github
         href: https://github.com/Josh8923
         target: _blank
