@@ -33,7 +33,7 @@ about:
 
 
 
-![**JTK's Personal Website**](giff.gif){fig-align="left" width="50px"}
+![**JTK's Webpage**](giff.gif){fig-align="left" width="50px"}
 
 ### Current Academic Focus
 
