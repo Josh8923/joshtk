@@ -15,7 +15,7 @@ about:
     - icon: linkedIn
       text: LinkedIn
       href: https://www.linkedin.com/in/josh-t%E2%80%99korley-86a0621b5/
-    - icon: Researchgate
+    - icon: researchgate
       text: ResearchGate
       href: https://www.researchgate.net/profile/Joshua-Korley-2/research
     - icon: github
