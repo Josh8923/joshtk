@@ -21,7 +21,7 @@ website:
       - about.qmd
       - Updates.qmd
     right:
-      - icon: researchgate
+      - icon: fab fa-researchgate
         href: https://www.researchgate.net/profile/Joshua-Korley-2/stats
         target: _blank
       - icon: github
