@@ -20,7 +20,7 @@ author: "Josh T.K"
 --- 
 
 ## Manuscripts In Preparation
-**[1.Korley, J.T.* (2025). Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, Demographic Determinants](https://arxiv.org/abs/2508.16894)**
+**[1.Korley, J.T.* (2025). Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, Demographic Determinants](https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link)**
 
 **2.  Korley, J.T.* \& Adu Bonsu, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
 
