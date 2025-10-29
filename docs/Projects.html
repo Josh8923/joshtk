@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Josh Korley">
-<meta name="description" content="Academic website for Emmanuel Kubuafor, statistician and data scientist.">
+<meta name="description" content="Academic website for Josh Korley, statistician and data scientist.">
 
-<title>JTK - Projects</title>
+<title>Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,11 +70,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="JTK - Projects">
+<meta property="og:title" content="Projects">
 <meta property="og:description" content="Personal academic site for research, teaching, and projects">
 <meta property="og:image" content="https://Josh8923.github.io/josh.jpg">
-<meta property="og:site_name" content="JTK">
-<meta name="twitter:title" content="JTK - Projects">
+<meta name="twitter:title" content="Projects">
 <meta name="twitter:description" content="Personal academic site for research, teaching, and projects">
 <meta name="twitter:image" content="https://Josh8923.github.io/josh.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -86,11 +85,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">JTK</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -103,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Publications.html"> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Publications &amp; Conference Proceedings</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./Projects.html" aria-current="page"> 
@@ -123,6 +117,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Joshua-Korley-2/stats" target="_blank"> <i class="bi bi-fab fa-researchgate" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Josh8923" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
@@ -188,7 +187,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Some Projects Links And Documents Under Constructions!</em></p>
+<p><em>Some Projects Links And Documents Under Constructions!</em> ## NeuroImaging &amp; Survival ::: {.g-col-12} <strong><a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link">Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants</a></strong><br>
+<a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link"><img src="images/mri_scan.png" class="img-fluid"></a><br>
+<em>Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants</em></p>
+<p><strong>Affiliation</strong>: Arnold School of Public Health | Oct 2025 – <em>Present</em></p>
+<p><strong>Dataset</strong>: National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement spanning 39 Alzheimer’s Disease Centers</p>
+<p><strong>Objective</strong>: To investigate how genetic, cognitive, and demographic factors influence when participants in Alzheimer’s disease research cohorts receive their first MRI scan, while properly accounting for death before imaging as a competing event.</p>
+<p><strong>Background</strong><br>
+This is the first survival-based investigation to model the <em>timing of neuroimaging acquisition itself</em> rather than outcomes derived from imaging data. Despite the central role of MRI in Alzheimer’s research, the timing of imaging varies widely due to referral practices, cognitive status, and socioeconomic factors. Understanding these determinants reveals inequities in diagnostic access and improves representativeness in imaging-based studies.</p>
+<p><strong>Methods</strong><br>
+- Constructed a cause-specific survival framework where the primary event was <em>first MRI</em> and the competing event was <em>death before MRI</em>.<br>
+- Modeled time-to-imaging using parametric Accelerated Failure Time (AFT) models with Weibull and log-logistic families.<br>
+- Incorporated genetic (APOE ε4), demographic (age, sex, education, race/ethnicity), and cognitive (CDR Global) predictors, alongside key clinical covariates such as independence, living arrangement, and vitamin B12 deficiency.<br>
+- Estimated separate models for MRI and death to disentangle imaging access from survival effects.</p>
+<p><strong>Results</strong><br>
+- <strong>APOE ε4</strong> was not significantly associated with MRI timing once age, education, and cognitive status were included.<br>
+- <strong>Older, less educated, and non-White</strong> participants experienced the longest delays to imaging.<br>
+- <strong>Functional independence</strong> and <strong>higher education</strong> were the strongest predictors of earlier MRI acquisition.<br>
+- These results highlight structural disparities in neuroimaging access within Alzheimer’s research populations.</p>
+<p><strong>Ongoing Work (Project 2)</strong><br>
+Extending the analysis to include multiple imputation for incomplete covariates and consider PET endpoint, hierarchical AFT models with center-level random effects, and Bayesian extensions for improved uncertainty quantification and generalizability.<br>
+:::</p>
 <section id="bayesian-numerical-method-based-estimation" class="level2">
 <h2 class="anchored" data-anchor-id="bayesian-numerical-method-based-estimation">Bayesian &amp; Numerical Method Based Estimation</h2>
 <div class="g-col-12">

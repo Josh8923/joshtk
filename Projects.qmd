@@ -3,6 +3,36 @@ title: "Projects"
 ---
 
 *Some Projects Links And Documents Under Constructions!*
+## NeuroImaging \& Survival
+::: {.g-col-12}
+**[Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants](https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link)**  
+[![](images/mri_scan.png)](https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link)  
+*Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants*  
+
+**Affiliation**: Arnold School of Public Health | Oct 2025 – *Present*  
+
+**Dataset**: National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement spanning 39 Alzheimer’s Disease Centers  
+
+**Objective**: To investigate how genetic, cognitive, and demographic factors influence when participants in Alzheimer’s disease research cohorts receive their first MRI scan, while properly accounting for death before imaging as a competing event.  
+
+**Background**  
+This is the first survival-based investigation to model the *timing of neuroimaging acquisition itself* rather than outcomes derived from imaging data. Despite the central role of MRI in Alzheimer’s research, the timing of imaging varies widely due to referral practices, cognitive status, and socioeconomic factors. Understanding these determinants reveals inequities in diagnostic access and improves representativeness in imaging-based studies.  
+
+**Methods**  
+- Constructed a cause-specific survival framework where the primary event was *first MRI* and the competing event was *death before MRI*.  
+- Modeled time-to-imaging using parametric Accelerated Failure Time (AFT) models with Weibull and log-logistic families.  
+- Incorporated genetic (APOE ε4), demographic (age, sex, education, race/ethnicity), and cognitive (CDR Global) predictors, alongside key clinical covariates such as independence, living arrangement, and vitamin B12 deficiency.  
+- Estimated separate models for MRI and death to disentangle imaging access from survival effects.  
+
+**Results**  
+- **APOE ε4** was not significantly associated with MRI timing once age, education, and cognitive status were included.  
+- **Older, less educated, and non-White** participants experienced the longest delays to imaging.  
+- **Functional independence** and **higher education** were the strongest predictors of earlier MRI acquisition.  
+- These results highlight structural disparities in neuroimaging access within Alzheimer’s research populations.  
+
+**Ongoing Work (Project 2)**  
+Extending the analysis to include multiple imputation for incomplete covariates and consider PET endpoint, hierarchical AFT models with center-level random effects, and Bayesian extensions for improved uncertainty quantification and generalizability.  
+:::
 
 ## Bayesian \& Numerical Method Based Estimation
 ::: {.g-col-12}
