@@ -5,7 +5,7 @@ title: "Projects"
 ## NeuroImaging \& Survival Analysis
 ::: {.g-col-12}
 **[Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants](https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link)**  
-[![](images/mri_scan.png)](https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link)  
+[![](images/im_mri.png)](https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link)  
 *Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants*  
 
 **Affiliation**: Arnold School of Public Health | Oct 2025 – *Present*  

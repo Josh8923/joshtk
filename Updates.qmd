@@ -2,7 +2,7 @@
 title: "Update and Events"
 ---
 -   **NACC- September, 2025- Present**
-*Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, Demographic Determinants* ~ **Current Research**
+*Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants* ~ **Current Research**
 
 -   **NACC- July, 2025- Present**
 *Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts. *~ **Current Research**
