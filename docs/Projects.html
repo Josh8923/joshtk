@@ -193,32 +193,6 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link"><img src="images/im_mri.png" class="img-fluid"></a><br>
 <em>Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants</em></p>
 <p><strong>Affiliation</strong>: Arnold School of Public Health | Oct 2025 – <em>Present</em></p>
-<p><strong>Dataset</strong>: National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement spanning 39 Alzheimer’s Disease Centers</p>
-<p><strong>Objective</strong>: To investigate how genetic, cognitive, and demographic factors influence when participants in Alzheimer’s disease research cohorts receive their first MRI scan, while properly accounting for death before imaging as a competing event.</p>
-<p><strong>Background</strong><br>
-This is the first survival-based investigation to model the <em>timing of neuroimaging acquisition itself</em> rather than outcomes derived from imaging data. Despite the central role of MRI in Alzheimer’s research, the timing of imaging varies widely due to referral practices, cognitive status, and socioeconomic factors. Understanding these determinants reveals inequities in diagnostic access and improves representativeness in imaging-based studies.</p>
-<p><strong>Methods</strong><br>
-- Constructed a cause-specific survival framework where the primary event was <em>first MRI</em> and the competing event was <em>death before MRI</em>.<br>
-- Modeled time-to-imaging using parametric Accelerated Failure Time (AFT) models with Weibull and log-logistic families.<br>
-- Incorporated genetic (APOE ε4), demographic (age, sex, education, race/ethnicity), and cognitive (CDR Global) predictors, alongside key clinical covariates such as independence, living arrangement, and vitamin B12 deficiency.<br>
-- Estimated separate models for MRI and death to disentangle imaging access from survival effects.</p>
-<p><strong>Results</strong><br>
-- <strong>APOE ε4</strong> was not significantly associated with MRI timing once age, education, and cognitive status were included.<br>
-- <strong>Older, less educated, and non-White</strong> participants experienced the longest delays to imaging.<br>
-- <strong>Functional independence</strong> and <strong>higher education</strong> were the strongest predictors of earlier MRI acquisition.<br>
-- These results highlight structural disparities in neuroimaging access within Alzheimer’s research populations.</p>
-<p><strong>Ongoing Work (Project 2)</strong><br>
-Extending the analysis to include multiple imputation for incomplete covariates and consider PET endpoint, hierarchical AFT models with center-level random effects, and Bayesian extensions for improved uncertainty quantification and generalizability.</p>
-</div>
-<hr>
-</section>
-<section id="bayesian-numerical-method-based-estimation" class="level2">
-<h2 class="anchored" data-anchor-id="bayesian-numerical-method-based-estimation">Bayesian &amp; Numerical Method Based Estimation</h2>
-<div class="g-col-12">
-<p><strong><a href="https://arxiv.org/html/2509.02634v1">Robust Survival Estimation under Interval Censoring: EM Algorithm &amp; Bayesian Assessment via Simulation and Application</a></strong><br>
-<a href="https://arxiv.org/html/2509.02634v1"><img src="em.png" class="img-fluid"></a><br>
-<em>Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application</em></p>
-<p><strong>Affiliation</strong>: Arnold School of Public Health | Oct 2025 – <em>Present</em></p>
 <p><strong>Dataset</strong>: National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement across 39 Alzheimer’s Disease Centers</p>
 <p><strong>Objective</strong><br>
 To examine how genetic, cognitive, and demographic factors influence <em>when</em> participants receive their first MRI, while appropriately treating <em>death before imaging</em> as a competing event.</p>
@@ -239,8 +213,30 @@ This work is among the first to model the <em>timing of neuroimaging acquisition
 - <strong>Higher education and greater independence</strong> corresponded to earlier MRI acquisition.<br>
 - Time-varying analyses showed early, pronounced disparities that attenuate over longer follow-up.</p>
 <p>-<strong>Presentation Slide</strong><a href="https://drive.google.com/file/d/1_JqnlBQhP_CJpEvWiwIIXeMrkwe__jv5/view?usp=sharing">ASPH,Columbia</a> <strong>Extension-</strong><br>
-Multiple imputation for missing covariates; PET-based extension; hierarchical (center-level) AFT models; and Bayesian estimation to capture uncertainty and between-center variability.<br>
+PET-based extension; hierarchical (center-level) AFT models; and Bayesian estimation to capture uncertainty and between-center variability.<br>
 Also expanding the Shiny app to support clinician-facing and research use.</p>
+</div>
+<hr>
+</section>
+<section id="bayesian-numerical-method-based-estimation" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-numerical-method-based-estimation">Bayesian &amp; Numerical Method Based Estimation</h2>
+<div class="g-col-12">
+<p><strong><a href="https://arxiv.org/html/2509.02634v1">Robust Survival Estimation under Interval Censoring: EM Algorithm &amp; Bayesian Assessment via Simulation and Application</a></strong><br>
+<a href="https://arxiv.org/html/2509.02634v1"><img src="em.png" class="img-fluid"></a><br>
+<em>Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application</em></p>
+<p><strong>Affiliation</strong>: Arnold School of Public Health | Aug 2025 – <em>Present</em></p>
+<p><strong>Dataset</strong>: Simulated interval-censored survival data (true Weibull baseline) and real-world ovarian cancer dataset with periodic follow-up visits</p>
+<p><strong>Objective</strong>: To evaluate the accuracy, predictive performance, and practical utility of the EM algorithm for interval-censored survival analysis, benchmarked against parametric and Bayesian AFT models.</p>
+<p><strong>Methods</strong><br>
+- Turnbull’s Nonparametric Maximum Likelihood Estimator (NPMLE) via the EM algorithm for distribution-free baseline survival estimation<br>
+- Parametric Weibull AFT models with covariates for individualized prediction<br>
+- Bayesian AFT models for uncertainty quantification and posterior predictive checks<br>
+- Performance evaluation using Integrated Squared Error (ISE) in simulation and Integrated Brier Score (IBS) in real data</p>
+<p><strong>Results</strong><br>
+- <strong>EM algorithm</strong>: High-fidelity recovery of the true survival curve (ISE = 0.0921; 95% CI: 0.0404–0.1793) without parametric constraints<br>
+- <strong>Weibull AFT</strong>: Outperformed Kaplan–Meier in predictive accuracy on real data (IBS = 0.064 vs.&nbsp;0.066)<br>
+- <strong>Bayesian AFT</strong>: Enhanced uncertainty quantification and model selection capabilities<br>
+- Proposed a three-phase modeling workflow: EM for initial shape recovery, AFT for predictive modeling, and Bayesian AFT for robust uncertainty propagation—validated in both simulated and applied settings.</p>
 </div>
 <hr>
 </section>
