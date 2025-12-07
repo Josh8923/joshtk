@@ -42,23 +42,37 @@ Extending the analysis to include multiple imputation for incomplete covariates 
 [![](em.png)](https://arxiv.org/html/2509.02634v1)  
 *Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application*  
 
-**Affiliation**: Arnold School of Public Health | Aug 2025 – *Present*  
+**Affiliation**: Arnold School of Public Health | Oct 2025 – *Present*  
 
-**Dataset**: Simulated interval-censored survival data (true Weibull baseline) and real-world ovarian cancer dataset with periodic follow-up visits  
+**Dataset**: National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement across 39 Alzheimer’s Disease Centers  
 
-**Objective**: To evaluate the accuracy, predictive performance, and practical utility of the EM algorithm for interval-censored survival analysis, benchmarked against parametric and Bayesian AFT models.  
+**Objective**  
+To examine how genetic, cognitive, and demographic factors influence *when* participants receive their first MRI, while appropriately treating *death before imaging* as a competing event.
+
+**Background**  
+This work is among the first to model the *timing of neuroimaging acquisition* rather than outcomes derived from MRI. Because MRI ordering varies across clinical, structural, and demographic factors, understanding these patterns highlights inequities in diagnostic access and the representativeness of imaging research cohorts.
 
 **Methods**  
-- Turnbull’s Nonparametric Maximum Likelihood Estimator (NPMLE) via the EM algorithm for distribution-free baseline survival estimation  
-- Parametric Weibull AFT models with covariates for individualized prediction  
-- Bayesian AFT models for uncertainty quantification and posterior predictive checks  
-- Performance evaluation using Integrated Squared Error (ISE) in simulation and Integrated Brier Score (IBS) in real data  
+- Defined a cause-specific survival process:  
+  - Event 1: *first MRI*,  
+  - Event 2: *death before MRI*.  
+- Modeled event times using parametric AFT models (Weibull for MRI; log-logistic for death).  
+- Included APOE ε4 genotype, age, sex, race/ethnicity, education, CDR Global, living situation, independence, and B12 deficiency.  
+- Conducted sensitivity analyses using cause-specific Cox models with **time-varying effects** for age, education, and race to address PH violations.  
+- Developed an interactive prediction tool:  
+  **Shiny App:** [Time to First MRI Predictor](https://rxdow6-josh-korley.shinyapps.io/shinny_app/)  
 
 **Results**  
-- **EM algorithm**: High-fidelity recovery of the true survival curve (ISE = 0.0921; 95% CI: 0.0404–0.1793) without parametric constraints  
-- **Weibull AFT**: Outperformed Kaplan–Meier in predictive accuracy on real data (IBS = 0.064 vs. 0.066)  
-- **Bayesian AFT**: Enhanced uncertainty quantification and model selection capabilities  
-- Proposed a three-phase modeling workflow: EM for initial shape recovery, AFT for predictive modeling, and Bayesian AFT for robust uncertainty propagation—validated in both simulated and applied settings.  
+- **APOE ε4** did not influence MRI timing after accounting for demographics and cognition.  
+- **Older age, lower education, and non-White race** were strong predictors of delayed MRI.  
+- **Higher education and greater independence** corresponded to earlier MRI acquisition.  
+- Time-varying analyses showed early, pronounced disparities that attenuate over longer follow-up.
+
+-**Presentation Slide**[ASPH,Columbia](https://drive.google.com/file/d/1_JqnlBQhP_CJpEvWiwIIXeMrkwe__jv5/view?usp=sharing)
+**Extension-**  
+Multiple imputation for missing covariates; PET-based extension; hierarchical (center-level) AFT models; and Bayesian estimation to capture uncertainty and between-center variability.  
+Also expanding the Shiny app to support clinician-facing and research use.
+
 :::
 
 ---
@@ -71,15 +85,18 @@ Extending the analysis to include multiple imputation for incomplete covariates 
 *Biopharmaceutical Research Project: Dose-Finding and Missing Data Analysis in Psoriasis Trial*  
 
 **Affiliation**: Biopharmaceutical Summer Academy, University of Connecticut | Jul 2025 – Aug 2025  
-**Dataset**: Simulated Phase II Trial Data for Uconnemab (Psoriasis Therapy)  
+
+**Dataset**: Simulated Phase II Trial Data for Brodalumab (Psoriasis Therapy)  
+
 **Purpose**: To determine optimal dosing and evaluate the robustness of early efficacy signals under clinically realistic dropout scenarios  
+
 **Methods**:  
-- Logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints  
+- Bridge-penalized logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints  
 - Simulated missingness mechanisms: MCAR, MAR (response-based), MNAR (toxicity-index based)  
-- Sensitivity analyses via complete-case analysis and non-responder imputation  
+- Multiplicity control and decision reliability assessment across sample sizes  
+- Sensitivity analyses via complete-case analysis, non-responder imputation, and full-data logistic regression  
 
-**Result**: Across all modeling strategies, the 140mg and 210mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. Findings support the advancement of 140mg and 210mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility.
-
+**Result**: Across all modeling strategies, the 140 mg and 210 mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. The bridge penalization approach improved estimation stability by borrowing strength from an anchor dose while maintaining flexibility. Findings support the advancement of 140 mg and 210 mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility.
 :::
 
 ---

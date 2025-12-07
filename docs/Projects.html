@@ -218,19 +218,29 @@ Extending the analysis to include multiple imputation for incomplete covariates 
 <p><strong><a href="https://arxiv.org/html/2509.02634v1">Robust Survival Estimation under Interval Censoring: EM Algorithm &amp; Bayesian Assessment via Simulation and Application</a></strong><br>
 <a href="https://arxiv.org/html/2509.02634v1"><img src="em.png" class="img-fluid"></a><br>
 <em>Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application</em></p>
-<p><strong>Affiliation</strong>: Arnold School of Public Health | Aug 2025 – <em>Present</em></p>
-<p><strong>Dataset</strong>: Simulated interval-censored survival data (true Weibull baseline) and real-world ovarian cancer dataset with periodic follow-up visits</p>
-<p><strong>Objective</strong>: To evaluate the accuracy, predictive performance, and practical utility of the EM algorithm for interval-censored survival analysis, benchmarked against parametric and Bayesian AFT models.</p>
+<p><strong>Affiliation</strong>: Arnold School of Public Health | Oct 2025 – <em>Present</em></p>
+<p><strong>Dataset</strong>: National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement across 39 Alzheimer’s Disease Centers</p>
+<p><strong>Objective</strong><br>
+To examine how genetic, cognitive, and demographic factors influence <em>when</em> participants receive their first MRI, while appropriately treating <em>death before imaging</em> as a competing event.</p>
+<p><strong>Background</strong><br>
+This work is among the first to model the <em>timing of neuroimaging acquisition</em> rather than outcomes derived from MRI. Because MRI ordering varies across clinical, structural, and demographic factors, understanding these patterns highlights inequities in diagnostic access and the representativeness of imaging research cohorts.</p>
 <p><strong>Methods</strong><br>
-- Turnbull’s Nonparametric Maximum Likelihood Estimator (NPMLE) via the EM algorithm for distribution-free baseline survival estimation<br>
-- Parametric Weibull AFT models with covariates for individualized prediction<br>
-- Bayesian AFT models for uncertainty quantification and posterior predictive checks<br>
-- Performance evaluation using Integrated Squared Error (ISE) in simulation and Integrated Brier Score (IBS) in real data</p>
+- Defined a cause-specific survival process:<br>
+- Event 1: <em>first MRI</em>,<br>
+- Event 2: <em>death before MRI</em>.<br>
+- Modeled event times using parametric AFT models (Weibull for MRI; log-logistic for death).<br>
+- Included APOE ε4 genotype, age, sex, race/ethnicity, education, CDR Global, living situation, independence, and B12 deficiency.<br>
+- Conducted sensitivity analyses using cause-specific Cox models with <strong>time-varying effects</strong> for age, education, and race to address PH violations.<br>
+- Developed an interactive prediction tool:<br>
+<strong>Shiny App:</strong> <a href="https://rxdow6-josh-korley.shinyapps.io/shinny_app/">Time to First MRI Predictor</a></p>
 <p><strong>Results</strong><br>
-- <strong>EM algorithm</strong>: High-fidelity recovery of the true survival curve (ISE = 0.0921; 95% CI: 0.0404–0.1793) without parametric constraints<br>
-- <strong>Weibull AFT</strong>: Outperformed Kaplan–Meier in predictive accuracy on real data (IBS = 0.064 vs.&nbsp;0.066)<br>
-- <strong>Bayesian AFT</strong>: Enhanced uncertainty quantification and model selection capabilities<br>
-- Proposed a three-phase modeling workflow: EM for initial shape recovery, AFT for predictive modeling, and Bayesian AFT for robust uncertainty propagation—validated in both simulated and applied settings.</p>
+- <strong>APOE ε4</strong> did not influence MRI timing after accounting for demographics and cognition.<br>
+- <strong>Older age, lower education, and non-White race</strong> were strong predictors of delayed MRI.<br>
+- <strong>Higher education and greater independence</strong> corresponded to earlier MRI acquisition.<br>
+- Time-varying analyses showed early, pronounced disparities that attenuate over longer follow-up.</p>
+<p>-<strong>Presentation Slide</strong><a href="https://drive.google.com/file/d/1_JqnlBQhP_CJpEvWiwIIXeMrkwe__jv5/view?usp=sharing">ASPH,Columbia</a> <strong>Extension-</strong><br>
+Multiple imputation for missing covariates; PET-based extension; hierarchical (center-level) AFT models; and Bayesian estimation to capture uncertainty and between-center variability.<br>
+Also expanding the Shiny app to support clinician-facing and research use.</p>
 </div>
 <hr>
 </section>
@@ -240,14 +250,15 @@ Extending the analysis to include multiple imputation for incomplete covariates 
 <p><strong><a href="https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing">Biopharmaceutical Research Project: Dose-Finding and Missing Data Analysis in Psoriasis Trial</a></strong><br>
 <a href="https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing"><img src="images/psoriass.png" class="img-fluid"></a><br>
 <em>Biopharmaceutical Research Project: Dose-Finding and Missing Data Analysis in Psoriasis Trial</em></p>
-<p><strong>Affiliation</strong>: Biopharmaceutical Summer Academy, University of Connecticut | Jul 2025 – Aug 2025<br>
-<strong>Dataset</strong>: Simulated Phase II Trial Data for Uconnemab (Psoriasis Therapy)<br>
-<strong>Purpose</strong>: To determine optimal dosing and evaluate the robustness of early efficacy signals under clinically realistic dropout scenarios<br>
-<strong>Methods</strong>:<br>
-- Logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints<br>
+<p><strong>Affiliation</strong>: Biopharmaceutical Summer Academy, University of Connecticut | Jul 2025 – Aug 2025</p>
+<p><strong>Dataset</strong>: Simulated Phase II Trial Data for Brodalumab (Psoriasis Therapy)</p>
+<p><strong>Purpose</strong>: To determine optimal dosing and evaluate the robustness of early efficacy signals under clinically realistic dropout scenarios</p>
+<p><strong>Methods</strong>:<br>
+- Bridge-penalized logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints<br>
 - Simulated missingness mechanisms: MCAR, MAR (response-based), MNAR (toxicity-index based)<br>
-- Sensitivity analyses via complete-case analysis and non-responder imputation</p>
-<p><strong>Result</strong>: Across all modeling strategies, the 140mg and 210mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. Findings support the advancement of 140mg and 210mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility.</p>
+- Multiplicity control and decision reliability assessment across sample sizes<br>
+- Sensitivity analyses via complete-case analysis, non-responder imputation, and full-data logistic regression</p>
+<p><strong>Result</strong>: Across all modeling strategies, the 140 mg and 210 mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. The bridge penalization approach improved estimation stability by borrowing strength from an anchor dose while maintaining flexibility. Findings support the advancement of 140 mg and 210 mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility.</p>
 </div>
 <hr>
 </section>
