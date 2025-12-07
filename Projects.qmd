@@ -35,7 +35,8 @@ This work is among the first to model the *timing of neuroimaging acquisition* r
 - Time-varying analyses showed early, pronounced disparities that attenuate over longer follow-up.
 
 -**Presentation Slide**[ASPH,Columbia](https://drive.google.com/file/d/1_JqnlBQhP_CJpEvWiwIIXeMrkwe__jv5/view?usp=sharing)
-**Extension-**  
+
+- **Extension-**  
  PET-based extension; hierarchical (center-level) AFT models; and Bayesian estimation to capture uncertainty and between-center variability.  
 Also expanding the Shiny app to support clinician-facing and research use.
 :::
