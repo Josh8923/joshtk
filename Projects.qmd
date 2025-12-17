@@ -108,6 +108,7 @@ After covariate adjustment, the orthogonal estimator maintains competitive or im
 
 #### **Clinical Trial Relevance**
 This framework supports clearer interpretation of repeated clinical outcomes in the presence of death or permanent discontinuation, with direct relevance to:
+
 - safety endpoints,  
 - recurrent hospitalizations,  
 - chronic disease flares,  
@@ -115,6 +116,7 @@ This framework supports clearer interpretation of repeated clinical outcomes in 
 <br><br>
 
 #### **Status**
+
 - Methodological development complete  
 - Simulation study ongoing  
 - Manuscript in preparation  
