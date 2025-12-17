@@ -31,7 +31,7 @@ Recent work by **Sun and Ye et al.** developed covariate-adjusted inference for 
 <br><br>
 
 #### **Methodological Contribution**
-This project extends the Sun–Cook line of work by **refining the causal estimand** and developing an estimator that targets recurrence effects in a way that is **orthogonal to survival differences**. The goal is an estimand whose treatment contrast is **zero** when treatment affects survival only (but not recurrence), and nonzero only when treatment changes recurrence dynamics.
+This project extends the Sun, J., et al, line of work by **refining the causal estimand** and developing an estimator that targets recurrence effects in a way that is **orthogonal to survival differences**. The goal is an estimand whose treatment contrast is **zero** when treatment affects survival only (but not recurrence), and nonzero only when treatment changes recurrence dynamics.
 
 Key contributions:
 - A **survival-orthogonal recurrence-burden estimand** that removes survival-weighting from the target, improving interpretability when survival differs by arm.
