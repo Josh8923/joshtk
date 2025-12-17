@@ -44,11 +44,13 @@ Key contributions:
 
 #### **Simulation Design**
 Simulations were conducted under three mechanisms:
+
 - **No treatment effect on survival**  
 - **Treatment benefit on survival**  
 - **Treatment harm on survival**  
 
 Across scenarios, we compared:
+
 - the proposed **orthogonal estimator**, and  
 - estimators corresponding to standard **MCF/AUC-based summaries** from prior literature.
 
