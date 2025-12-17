@@ -1,5 +1,5 @@
 ---
-title: "Publications & Conference Proceedings"
+title: "Publications & Conferences"
 author: "Josh T.K"
 ---
 
@@ -12,21 +12,23 @@ author: "Josh T.K"
 ## Preprints
 
 **[1. Korley, J. T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application. arXiv preprint arXiv:2508.16894.](https://arxiv.org/html/2509.02634v1)**
-
+<br>
 **[2. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. arXiv preprint arXiv:2508.16894.](https://arxiv.org/abs/2508.16894)**
-
+<br>
 **[3. Kubuafor, E., Baidoo, D., Okeke, O. J., Amevor, R., Arhin, G., & Korley, J. T.* (2025). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study. arXiv preprint arXiv:2508.16052.](https://arxiv.org/abs/2508.16052)**
 
 --- 
 
 ## Manuscripts In Preparation
-**[1.Korley, J.T.* (2025). Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants](https://drive.google.com/file/d/1fRKbwwGjyfJkRiwMm624xTdY8JAIaEnZ/view?usp=sharing)**
-
-**2.  Korley, J.T.* \& Adu Bonsu, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
-
-**3.Korley, J.T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application.**
-
-**4.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.**
+**[1.Korley, J.T.* (2025). Covariate-Adjusted Treatment Effects for Recurrent Events with Terminal Outcomes]()**
+<br>
+**[2.Korley, J.T.* (2025). Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants](https://drive.google.com/file/d/1fRKbwwGjyfJkRiwMm624xTdY8JAIaEnZ/view?usp=sharing)**
+<br>
+**3.  Korley, J.T.* \& Adu Bonsu, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
+<br>
+**4.Korley, J.T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application.**
+<br>
+**5.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.**
 
 ---
 
@@ -39,7 +41,7 @@ author: "Josh T.K"
 ## Conference Proceedings: Poster Presentations
 
 **[1.Sukanya B. , Korley, J. T.*, Peng Y., Wang R.(2025). Dose-Finding and Missing Data Analysis in a Simulated Phase II Psoriasis Trial. Statistics In Pharceutical-UCONN 2025.](https://events.stat.uconn.edu/SIP2025/posters2025.html)**
-
+<br>
 
 **[2. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. Statistics In Pharceutical-UCONN 2025.](https://events.stat.uconn.edu/SIP2025/posters2025.html)**
 
