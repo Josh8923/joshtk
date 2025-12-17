@@ -68,12 +68,45 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Projects">
-<meta property="og:image" content="https://Josh8923.github.io/josh.jpg">
+<meta property="og:image" content="https://Josh8923.github.io/images/cover_methd.png">
+<meta property="og:image:height" content="956">
+<meta property="og:image:width" content="1852">
 <meta name="twitter:title" content="Projects">
-<meta name="twitter:image" content="https://Josh8923.github.io/josh.jpg">
+<meta name="twitter:image" content="https://Josh8923.github.io/images/cover_methd.png">
+<meta name="twitter:image-height" content="956">
+<meta name="twitter:image-width" content="1852">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -151,7 +184,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#neuroimaging-survival-analysis" id="toc-neuroimaging-survival-analysis" class="nav-link active" data-scroll-target="#neuroimaging-survival-analysis">NeuroImaging &amp; Survival Analysis</a></li>
+  <li><a href="#methodology-theory-works" id="toc-methodology-theory-works" class="nav-link active" data-scroll-target="#methodology-theory-works">Methodology &amp; Theory Works</a></li>
+  <li><a href="#neuroimaging-survival-analysis" id="toc-neuroimaging-survival-analysis" class="nav-link" data-scroll-target="#neuroimaging-survival-analysis">NeuroImaging &amp; Survival Analysis</a></li>
   <li><a href="#bayesian-numerical-method-based-estimation" id="toc-bayesian-numerical-method-based-estimation" class="nav-link" data-scroll-target="#bayesian-numerical-method-based-estimation">Bayesian &amp; Numerical Method Based Estimation</a></li>
   <li><a href="#clinical-trials" id="toc-clinical-trials" class="nav-link" data-scroll-target="#clinical-trials">Clinical Trials</a></li>
   <li><a href="#survival-causal-inference-analysis" id="toc-survival-causal-inference-analysis" class="nav-link" data-scroll-target="#survival-causal-inference-analysis">Survival &amp; Causal Inference Analysis</a></li>
@@ -186,6 +220,101 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="methodology-theory-works" class="level2">
+<h2 class="anchored" data-anchor-id="methodology-theory-works">Methodology &amp; Theory Works</h2>
+<div class="g-col-12">
+<p><strong><a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link">Covariate-Adjusted Treatment Effects for Recurrent Events with Terminal Outcomes</a></strong><br>
+<a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link"><img src="images/cover_methd.png" class="img-fluid" style="width:90.0%"></a><br>
+<em>Covariate-Adjusted Treatment Effects for Recurrent Events with Terminal Outcomes</em></p>
+<p><strong>Affiliation</strong>: Arnold School of Public Health | Oct 2025 – <em>Present</em></p>
+<p><strong>Keywords</strong>: Recurrent events; terminal events; causal inference; covariate adjustment; clinical trials; survival analysis<br>
+<br><br></p>
+<p><strong>Foundational work</strong>:<br>
+Sun, J., Ye, T., et al.<br>
+<em>Improve the Precision of Area Under Curve Estimation for Recurrent Events Through Covariate Adjustment</em><br>
+<a href="https://arxiv.org/html/2410.24163v3" class="uri">https://arxiv.org/html/2410.24163v3</a><br>
+<br><br></p>
+<section id="objective" class="level4">
+<h4 class="anchored" data-anchor-id="objective"><strong>Objective</strong></h4>
+<p>To develop an <strong>estimand-driven, covariate-adjusted causal framework</strong> for treatment effects on recurrent clinical outcomes when a <strong>terminal event (e.g., death)</strong> may change survival and, as a consequence, the amount of time recurrent outcomes are observable. <br><br></p>
+</section>
+<section id="background-and-relation-to-prior-work" class="level4">
+<h4 class="anchored" data-anchor-id="background-and-relation-to-prior-work"><strong>Background and Relation to Prior Work</strong></h4>
+<p>Recurrent event endpoints are common in clinical trials, including adverse events, hospitalizations, and disease flares. When a <strong>terminal event</strong> occurs, standard summaries of recurrent outcomes can be difficult to interpret because treatment can affect both (i) the recurrence process and (ii) survival time.</p>
+<p>Recent work by <strong>Sun and Ye et al.</strong> developed covariate-adjusted inference for an <strong>AUC of the mean cumulative function (MCF)</strong> estimand. Their estimand can be written (schematically) as an AUC functional of an MCF that depends on both the recurrent event rate and survival. As a result, when treatment affects survival, the estimand can change even if the underlying recurrent event rate does not, complicating scientific interpretation in settings where the goal is to isolate recurrence effects. <br><br></p>
+</section>
+<section id="methodological-contribution" class="level4">
+<h4 class="anchored" data-anchor-id="methodological-contribution"><strong>Methodological Contribution</strong></h4>
+<p>This project extends the Sun–Cook line of work by <strong>refining the causal estimand</strong> and developing an estimator that targets recurrence effects in a way that is <strong>orthogonal to survival differences</strong>. The goal is an estimand whose treatment contrast is <strong>zero</strong> when treatment affects survival only (but not recurrence), and nonzero only when treatment changes recurrence dynamics.</p>
+<p>Key contributions: - A <strong>survival-orthogonal recurrence-burden estimand</strong> that removes survival-weighting from the target, improving interpretability when survival differs by arm. - An <strong>orthogonal, influence-function–based estimator</strong> enabling: - valid <strong>covariate-adjusted inference</strong>,<br>
+- robustness to nuisance-model misspecification,<br>
+- improved precision under randomized trials. - A causal framing aligned with modern <strong>estimand principles</strong> for intercurrent events in clinical trials. <br><br></p>
+</section>
+<section id="simulation-design" class="level4">
+<h4 class="anchored" data-anchor-id="simulation-design"><strong>Simulation Design</strong></h4>
+<p>Simulations were conducted under three mechanisms: - <strong>No treatment effect on survival</strong><br>
+- <strong>Treatment benefit on survival</strong><br>
+- <strong>Treatment harm on survival</strong></p>
+<p>Across scenarios, we compared: - the proposed <strong>orthogonal estimator</strong>, and<br>
+- estimators corresponding to standard <strong>MCF/AUC-based summaries</strong> from prior literature.</p>
+<p>Performance metrics included bias, variance, and power under covariate adjustment. <br><br></p>
+</section>
+<section id="estimand-definition-overview" class="level4">
+<h4 class="anchored" data-anchor-id="estimand-definition-overview"><strong>Estimand Definition (Overview)</strong></h4>
+<p>Let <span class="math inline">\(N_i(t)\)</span> denote the counting process for recurrent events up to time <span class="math inline">\(t\)</span> for subject <span class="math inline">\(i\)</span>, and let <span class="math inline">\(D_i\)</span> denote the terminal event time (e.g., death). Let <span class="math inline">\(C_i\)</span> denote administrative censoring and <span class="math inline">\(T_i=\min(D_i,C_i)\)</span>, with at-risk indicator <span class="math inline">\(Y_i(t)=I(T_i\ge t)\)</span>. Let <span class="math inline">\(A_i\in\{0,1\}\)</span> denote treatment assignment.</p>
+<p>A common summary for recurrent events is the <strong>mean cumulative function (MCF)</strong>: <span class="math display">\[
+\mu_a(t)=\mathbb{E}\{N_i(t)\mid A_i=a\},
+\]</span> which averages recurrent event counts over all individuals. In the presence of a terminal event, MCF-based AUC summaries typically incorporate survival, so treatment effects on survival can influence the estimand even when recurrence dynamics are unchanged.</p>
+<section id="proposed-survival-orthogonal-auc-estimand" class="level5">
+<h5 class="anchored" data-anchor-id="proposed-survival-orthogonal-auc-estimand"><strong>Proposed Survival-Orthogonal AUC Estimand</strong></h5>
+<p>Define the marginal cumulative recurrence rate (Nelson–Aalen type target) <span class="math display">\[
+R_a(t)=\int_0^t \mathbb{E}\{\lambda_a(u\mid X)\}\,du,
+\]</span> where <span class="math inline">\(\lambda_a(u\mid X)\)</span> is the recurrent event intensity among those at risk under treatment <span class="math inline">\(a\)</span>.</p>
+<p>We define the <strong>orthogonal recurrence-burden AUC</strong> <span class="math display">\[
+\widetilde U_a(\tau)=\int_0^\tau R_a(t)\,dt
+=\int_0^\tau (\tau-u)\,dR_a(u),
+\]</span> and the treatment contrast <span class="math display">\[
+\Delta_{\text{orth}}(\tau)=\log\left\{\frac{\widetilde U_1(\tau)}{\widetilde U_0(\tau)}\right\}.
+\]</span></p>
+<p><strong>Key property (survival orthogonality)</strong>: if <span class="math inline">\(dR_1(u)=dR_0(u)\)</span> for all <span class="math inline">\(u\le\tau\)</span>, then <span class="math inline">\(\widetilde U_1(\tau)=\widetilde U_0(\tau)\)</span> and <span class="math inline">\(\Delta_{\text{orth}}(\tau)=0\)</span>, even when survival differs by arm. This isolates recurrence effects from survival effects and yields a clearer clinical interpretation. <br><br></p>
+</section>
+</section>
+<section id="simulation-results" class="level4">
+<h4 class="anchored" data-anchor-id="simulation-results"><strong>Simulation Results</strong></h4>
+<section id="estimator-vs.-true-recurrence-effect" class="level5">
+<h5 class="anchored" data-anchor-id="estimator-vs.-true-recurrence-effect"><strong>Estimator vs.&nbsp;True Recurrence Effect</strong></h5>
+<p>The orthogonal estimator closely tracks the true recurrence effect across regimes, while standard AUC-based estimators deviate when survival differs by treatment arm.</p>
+<p><img src="images/recurrent_estimator_truth.png" width="70%" style="display:block; margin:auto;"> <br></p>
+<p>##### <strong>Bias Induced by Survival Effects</strong><br>
+When survival is treatment-dependent, MCF/AUC-based estimators can exhibit systematic bias relative to a pure recurrence target. The orthogonal estimand substantially reduces this bias.</p>
+<p><img src="images/recurrent_bias.png" width="70%" style="display:block; margin:auto;"> <br></p>
+</section>
+<section id="power-comparison-covariate-adjusted-estimators" class="level5">
+<h5 class="anchored" data-anchor-id="power-comparison-covariate-adjusted-estimators"><strong>Power Comparison (Covariate-Adjusted Estimators)</strong></h5>
+<p>After covariate adjustment, the orthogonal estimator maintains competitive or improved power without inflating type I error.</p>
+<p><img src="images/recurrent_power.png" width="70%" style="display:block; margin:auto;"> <br><br></p>
+</section>
+</section>
+<section id="clinical-trial-relevance" class="level4">
+<h4 class="anchored" data-anchor-id="clinical-trial-relevance"><strong>Clinical Trial Relevance</strong></h4>
+<p>This framework supports clearer interpretation of repeated clinical outcomes in the presence of death or permanent discontinuation, with direct relevance to: - safety endpoints,<br>
+- recurrent hospitalizations,<br>
+- chronic disease flares,<br>
+- oncology and neurodegenerative trials. <br><br></p>
+</section>
+<section id="status" class="level4">
+<h4 class="anchored" data-anchor-id="status"><strong>Status</strong></h4>
+<ul>
+<li>Methodological development complete<br>
+</li>
+<li>Simulation study ongoing<br>
+</li>
+<li>Manuscript in preparation</li>
+</ul>
+</section>
+</div>
+<hr>
+</section>
 <section id="neuroimaging-survival-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="neuroimaging-survival-analysis">NeuroImaging &amp; Survival Analysis</h2>
 <div class="g-col-12">
@@ -193,29 +322,54 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link"><img src="images/im_mri.png" class="img-fluid"></a><br>
 <em>Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive, and Demographic Determinants</em></p>
 <p><strong>Affiliation</strong>: Arnold School of Public Health | Oct 2025 – <em>Present</em></p>
-<p><strong>Dataset</strong>: National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement across 39 Alzheimer’s Disease Centers</p>
-<p><strong>Objective</strong><br>
-To examine how genetic, cognitive, and demographic factors influence <em>when</em> participants receive their first MRI, while appropriately treating <em>death before imaging</em> as a competing event.</p>
-<p><strong>Background</strong><br>
-This work is among the first to model the <em>timing of neuroimaging acquisition</em> rather than outcomes derived from MRI. Because MRI ordering varies across clinical, structural, and demographic factors, understanding these patterns highlights inequities in diagnostic access and the representativeness of imaging research cohorts.</p>
-<p><strong>Methods</strong><br>
-- Defined a cause-specific survival process:<br>
-- Event 1: <em>first MRI</em>,<br>
-- Event 2: <em>death before MRI</em>.<br>
-- Modeled event times using parametric AFT models (Weibull for MRI; log-logistic for death).<br>
-- Included APOE ε4 genotype, age, sex, race/ethnicity, education, CDR Global, living situation, independence, and B12 deficiency.<br>
-- Conducted sensitivity analyses using cause-specific Cox models with <strong>time-varying effects</strong> for age, education, and race to address PH violations.<br>
-- Developed an interactive prediction tool:<br>
-<strong>Shiny App:</strong> <a href="https://rxdow6-josh-korley.shinyapps.io/shinny_app/">Time to First MRI Predictor</a></p>
-<p><strong>Results</strong><br>
-- <strong>APOE ε4</strong> did not influence MRI timing after accounting for demographics and cognition.<br>
-- <strong>Older age, lower education, and non-White race</strong> were strong predictors of delayed MRI.<br>
-- <strong>Higher education and greater independence</strong> corresponded to earlier MRI acquisition.<br>
-- Time-varying analyses showed early, pronounced disparities that attenuate over longer follow-up.</p>
+<section id="dataset" class="level4">
+<h4 class="anchored" data-anchor-id="dataset"><strong>Dataset</strong></h4>
+<p>National Alzheimer’s Coordinating Center (NACC) UDS v3 (2015–2024), linked MRI supplement across 39 Alzheimer’s Disease Centers</p>
+</section>
+<section id="objective-1" class="level4">
+<h4 class="anchored" data-anchor-id="objective-1"><strong>Objective</strong></h4>
+<p>To examine how genetic, cognitive, and demographic factors influence <em>when</em> participants receive their first MRI, while appropriately treating <em>death before imaging</em> as a competing event.</p>
+</section>
+<section id="background" class="level4">
+<h4 class="anchored" data-anchor-id="background"><strong>Background</strong></h4>
+<p>This work is among the first to model the <em>timing of neuroimaging acquisition</em> rather than outcomes derived from MRI. Because MRI ordering varies across clinical, structural, and demographic factors, understanding these patterns highlights inequities in diagnostic access and the representativeness of imaging research cohorts.</p>
+</section>
+<section id="methods" class="level4">
+<h4 class="anchored" data-anchor-id="methods"><strong>Methods</strong></h4>
+<ul>
+<li>Defined a cause-specific survival process:
+<ul>
+<li>Event 1: <em>first MRI</em>,<br>
+</li>
+<li>Event 2: <em>death before MRI</em>.<br>
+</li>
+</ul></li>
+<li>Modeled event times using parametric AFT models (Weibull for MRI; log-logistic for death).<br>
+</li>
+<li>Included APOE ε4 genotype, age, sex, race/ethnicity, education, CDR Global, living situation, independence, and B12 deficiency.<br>
+</li>
+<li>Conducted sensitivity analyses using cause-specific Cox models with <strong>time-varying effects</strong> for age, education, and race to address PH violations.<br>
+</li>
+<li>Developed an interactive prediction tool:<br>
+<strong>Shiny App:</strong> <a href="https://rxdow6-josh-korley.shinyapps.io/shinny_app/">Time to First MRI Predictor</a></li>
+</ul>
+</section>
+<section id="results" class="level4">
+<h4 class="anchored" data-anchor-id="results"><strong>Results</strong></h4>
+<ul>
+<li><strong>APOE ε4</strong> did not influence MRI timing after accounting for demographics and cognition.<br>
+</li>
+<li><strong>Older age, lower education, and non-White race</strong> were strong predictors of delayed MRI.<br>
+</li>
+<li><strong>Higher education and greater independence</strong> corresponded to earlier MRI acquisition.<br>
+</li>
+<li>Time-varying analyses showed early, pronounced disparities that attenuate over longer follow-up.</li>
+</ul>
 <p>-<strong>Presentation Slide</strong><a href="https://drive.google.com/file/d/1_JqnlBQhP_CJpEvWiwIIXeMrkwe__jv5/view?usp=sharing">ASPH,Columbia</a></p>
 <p>-<strong>Extension</strong><br>
 PET-based extension; hierarchical (center-level) AFT models; and Bayesian estimation to capture uncertainty and between-center variability.<br>
 Also expanding the Shiny app to support clinician-facing and research use.</p>
+</section>
 </div>
 <hr>
 </section>
@@ -226,18 +380,39 @@ Also expanding the Shiny app to support clinician-facing and research use.</p>
 <a href="https://arxiv.org/html/2509.02634v1"><img src="em.png" class="img-fluid"></a><br>
 <em>Robust Survival Estimation under Interval Censoring: EM Algorithm Assessment via Simulation and Application</em></p>
 <p><strong>Affiliation</strong>: Arnold School of Public Health | Aug 2025 – <em>Present</em></p>
-<p><strong>Dataset</strong>: Simulated interval-censored survival data (true Weibull baseline) and real-world ovarian cancer dataset with periodic follow-up visits</p>
-<p><strong>Objective</strong>: To evaluate the accuracy, predictive performance, and practical utility of the EM algorithm for interval-censored survival analysis, benchmarked against parametric and Bayesian AFT models.</p>
-<p><strong>Methods</strong><br>
-- Turnbull’s Nonparametric Maximum Likelihood Estimator (NPMLE) via the EM algorithm for distribution-free baseline survival estimation<br>
-- Parametric Weibull AFT models with covariates for individualized prediction<br>
-- Bayesian AFT models for uncertainty quantification and posterior predictive checks<br>
-- Performance evaluation using Integrated Squared Error (ISE) in simulation and Integrated Brier Score (IBS) in real data</p>
-<p><strong>Results</strong><br>
-- <strong>EM algorithm</strong>: High-fidelity recovery of the true survival curve (ISE = 0.0921; 95% CI: 0.0404–0.1793) without parametric constraints<br>
-- <strong>Weibull AFT</strong>: Outperformed Kaplan–Meier in predictive accuracy on real data (IBS = 0.064 vs.&nbsp;0.066)<br>
-- <strong>Bayesian AFT</strong>: Enhanced uncertainty quantification and model selection capabilities<br>
-- Proposed a three-phase modeling workflow: EM for initial shape recovery, AFT for predictive modeling, and Bayesian AFT for robust uncertainty propagation—validated in both simulated and applied settings.</p>
+<section id="dataset-1" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-1"><strong>Dataset</strong></h4>
+<p>Simulated interval-censored survival data (true Weibull baseline) and real-world ovarian cancer dataset with periodic follow-up visits</p>
+</section>
+<section id="objective-2" class="level4">
+<h4 class="anchored" data-anchor-id="objective-2"><strong>Objective</strong></h4>
+<p>To evaluate the accuracy, predictive performance, and practical utility of the EM algorithm for interval-censored survival analysis, benchmarked against parametric and Bayesian AFT models.</p>
+</section>
+<section id="methods-1" class="level4">
+<h4 class="anchored" data-anchor-id="methods-1"><strong>Methods</strong></h4>
+<ul>
+<li>Turnbull’s Nonparametric Maximum Likelihood Estimator (NPMLE) via the EM algorithm for distribution-free baseline survival estimation<br>
+</li>
+<li>Parametric Weibull AFT models with covariates for individualized prediction<br>
+</li>
+<li>Bayesian AFT models for uncertainty quantification and posterior predictive checks<br>
+</li>
+<li>Performance evaluation using Integrated Squared Error (ISE) in simulation and Integrated Brier Score (IBS) in real data</li>
+</ul>
+</section>
+<section id="results-1" class="level4">
+<h4 class="anchored" data-anchor-id="results-1"><strong>Results</strong></h4>
+<ul>
+<li><strong>EM algorithm</strong>: High-fidelity recovery of the true survival curve (ISE = 0.0921; 95% CI: 0.0404–0.1793) without parametric constraints<br>
+</li>
+<li><strong>Weibull AFT</strong>: Outperformed Kaplan–Meier in predictive accuracy on real data (IBS = 0.064 vs.&nbsp;0.066)<br>
+</li>
+<li><strong>Bayesian AFT</strong>: Enhanced uncertainty quantification and model selection capabilities<br>
+</li>
+<li>Proposed a three-phase modeling workflow: EM for initial shape recovery, AFT for predictive modeling, and Bayesian AFT for robust uncertainty propagation—validated in both simulated and applied settings.<br>
+</li>
+</ul>
+</section>
 </div>
 <hr>
 </section>
@@ -248,14 +423,30 @@ Also expanding the Shiny app to support clinician-facing and research use.</p>
 <a href="https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing"><img src="images/psoriass.png" class="img-fluid"></a><br>
 <em>Biopharmaceutical Research Project: Dose-Finding and Missing Data Analysis in Psoriasis Trial</em></p>
 <p><strong>Affiliation</strong>: Biopharmaceutical Summer Academy, University of Connecticut | Jul 2025 – Aug 2025</p>
-<p><strong>Dataset</strong>: Simulated Phase II Trial Data for Brodalumab (Psoriasis Therapy)</p>
-<p><strong>Purpose</strong>: To determine optimal dosing and evaluate the robustness of early efficacy signals under clinically realistic dropout scenarios</p>
-<p><strong>Methods</strong>:<br>
-- Bridge-penalized logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints<br>
-- Simulated missingness mechanisms: MCAR, MAR (response-based), MNAR (toxicity-index based)<br>
-- Multiplicity control and decision reliability assessment across sample sizes<br>
-- Sensitivity analyses via complete-case analysis, non-responder imputation, and full-data logistic regression</p>
-<p><strong>Result</strong>: Across all modeling strategies, the 140 mg and 210 mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. The bridge penalization approach improved estimation stability by borrowing strength from an anchor dose while maintaining flexibility. Findings support the advancement of 140 mg and 210 mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility.</p>
+<section id="dataset-2" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-2"><strong>Dataset</strong></h4>
+<p>Simulated Phase II Trial Data for Brodalumab (Psoriasis Therapy)</p>
+</section>
+<section id="purpose" class="level4">
+<h4 class="anchored" data-anchor-id="purpose"><strong>Purpose</strong></h4>
+<p>To determine optimal dosing and evaluate the robustness of early efficacy signals under clinically realistic dropout scenarios</p>
+</section>
+<section id="methods-2" class="level4">
+<h4 class="anchored" data-anchor-id="methods-2"><strong>Methods</strong></h4>
+<ul>
+<li>Bridge-penalized logistic regression modeling on PASI75 (primary) and PASI50 (validation) endpoints<br>
+</li>
+<li>Simulated missingness mechanisms: MCAR, MAR (response-based), MNAR (toxicity-index based)<br>
+</li>
+<li>Multiplicity control and decision reliability assessment across sample sizes<br>
+</li>
+<li>Sensitivity analyses via complete-case analysis, non-responder imputation, and full-data logistic regression</li>
+</ul>
+</section>
+<section id="result" class="level4">
+<h4 class="anchored" data-anchor-id="result"><strong>Result</strong></h4>
+<p>Across all modeling strategies, the 140 mg and 210 mg doses consistently demonstrated superior clinical efficacy. Despite convergence issues with sparse placebo response under PASI75, results were validated via PASI50 with placebo as reference. The bridge penalization approach improved estimation stability by borrowing strength from an anchor dose while maintaining flexibility. Findings support the advancement of 140 mg and 210 mg doses for Phase III trials. Simulated dropout patterns mirror real-world early-phase attrition, enhancing decision utility.</p>
+</section>
 </div>
 <hr>
 </section>
@@ -265,26 +456,49 @@ Also expanding the Shiny app to support clinician-facing and research use.</p>
 <p><strong><a href="https://drive.google.com/file/d/1k0xkbo2NvVKXhuJaR6ogImU0DpjHYqJG/view?usp=sharing">Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy</a></strong><br>
 <a href="https://drive.google.com/file/d/1k0xkbo2NvVKXhuJaR6ogImU0DpjHYqJG/view?usp=sharing"><img src="that_4.png" class="img-fluid"></a> <em>Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy</em></p>
 <p><strong>Affiliation</strong>: Western Michigan University | April 2025 – <em>Present</em></p>
-<p><strong>Dataset</strong>: Randomized trial of 475 men treated with high- vs.&nbsp;low-dose diethylstilbestrol (DES) for advanced prostate cancer</p>
-<p><strong>Objective</strong> To evaluate treatment effect heterogeneity and guide individualized therapy decisions using risk-adaptive modeling</p>
-<p><strong>Methods</strong> Semi-parametric Cox proportional hazards models with treatment–covariate interactions</p>
+<section id="dataset-3" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-3"><strong>Dataset</strong></h4>
+<p>Randomized trial of 475 men treated with high- vs.&nbsp;low-dose diethylstilbestrol (DES) for advanced prostate cancer</p>
+</section>
+<section id="objective-3" class="level4">
+<h4 class="anchored" data-anchor-id="objective-3"><strong>Objective</strong></h4>
+<p>To evaluate treatment effect heterogeneity and guide individualized therapy decisions using risk-adaptive modeling</p>
+</section>
+<section id="methods-3" class="level4">
+<h4 class="anchored" data-anchor-id="methods-3"><strong>Methods</strong></h4>
+<p>Semi-parametric Cox proportional hazards models with treatment–covariate interactions</p>
 <p>Causal inference via potential outcomes framework to estimate individualized treatment effects (ITEs)</p>
 <p>Continuous effect modification analysis using tumor size and patient age Delta Method to estimate the variance of ITE to enable confidence interval construction.</p>
-<p><strong>Result</strong>: High-dose DES was not beneficial on average (HR = 0.851; p = 0.519) Significant effect modification: patients with large tumors benefited (interaction HR = 0.691; p = 0.005), while patients over 70 faced increased risk (interaction HR = 1.064; p &lt; 0.001)</p>
+</section>
+<section id="result-1" class="level4">
+<h4 class="anchored" data-anchor-id="result-1"><strong>Result</strong></h4>
+<p>High-dose DES was not beneficial on average (HR = 0.851; p = 0.519) Significant effect modification: patients with large tumors benefited (interaction HR = 0.691; p = 0.005), while patients over 70 faced increased risk (interaction HR = 1.064; p &lt; 0.001)</p>
 <p>Visualizations of patient-specific hazard ratios supported precision treatment strategies which existing studies could not address.</p>
+</section>
 </div>
 <hr>
 <div class="g-col-12">
 <p><strong><a href="https://drive.google.com/file/d/1yxbHYS2-DJrxy3ugZRqdY7FLHxU2ddvD/view?usp=sharing">Heart Failure Survival Analysis Using Machine Learning and Causal Methods Methods</a></strong><br>
 <a href="https://drive.google.com/file/d/1yxbHYS2-DJrxy3ugZRqdY7FLHxU2ddvD/view?usp=sharing"><img src="that_1.png" class="img-fluid"></a> <em>Heart Failure Survival Analysis Using Machine Learning and Causal Inference Methods</em><br>
-<strong>Affiliation</strong>: Western Michigan University | Oct 2024 – Dec 2024<br>
-<strong>Dataset</strong>: Clinical records from 299 heart failure patients (Faisalabad Institute of Cardiology &amp; Allied Hospital, Pakistan)<br>
-<strong>Objective</strong> To identify key predictors of survival in heart failure patients and explore clinical mediation pathways.</p>
-<p><strong>Methods</strong></p>
+<strong>Affiliation</strong>: Western Michigan University | Oct 2024 – Dec 2024</p>
+<section id="dataset-4" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-4"><strong>Dataset</strong></h4>
+<p>Clinical records from 299 heart failure patients (Faisalabad Institute of Cardiology &amp; Allied Hospital, Pakistan)</p>
+</section>
+<section id="objective-4" class="level4">
+<h4 class="anchored" data-anchor-id="objective-4"><strong>Objective</strong></h4>
+<p>To identify key predictors of survival in heart failure patients and explore clinical mediation pathways.</p>
+</section>
+<section id="methods-4" class="level4">
+<h4 class="anchored" data-anchor-id="methods-4"><strong>Methods</strong></h4>
 <p>Supervised learning: Logistic Regression, Random Forest, Support Vector Machine (SVM)</p>
 <p>Penalized regression: LASSO, Ridge, Elastic Net</p>
 <p>Structural Equation Modeling (SEM) for mediation analysis of prognostic variables</p>
-<p><strong>Result</strong>: Ejection fraction, serum sodium, and serum creatinine were consistently identified as the strongest survival predictors. Models achieved high AUC and specificity, with interpretable results supporting data-informed clinical decision-making.</p>
+</section>
+<section id="result-2" class="level4">
+<h4 class="anchored" data-anchor-id="result-2"><strong>Result</strong></h4>
+<p>Ejection fraction, serum sodium, and serum creatinine were consistently identified as the strongest survival predictors. Models achieved high AUC and specificity, with interpretable results supporting data-informed clinical decision-making.</p>
+</section>
 </div>
 <hr>
 </section>
@@ -293,13 +507,27 @@ Also expanding the Shiny app to support clinician-facing and research use.</p>
 <div class="g-col-12">
 <p><strong><a href="https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing">Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis</a></strong><br>
 <a href="https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing"><img src="that_2.png" class="img-fluid"></a> <em>Clinical Epidemiology Project: Alzheimer’s Disease Subgroup Analysis </em></p>
-<p><strong>Affiliation</strong>: Summer Research, Western Michigan University | Jun 2024 – Aug 2024<br>
-<strong>Dataset</strong>: ACTC Solanezumab Preclinical Trial Data<br>
-<strong>Purpose</strong>: To assess subgroup-specific treatment effects and identify cognitive decline risk factors<br>
-<strong>Methods</strong>:<br>
-- Regression modeling on MMSE and ARIA endpoints<br>
-- Subgroup analyses by APOE4 status, centiloid level, education, and BMI</p>
-<p><strong>Result</strong>: Found that surrogate endpoint selection (MMSE vs.&nbsp;ARIA) influences identified risk profiles. APOE4 status and centiloid level showed consistent association with AD progression across subgroups.</p>
+<p><strong>Affiliation</strong>: Summer Research, Western Michigan University | Jun 2024 – Aug 2024</p>
+<section id="dataset-5" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-5"><strong>Dataset</strong></h4>
+<p>ACTC Solanezumab Preclinical Trial Data</p>
+</section>
+<section id="purpose-1" class="level4">
+<h4 class="anchored" data-anchor-id="purpose-1"><strong>Purpose</strong></h4>
+<p>To assess subgroup-specific treatment effects and identify cognitive decline risk factors</p>
+</section>
+<section id="methods-5" class="level4">
+<h4 class="anchored" data-anchor-id="methods-5"><strong>Methods</strong></h4>
+<ul>
+<li>Regression modeling on MMSE and ARIA endpoints<br>
+</li>
+<li>Subgroup analyses by APOE4 status, centiloid level, education, and BMI</li>
+</ul>
+</section>
+<section id="result-3" class="level4">
+<h4 class="anchored" data-anchor-id="result-3"><strong>Result</strong></h4>
+<p>Found that surrogate endpoint selection (MMSE vs.&nbsp;ARIA) influences identified risk profiles. APOE4 status and centiloid level showed consistent association with AD progression across subgroups.</p>
+</section>
 </div>
 <hr>
 </section>
@@ -317,38 +545,81 @@ Compared time series models (SES, HDES, ARIMA) for lung cancer prediction in the
 <div class="g-col-12">
 <p><strong><a href="https://drive.google.com/file/d/1ecNOPwr_wPABnQ4uFG3by2b46Ino-ZJ_/view?usp=sharing">1.HIV: MIxed-Models- <em>Pending</em></a></strong><br>
 <a href="https://https://drive.google.com/file/d/1ecNOPwr_wPABnQ4uFG3by2b46Ino-ZJ_/view?usp=sharing"><img src="never1.png" class="img-fluid"></a> <strong>Evaluating the Effectiveness of HAART Regimens on CD4 Cell Count Trajectories in HIV-Infected Women</strong><br>
-<strong>Affiliation</strong>: Final Project, Western Michigan University | Jan 2024 – Apr 2024<br>
-<strong>Dataset</strong>: Women’s Interagency HIV Study (WIHS), 274 HIV-positive women observed over 9 visits across 54 months<br>
-<strong>Purpose</strong>: To assess the impact of HAART regimen type on immune restoration (CD4 cell count) and investigate subgroup-specific treatment responses<br>
-<strong>Methods</strong>:<br>
-- Regression modeling on log-transformed CD4 counts at last visit using OLS<br>
-- Longitudinal analysis using GLS and linear mixed-effects models<br>
-- Subgroup effect estimation using interaction terms (age, IDU, alcohol, smoking)</p>
-<p><strong>Results</strong>: Monotherapy and Triple therapy were associated with higher CD4 restoration than Dual therapy, especially among women with injection drug use. The interaction effects revealed that treatment effectiveness varied significantly across subgroups, notably IDU and smoking status. CD4 improvement trajectories declined over time for all regimens, with Monotherapy and Triple therapy showing slower decline rates. These findings emphasize the importance of personalized HAART strategies based on behavioral and clinical profiles.</p>
+<strong>Affiliation</strong>: Final Project, Western Michigan University | Jan 2024 – Apr 2024</p>
+<section id="dataset-6" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-6"><strong>Dataset</strong></h4>
+<p>Women’s Interagency HIV Study (WIHS), 274 HIV-positive women observed over 9 visits across 54 months</p>
+</section>
+<section id="purpose-2" class="level4">
+<h4 class="anchored" data-anchor-id="purpose-2"><strong>Purpose</strong></h4>
+<p>To assess the impact of HAART regimen type on immune restoration (CD4 cell count) and investigate subgroup-specific treatment responses</p>
+</section>
+<section id="methods-6" class="level4">
+<h4 class="anchored" data-anchor-id="methods-6"><strong>Methods</strong></h4>
+<ul>
+<li>Regression modeling on log-transformed CD4 counts at last visit using OLS<br>
+</li>
+<li>Longitudinal analysis using GLS and linear mixed-effects models<br>
+</li>
+<li>Subgroup effect estimation using interaction terms (age, IDU, alcohol, smoking)</li>
+</ul>
+</section>
+<section id="results-2" class="level4">
+<h4 class="anchored" data-anchor-id="results-2"><strong>Results</strong></h4>
+<p>Monotherapy and Triple therapy were associated with higher CD4 restoration than Dual therapy, especially among women with injection drug use. The interaction effects revealed that treatment effectiveness varied significantly across subgroups, notably IDU and smoking status. CD4 improvement trajectories declined over time for all regimens, with Monotherapy and Triple therapy showing slower decline rates. These findings emphasize the importance of personalized HAART strategies based on behavioral and clinical profiles.</p>
+</section>
 </div>
 <hr>
 <div class="g-col-12">
 <p><strong><a href="https://drive.google.com/file/d/1bMr6XSYoqPTzmEmTaCPri5JieLxC9Wu0/view?usp=sharing">2. Methodological Comparison of Longitudinal Models for HAART Data: Addressing Small Sample Sizes and Unbalanced Designs -<em>Pending</em></a></strong><br>
 <a href="https://drive.google.com/file/d/1bMr6XSYoqPTzmEmTaCPri5JieLxC9Wu0/view?usp=sharing"><img src="never2.png" class="img-fluid"></a> <strong>Methodological Comparison of Longitudinal Models for HAART Data: Addressing Small Sample Sizes and Unbalaned Designs </strong><br>
-<strong>Affiliation</strong>: Final Project, Western Michigan University | Jan 2024 – Apr 2024<br>
-<strong>Dataset</strong>: Simulated and real data from the WIHS cohort (274 HIV-positive women followed over 54 months with CD4 counts recorded at 9 visits)<br>
-<strong>Purpose</strong>: To compare the performance of LME, GEE, and GLMM in estimating HAART treatment effects under small sample sizes and unbalanced longitudinal designs<br>
-<strong>Methods</strong>:<br>
-- Applied LME, GEE, and GLMM to subsets of longitudinal data<br>
-- Evaluated statistical power, estimation accuracy, and computational efficiency<br>
-- Modeled interaction effects (e.g., treatment × time, treatment × IDU, treatment × smoking) across simulated sample sizes (n = 10, 20, 50, 100, 200)</p>
-<p><strong>Result</strong>: GLMM demonstrated superior accuracy and robustness across varying sample sizes, especially with non-normal outcomes. LME and GEE yielded comparable estimates at larger sample sizes, but diverged under smaller or unbalanced conditions. Interaction terms such as HAART × IDU and HAART × smoking status significantly influenced CD4 trajectories. Results guide model choice in HIV studies based on data characteristics, with GLMM preferred when flexibility and subject-level effects are key.</p>
+<strong>Affiliation</strong>: Final Project, Western Michigan University | Jan 2024 – Apr 2024</p>
+<section id="dataset-7" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-7"><strong>Dataset</strong></h4>
+<p>Simulated and real data from the WIHS cohort (274 HIV-positive women followed over 54 months with CD4 counts recorded at 9 visits)</p>
+</section>
+<section id="purpose-3" class="level4">
+<h4 class="anchored" data-anchor-id="purpose-3"><strong>Purpose</strong></h4>
+<p>To compare the performance of LME, GEE, and GLMM in estimating HAART treatment effects under small sample sizes and unbalanced longitudinal designs</p>
+</section>
+<section id="methods-7" class="level4">
+<h4 class="anchored" data-anchor-id="methods-7"><strong>Methods</strong></h4>
+<ul>
+<li>Applied LME, GEE, and GLMM to subsets of longitudinal data<br>
+</li>
+<li>Evaluated statistical power, estimation accuracy, and computational efficiency<br>
+</li>
+<li>Modeled interaction effects (e.g., treatment × time, treatment × IDU, treatment × smoking) across simulated sample sizes (n = 10, 20, 50, 100, 200)</li>
+</ul>
+</section>
+<section id="result-4" class="level4">
+<h4 class="anchored" data-anchor-id="result-4"><strong>Result</strong></h4>
+<p>GLMM demonstrated superior accuracy and robustness across varying sample sizes, especially with non-normal outcomes. LME and GEE yielded comparable estimates at larger sample sizes, but diverged under smaller or unbalanced conditions. Interaction terms such as HAART × IDU and HAART × smoking status significantly influenced CD4 trajectories. Results guide model choice in HIV studies based on data characteristics, with GLMM preferred when flexibility and subject-level effects are key.</p>
+</section>
 </div>
 <hr>
 <section id="sas-based-risk-modeling" class="level3">
 <h3 class="anchored" data-anchor-id="sas-based-risk-modeling">SAS-Based Risk Modeling</h3>
-<p><strong>Affiliation</strong>: Volunteer Research Assistant, Western Michigan University | Aug 2024 – Present<br>
-<strong>Dataset</strong>: Clinical trial and epidemiological datasets on lung cancer and age-related illness<br>
-<strong>Purpose</strong>: To explore risk factor modeling and the effect of censoring in survival studies<br>
-<strong>Methods</strong>:<br>
-- Survival analysis using SAS<br>
-- Cox models and regression diagnostics<br>
-<strong>Result</strong>: Supported methodological development for censoring-adjusted survival estimation. Assisted in validating models on age-related disease outcomes.</p>
+<p><strong>Affiliation</strong>: Volunteer Research Assistant, Western Michigan University | Aug 2024 – Present</p>
+<section id="dataset-8" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-8"><strong>Dataset</strong></h4>
+<p>Clinical trial and epidemiological datasets on lung cancer and age-related illness</p>
+</section>
+<section id="purpose-4" class="level4">
+<h4 class="anchored" data-anchor-id="purpose-4"><strong>Purpose</strong></h4>
+<p>To explore risk factor modeling and the effect of censoring in survival studies</p>
+</section>
+<section id="methods-8" class="level4">
+<h4 class="anchored" data-anchor-id="methods-8"><strong>Methods</strong></h4>
+<ul>
+<li>Survival analysis using SAS<br>
+</li>
+<li>Cox models and regression diagnostics</li>
+</ul>
+</section>
+<section id="result-5" class="level4">
+<h4 class="anchored" data-anchor-id="result-5"><strong>Result</strong></h4>
+<p>Supported methodological development for censoring-adjusted survival estimation. Assisted in validating models on age-related disease outcomes.</p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -366,6 +637,7 @@ https://quarto.org/docs/authoring/includes.html
 <script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
+</section>
 </section>
 </section>
 

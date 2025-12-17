@@ -2,17 +2,18 @@
 title: "Update and Events"
 ---
 -   **NACC- September, 2025- Present**
+<br>
 *Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants* ~ **Current Research**
-
+<br>
 -   **NACC- July, 2025- Present**
 *Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts. *~ **Current Research**
-
+<br>
 -   **June 2nd, 2025**
 
 ![Honored by the PharmaSUG Conference Committee with a Scholarship Award and Certificate of Achievement for my commitment to advancing clinical research and data science.](pharm1.jpg){fig-align="center" width="500px"}
 
 -   **June 1st - 4th, 2025**
-
+<br>
 ![I am pleased to share that I attended the PharmaSUG 2025 Conference not just as an attendee, but as a proud Student Scholarship Recipient. It was an incredible opportunity to engage with experts in Statistical Programming, Clinical Data Science, and Biostatistics.](IMG_0649.jpg){fig-align="center" width="500px"}
 
 
