@@ -1,12 +1,18 @@
 ---
 title: "Update and Events"
 ---
--   **NACC- September, 2025- Present**
+- **Eastern North American Region (ENAR) DataFest Top 4 Finalist (Team GWU) ~ Grande Finale, March 16, 2026- Indianapolis 🥳💻**
 <br>
-*Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants* ~ **Current Research**
+<br>
+- **Presented at 7th Big Data Health Conference, Columbia, SC, Feb 12,2026**
+<br>
+<br>
+*Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants* ~ **In-preogress Research**
+<br>
 <br>
 -   **NACC- July, 2025- Present**
 *Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts. *~ **Current Research**
+<br>
 <br>
 -   **June 2nd, 2025**
 

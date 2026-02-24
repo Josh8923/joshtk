@@ -9,6 +9,8 @@ page-layout: full
 
 My motivation stems from a deep conviction that statistical thinking can transform how we understand disease, deliver treatment, and personalize care. My ultimate focus is the intersection of **Bayesian statistcis, clinical trials, causal inference, survival modeling, precision medicine, Hidden Markov Chains, machine (deep) learning **, where data-driven findings and the power of novel statistical methods can directly inform therapeutic development. My commitment to advancing **evidence-based public health** through rigorous statistical modeling and innovation drives both my academic research and professional ambitions. 
 
+## 2026
+- **ENAR 2026 DataFest Finalist Award Recipient(Team GWU)- March 16, 2026**
 
 ## 2025
 - **Arnold School Dean’s Research Travel Award, Arnold School of Public Health, University of South Carolina (2025)**
