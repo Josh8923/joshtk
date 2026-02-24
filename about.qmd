@@ -9,7 +9,6 @@ page-layout: full
 
 My motivation stems from a deep conviction that statistical thinking can transform how we understand disease, deliver treatment, and personalize care. My ultimate focus is the intersection of **Bayesian statistcis, clinical trials, causal inference, survival modeling, precision medicine, Hidden Markov Chains, machine (deep) learning **, where data-driven findings and the power of novel statistical methods can directly inform therapeutic development. My commitment to advancing **evidence-based public health** through rigorous statistical modeling and innovation drives both my academic research and professional ambitions. 
 
-
 ## 2026
 - **ENAR 2026 DataFest Finalist Award Recipient (Team GWU)- March 16, 2026**
 
@@ -24,7 +23,6 @@ My motivation stems from a deep conviction that statistical thinking can transfo
 
 
 
-
 ## 2024
 - **Gerald Sievers Memorial Scholarship** – *May 2024*. \$2,000 merit-based scholarship awarded to the most outstanding statistics graduate student at Western Michigan University.
 
@@ -34,7 +32,6 @@ My motivation stems from a deep conviction that statistical thinking can transfo
 
 ## 2023
 - **Best Teaching Assistant Award**, University of Ghana – *June 2023*. Honored by the School of Mathematical Sciences for exceptional commitment to undergraduate instruction and mentoring. Selected as top-performing TA out of 20+ departmental TAs
-
 
 
 ## 2022
