@@ -53,7 +53,9 @@ Beyond research and statistics, I enjoy:
 
 ## Experience
 *Incoming  PhD Biostatistics GBDS Intern*~ **Bristol Myers Squibb**
-*ENAR 2026 DataFest Finalist (Team GWU)*
+
+*ENAR 2026 DataFest Finalist (Team GWU)* ~**ENAR-IBS**
+
 *Research Assitant*~ **USC**
 
 - Bayesian methodologies • Hidden Markov Models • Graphical Models • Dynamical time series • Neuroscience • Variable Selection
