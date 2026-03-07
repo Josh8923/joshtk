@@ -5,13 +5,7 @@ author: "Josh T.K"
 
 ## Manuscript Under Review
 
-**1. Modeling of Physical Activity and its association with cogntive status of AD patients using Novel Quantile and Functional Distributions method-NHATS( 2026)---Manuscript preparation**
-<br>
-<br>
-**2. Electrocardiogram Heart Rate Variability Hidden Markov & Funtional Data Analysis- Research (2026)- Present--Manuscript preparation**
-
-
-**[3.Kubuafor, E., Korley, J.T*._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. *Springer Proceedings in Mathematics & Statistics* (In Press.)](https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing)**
+**[1.Kubuafor, E., Korley, J.T*._, et al. (2024). Evaluation of Time Series Forecasting Models for Predicting Lung Cancer Mortality Rates in the United States: A Comparison with Altuhaifa (2023) Study.Proceedings of the Mediterranean Life Sciences Union Annual Meeting (MEDLIFE-24), Istanbul, Turkey, 08-10 December 2024. *Springer Proceedings in Mathematics & Statistics* (In Press.)](https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing)**
 
 
 
@@ -28,15 +22,20 @@ author: "Josh T.K"
 --- 
 
 ## Manuscripts In Preparation
-**[1.Korley, J.T.* (2025). Covariate-Adjusted Treatment Effects for Recurrent Events with Terminal Outcomes]()**
+
+**1. Modeling of Physical Activity and its association with cogntive status of AD patients using Novel Quantile and Functional Distributions method-NHATS( 2026)---Manuscript preparation**
 <br>
-**[2.Korley, J.T.* (2025). Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants](https://drive.google.com/file/d/1fRKbwwGjyfJkRiwMm624xTdY8JAIaEnZ/view?usp=sharing)**
+**2. Electrocardiogram Heart Rate Variability Hidden Markov & Funtional Data Analysis- Research (2026)- Present--Manuscript preparation**
 <br>
-**3.  Korley, J.T.* \& Adu Bonsu, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
+**[3.Korley, J.T.* (2025). Covariate-Adjusted Treatment Effects for Recurrent Events with Terminal Outcomes]()**
+<br>
+**[4.Korley, J.T.* (2025). Timing of First Neuroimaging in Alzheimer’s Disease: A Competing-Risk Analysis of Genetic, Cognitive,\& Demographic Determinants](https://drive.google.com/file/d/1fRKbwwGjyfJkRiwMm624xTdY8JAIaEnZ/view?usp=sharing)**
+<br>
+**5.  Korley, J.T.* \& Adu Bonsu, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
 <br>
 **4.Korley, J.T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application.**
 <br>
-**5.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.**
+**6.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.**
 
 ---
 
