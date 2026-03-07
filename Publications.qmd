@@ -40,9 +40,13 @@ author: "Josh T.K"
 
 ## Conference Proceedings: Poster Presentations
 
+
 **[1.Sukanya B. , Korley, J. T.*, Peng Y., Wang R.(2025). Dose-Finding and Missing Data Analysis in a Simulated Phase II Psoriasis Trial. Statistics In Pharceutical-UCONN 2025.](https://events.stat.uconn.edu/SIP2025/posters2025.html)**
 <br>
 
 **[2. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. Statistics In Pharceutical-UCONN 2025.](https://events.stat.uconn.edu/SIP2025/posters2025.html)**
+<br>
+**[3. Korley, J. T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Causal-Survival Modeling Approach to Risk-Guided Therapy. 2025 Boston Pharmaceutical Symposium, November 8, 2025**
 
+**[4. Korley, J. T.* (2026).Timing of Neuroimaging Acquisition in Alzheimer’s Disease. Competing-risk framework integrating APOE ε4 geno-type, cognition, and demographics to examine determinants of first imaging. 7th Big Data Health Conference, February 12, 2026**
 

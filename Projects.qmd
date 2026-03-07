@@ -13,11 +13,11 @@ title: "Projects"
 **Keywords**: Recurrent events; terminal events; causal inference; covariate adjustment; clinical trials; survival analysis  
 <br><br>
 
-**Foundational work**:  
+<!--**Foundational work**:  
 Sun, J., Ye, T., et al.  
 *Improve the Precision of Area Under Curve Estimation for Recurrent Events Through Covariate Adjustment*  
 <https://arxiv.org/html/2410.24163v3>  
-<br><br>
+<br><br> -->
 
 #### **Objective**
 
