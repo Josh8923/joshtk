@@ -4,12 +4,12 @@ title: "Update and Events"
 - **Eastern North American Region (ENAR) DataFest Top 4 Finalist (Team GWU) ~ Grande Finale, March 16, 2026- Indianapolis 🥳💻**
 <br>
 <br>
--   **A novel modeling of Physical Activity and its association with cogntive status of AD patients using Quantile and Functional Distribution methods-NHATS- Sep, 2025- Present---Manuscript preparation**
+-   **Modeling of Physical Activity and its association with cogntive status of AD patients using Novel Quantile and Functional Distributions method-NHATS- Sep, 2025- Present---Manuscript preparation**
 <br>
 <br>
--   **Electrocardiogram Heart Rate Variability Hidden Markov & Funtional Data Analysis- Research- Sep, 2025- Present--Manuscript preparation**
+- **Electrocardiogram Heart Rate Variability Hidden Markov & Funtional Data Analysis- Research- Sep, 2025- Present--Manuscript preparation**
 <br>
-br>
+<br>
 *Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts. *~ **Current Research**
 <br>
 - **Presented at 7th Big Data Health Conference, Columbia, SC, Feb 12,2026**
