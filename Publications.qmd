@@ -31,6 +31,7 @@ author: "Josh T.K"
 **2. Electrocardiogram Heart Rate Variability Hidden Markov & Funtional Data Analysis- Research (2026)- Present--Manuscript preparation**
 <br>
 <br>
+<br>
 **[3.Korley, J.T.* (2025). Covariate-Adjusted Treatment Effects for Recurrent Events with Terminal Outcomes]()**
 <br>
 <br>
@@ -40,7 +41,9 @@ author: "Josh T.K"
 **5.  Korley, J.T.* \& Adu Bonsu, E. (2025). Bayesian Hierarchical Modeling of Time-to-Dropout in Alzheimer’s Disease Research Cohorts.**
 <br>
 <br>
+<br>
 **4.Korley, J.T.* (2025). Robust Survival Estimation under Interval Censoring: Expectation-Maximization and Bayesian Accelerated Failure Time Assessment via Simulation and Application.**
+<br>
 <br>
 <br>
 **6.Korley, J.T.* (2025). Individualized Treatment Effects in Advanced Prostate Cancer: A Survival Modeling Approach to Risk-Guided Therapy.**
