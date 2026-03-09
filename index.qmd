@@ -37,7 +37,7 @@ about:
 
 ### Current Academic Focus
 
- My research lies at the interface of statistics and science, with a particular focus on the development of **Bayesian, survival, and causal methodologies** for the analysis of **complex dynamical Time series, Precision Medicine, Clinical Trial Design, Neuroscience, and Genomics**. 
+ My research lies at the interface of statistics and science, with a particular focus on the development of **Bayesian, survival, and causal methodologies** for the analysis of **complex dynamical Time series, Precision Medicine, Clinical Trial Design, Neuroscience, and Genomics and Genetics**. 
 
 ### Hobbies & Interests
 
