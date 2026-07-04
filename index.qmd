@@ -37,7 +37,7 @@ about:
 
 ### Current Academic Focus
 
- My research lies at the interface of statistics and science, with a particular focus on the development of **Bayesian, survival, and causal methodologies** for the analysis of **complex dynamical Time series, Precision Medicine, Clinical Trial Design, Neuroscience, and Genomics and Genetics**. 
+ My research lies at the interface of statistics and science, with a particular focus on the development of **Bayesian, survival, and causal methodologies** for the analysis of **complex dynamical Time series, Precision Medicine, Clinical Trial Design, Neuroscience, and Genomics and Alzheimers & Dementia**. 
 
 ### Hobbies & Interests
 
@@ -52,7 +52,8 @@ Beyond research and statistics, I enjoy:
 :::
 
 ## Experience
-*Incoming Biostatistics GBDS Intern- Drug Development | Neuropsychiatry*~ **Bristol Myers Squibb**
+*Junior Scholar Fellow* ~ **South Carolina SmartState Center for Healthcare Quality**
+*PhD Biostatistics Intern- Drug Development | Cardiovascular \& Neuropsychiatry*~ **Bristol Myers Squibb**
 
 *International Biometric Society-ENAR 2026 DataFest Winner (Team GWU)* ~**ENAR-IBS**
 
@@ -64,19 +65,19 @@ Beyond research and statistics, I enjoy:
 
 *Graduate Student Instructor*~ **WMU**
 
-*Ex-Intern, Masters Statistician*~ **Eli Lilly \& Company**
+*Ex-Intern, Masters Statistician- Drug Development | Immunology \& Neuroscience*~ **Eli Lilly \& Company**
 
 *Teaching \& Research Assistant*~ **UG**
 
 ## Education
-*Biostatistics | Aug 2025 – Present* ~ **USC**
+*PhD Biostatistics | Aug 2025 – Present* ~ **USC**
 
 *Non-Degree in Biostatistics | Summer 2025* ~ **UCONN**
 
-*Statistics \& Certificate in Biostatistics| Aug 2023 – April 2025* ~ **WMU**
+*MS Statistics \& Certificate in Biostatistics| Aug 2023 – April 2025* ~ **WMU**
 
 *BSC in Mathematical (Actuarial) Sciences | Aug 2018 – Nov 2022*~ **UG**
 
 ## About Me
 
-Hello! I’m **Josh Korley**, a motivated and research-driven doctoral student in **Biotatistics** at **Arnold School Of Public Health, USC** with a strong foundation in statistics, data and actuarial sciences.
+Hello! I’m **Josh Korley**, a motivated and research-driven doctoral student in **Biotatistics** at **Arnold School Of Public Health, USC** with a strong foundation in statistics, Mathemtical and actuarial sciences.
