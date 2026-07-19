@@ -1,5 +1,5 @@
 ---
-title: "Teaching and Training"
+title: "Teaching"
 subtitle: "Courses I Taught And Assisted with."
 title-block-banner: false
 ---
