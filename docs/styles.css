@@ -321,9 +321,9 @@ img { max-width: 100%; }
 .ring-one { width: 440px; height: 440px; }
 .ring-two { width: 500px; height: 500px; border-style: dashed !important; animation: slow-spin 42s linear infinite; }
 .ring-three { width: 560px; height: 560px; opacity: 0.45; }
-.portrait-frame { position: relative; width: min(400px, 74vw); aspect-ratio: 0.92; overflow: hidden; border: 1px solid var(--line-strong); border-radius: 45% 45% 28% 28%; background: var(--surface); box-shadow: var(--shadow); }
+.portrait-frame { position: relative; width: min(400px, 74vw); aspect-ratio: 1; overflow: hidden; border: 1px solid var(--line-strong); border-radius: 50%; background: var(--surface); box-shadow: var(--shadow); }
 .portrait-frame::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 56%, rgba(7, 16, 36, 0.42)); pointer-events: none; }
-.portrait-frame img { width: 100%; height: 100%; object-fit: cover; }
+.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 38%; }
 .floating-note { position: absolute; min-width: 170px; padding: 0.78rem 0.92rem; border: 1px solid var(--line-strong); border-radius: 14px; background: color-mix(in srgb, var(--bg-soft) 86%, transparent); box-shadow: var(--shadow); backdrop-filter: blur(16px); animation: float-card 6s ease-in-out infinite; }
 .floating-note small { display: block; margin-bottom: 0.35rem; color: var(--muted); font-family: "JetBrains Mono", monospace; font-size: 0.68rem; text-transform: uppercase; }
 .floating-note strong, .floating-note a { color: var(--text); font-size: 0.92rem; line-height: 1.5; text-decoration: none; }
@@ -700,8 +700,9 @@ img { max-width: 100%; }
  */
 @media (min-width: 1200px) {
   .home-profile-layout {
-    --profile-rail-width: clamp(360px, 29vw, 440px);
-    --profile-rail-gap: clamp(2rem, 4vw, 4.5rem);
+    --profile-rail-width: clamp(350px, 26vw, 420px);
+    --profile-content-gap: clamp(3rem, 4vw, 5rem);
+    --profile-content-edge: clamp(2rem, 3vw, 4rem);
   }
 
   .home-profile-layout #quarto-document-content,
@@ -717,13 +718,15 @@ img { max-width: 100%; }
 
   .home-profile-layout .hero-shell {
     display: block;
-    width: min(
-      calc(100% - var(--profile-rail-gap) - 3rem),
-      1120px
-    );
+    width: auto;
+    max-width: 1280px;
     min-height: calc(100vh - 74px);
-    margin: 0 auto;
-    padding: clamp(5rem, 10vh, 8rem) 0 6rem;
+    margin: 0;
+    padding:
+      clamp(5rem, 10vh, 8rem)
+      var(--profile-content-edge)
+      6rem
+      var(--profile-content-gap);
   }
 
   .home-profile-layout .hero-copy {
@@ -756,6 +759,13 @@ img { max-width: 100%; }
 
   .home-profile-layout .portrait-frame {
     width: min(310px, calc(var(--profile-rail-width) - 4rem));
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .home-profile-layout .portrait-frame img {
+    object-fit: cover;
+    object-position: 50% 38%;
   }
 
   .home-profile-layout .portrait-rings {
@@ -812,10 +822,10 @@ img { max-width: 100%; }
 
   .home-profile-layout .content-shell,
   .home-profile-layout .contact-band {
-    width: min(
-      calc(100% - var(--profile-rail-gap) - 3rem),
-      1120px
-    );
+    width: auto;
+    max-width: 1280px;
+    margin-right: var(--profile-content-edge);
+    margin-left: var(--profile-content-gap);
   }
 }
 
