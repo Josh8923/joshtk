@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Daily physical activity distribution visual</title>
+  <desc id="desc">A 24-hour activity profile with varying intensity distributions and cognitive-aging research markers.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071024"/><stop offset="1" stop-color="#16284a"/></linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4cc9f0" stop-opacity=".55"/><stop offset="1" stop-color="#4cc9f0" stop-opacity=".02"/></linearGradient>
+    <pattern id="grid3" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#94d2bd" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1200" height="720" rx="42" fill="url(#bg3)"/>
+  <rect width="1200" height="720" rx="42" fill="url(#grid3)"/>
+  <g font-family="Arial, sans-serif">
+    <text x="70" y="90" fill="#f4f7fb" font-size="30" font-weight="700">DAILY ACTIVITY DISTRIBUTIONS</text>
+    <text x="70" y="128" fill="#8291a8" font-size="16" letter-spacing="3">WEARABLE DATA  •  COGNITIVE AGING</text>
+  </g>
+  <g transform="translate(70 205)">
+    <path d="M0 390H1060M0 260H1060M0 130H1060M0 0H1060" stroke="#94d2bd" stroke-opacity=".16"/>
+    <path d="M0 360C70 350 110 343 165 330S250 252 315 267 400 176 470 195 548 80 620 128 720 35 800 78 875 162 930 133 1015 212 1060 240V390H0Z" fill="url(#area)"/>
+    <path d="M0 360C70 350 110 343 165 330S250 252 315 267 400 176 470 195 548 80 620 128 720 35 800 78 875 162 930 133 1015 212 1060 240" fill="none" stroke="#4cc9f0" stroke-width="7" stroke-linecap="round"/>
+    <path d="M0 372C120 365 200 339 300 327S480 286 585 280 730 220 850 232 990 282 1060 300" fill="none" stroke="#94d2bd" stroke-width="4" stroke-dasharray="12 10"/>
+    <g fill="#ff6b6b"><circle cx="315" cy="267" r="8"/><circle cx="620" cy="128" r="8"/><circle cx="930" cy="133" r="8"/></g>
+    <g fill="#8291a8" font-family="Arial, sans-serif" font-size="16" text-anchor="middle"><text x="0" y="430">00:00</text><text x="265" y="430">06:00</text><text x="530" y="430">12:00</text><text x="795" y="430">18:00</text><text x="1060" y="430">24:00</text></g>
+  </g>
+</svg>

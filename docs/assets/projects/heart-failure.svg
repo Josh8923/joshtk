@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Heart failure statistical analysis visual</title>
+  <desc id="desc">A stylized electrocardiogram signal, survival curves, and statistical nodes on a dark scientific dashboard.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071024"/><stop offset="1" stop-color="#152b4d"/></linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#94d2bd"/><stop offset="1" stop-color="#4cc9f0"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#4cc9f0" stop-opacity=".22"/><stop offset="1" stop-color="#4cc9f0" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" fill="none" stroke="#94d2bd" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1200" height="720" rx="42" fill="url(#bg)"/>
+  <rect width="1200" height="720" rx="42" fill="url(#grid)"/>
+  <circle cx="925" cy="340" r="330" fill="url(#glow)"/>
+  <g font-family="Arial, sans-serif" fill="#f4f7fb">
+    <text x="70" y="90" font-size="28" font-weight="700">CARDIOVASCULAR OUTCOMES</text>
+    <text x="70" y="126" font-size="16" fill="#8291a8" letter-spacing="3">SURVIVAL  •  PREDICTION  •  MEDIATION</text>
+  </g>
+  <path d="M70 272H220l28-48 34 111 48-218 49 277 38-122h118l35-62 45 145 35-83h500" fill="none" stroke="url(#pulse)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(70 445)">
+    <path d="M0 0H1060" stroke="#94d2bd" stroke-opacity=".2"/>
+    <path d="M0 72H1060" stroke="#94d2bd" stroke-opacity=".12"/>
+    <path d="M0 144H1060" stroke="#94d2bd" stroke-opacity=".12"/>
+    <path d="M0 2C150 6 200 34 330 43S570 72 690 102 900 136 1060 150" fill="none" stroke="#4cc9f0" stroke-width="5"/>
+    <path d="M0 2C170 8 245 56 380 73S640 117 1060 164" fill="none" stroke="#ff6b6b" stroke-width="4" stroke-opacity=".9"/>
+    <g fill="#4cc9f0"><circle cx="200" cy="32" r="7"/><circle cx="570" cy="78" r="7"/><circle cx="900" cy="133" r="7"/></g>
+    <g fill="#ff6b6b"><circle cx="245" cy="56" r="6"/><circle cx="640" cy="117" r="6"/><circle cx="920" cy="151" r="6"/></g>
+  </g>
+</svg>

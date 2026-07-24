@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Circadian ECG modeling visual</title>
+  <desc id="desc">A circular 24-hour clock, electrocardiogram signal, and connected latent-state nodes.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071024"/><stop offset="1" stop-color="#102545"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4cc9f0"/><stop offset="1" stop-color="#94d2bd"/></linearGradient>
+    <pattern id="grid2" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#4cc9f0" stroke-opacity=".065"/></pattern>
+  </defs>
+  <rect width="1200" height="720" rx="42" fill="url(#bg2)"/>
+  <rect width="1200" height="720" rx="42" fill="url(#grid2)"/>
+  <g transform="translate(355 370)">
+    <circle r="228" fill="#0b1730" stroke="url(#ring)" stroke-width="8"/>
+    <circle r="174" fill="none" stroke="#94d2bd" stroke-opacity=".18" stroke-width="2" stroke-dasharray="8 12"/>
+    <g stroke="#8291a8" stroke-width="3">
+      <path d="M0-228v22"/><path d="M228 0h-22"/><path d="M0 228v-22"/><path d="M-228 0h22"/>
+    </g>
+    <g fill="#f4f7fb" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><text y="-252">00</text><text x="254" y="7">06</text><text y="276">12</text><text x="-254" y="7">18</text></g>
+    <path d="M-165 10h72l20-43 31 103 44-205 40 246 34-101h87" fill="none" stroke="#4cc9f0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle r="68" fill="#111f3b" stroke="#94d2bd" stroke-width="2"/>
+    <text y="-4" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">24 HOUR</text>
+    <text y="27" fill="#8291a8" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">ECG</text>
+  </g>
+  <g transform="translate(740 185)" font-family="Arial, sans-serif">
+    <text fill="#f4f7fb" font-size="28" font-weight="700">LATENT CIRCADIAN STATES</text>
+    <text y="38" fill="#8291a8" font-size="16" letter-spacing="2">TRANSITIONS THROUGH TIME</text>
+    <path d="M75 150H275M315 150h165M275 190L95 300M315 190l150 110M120 320h310" fill="none" stroke="#94d2bd" stroke-opacity=".35" stroke-width="3" stroke-dasharray="8 10"/>
+    <g font-size="17" font-weight="700" text-anchor="middle">
+      <g><circle cx="55" cy="150" r="50" fill="#122d4d" stroke="#4cc9f0" stroke-width="3"/><text x="55" y="156" fill="#f4f7fb">S1</text></g>
+      <g><circle cx="295" cy="150" r="50" fill="#122d4d" stroke="#94d2bd" stroke-width="3"/><text x="295" y="156" fill="#f4f7fb">S2</text></g>
+      <g><circle cx="500" cy="150" r="50" fill="#122d4d" stroke="#ff6b6b" stroke-width="3"/><text x="500" y="156" fill="#f4f7fb">S3</text></g>
+      <g><circle cx="95" cy="330" r="50" fill="#122d4d" stroke="#94d2bd" stroke-width="3"/><text x="95" y="336" fill="#f4f7fb">S4</text></g>
+      <g><circle cx="465" cy="330" r="50" fill="#122d4d" stroke="#4cc9f0" stroke-width="3"/><text x="465" y="336" fill="#f4f7fb">S5</text></g>
+    </g>
+  </g>
+</svg>
