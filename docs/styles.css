@@ -806,6 +806,7 @@ img { max-width: 100%; }
     width: min(330px, calc(var(--profile-rail-width) - 3rem));
     aspect-ratio: 1;
     border-radius: 50%;
+    transform: translateY(-6rem);
   }
 
   .home-profile-layout .portrait-frame img {
@@ -814,7 +815,7 @@ img { max-width: 100%; }
   }
 
   .home-profile-layout .portrait-rings {
-    top: 43%;
+    top: calc(43% - 6rem);
   }
 
   .home-profile-layout .ring-one {
