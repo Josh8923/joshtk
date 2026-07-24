@@ -691,6 +691,134 @@ img { max-width: 100%; }
   color: #a6ce39;
 }
 
+/*
+ * Homepage desktop profile rail
+ *
+ * Keep the original portrait composition stationary on wide screens while
+ * the document remains one normal scrolling page. The layout returns to the
+ * original stacked hero before the content would become cramped.
+ */
+@media (min-width: 1200px) {
+  .home-profile-layout {
+    --profile-rail-width: clamp(360px, 29vw, 440px);
+    --profile-rail-gap: clamp(2rem, 4vw, 4.5rem);
+  }
+
+  .home-profile-layout #quarto-document-content,
+  .home-profile-layout .footer {
+    width: calc(100% - var(--profile-rail-width));
+    margin-left: var(--profile-rail-width);
+  }
+
+  .home-profile-layout .hero-section {
+    min-height: calc(100vh - 74px);
+    overflow: visible;
+  }
+
+  .home-profile-layout .hero-shell {
+    display: block;
+    width: min(
+      calc(100% - var(--profile-rail-gap) - 3rem),
+      1120px
+    );
+    min-height: calc(100vh - 74px);
+    margin: 0 auto;
+    padding: clamp(5rem, 10vh, 8rem) 0 6rem;
+  }
+
+  .home-profile-layout .hero-copy {
+    width: 100%;
+  }
+
+  .home-profile-layout .hero-copy h1 {
+    max-width: 1020px;
+    font-size: clamp(4rem, 6.1vw, 7rem);
+  }
+
+  .home-profile-layout .portrait-stage {
+    position: fixed;
+    z-index: 20;
+    top: 74px;
+    left: 0;
+    width: var(--profile-rail-width);
+    height: calc(100vh - 74px);
+    min-height: 0;
+    padding: clamp(1.5rem, 4vh, 3rem) clamp(1.25rem, 2.4vw, 2.5rem);
+    background:
+      radial-gradient(
+        circle at 50% 34%,
+        color-mix(in srgb, var(--aqua) 11%, transparent),
+        transparent 56%
+      ),
+      var(--bg);
+    border-right: 1px solid var(--line);
+  }
+
+  .home-profile-layout .portrait-frame {
+    width: min(310px, calc(var(--profile-rail-width) - 4rem));
+  }
+
+  .home-profile-layout .portrait-rings {
+    top: 43%;
+  }
+
+  .home-profile-layout .ring-one {
+    width: min(330px, calc(var(--profile-rail-width) - 2.5rem));
+    height: min(330px, calc(var(--profile-rail-width) - 2.5rem));
+  }
+
+  .home-profile-layout .ring-two {
+    width: min(370px, calc(var(--profile-rail-width) - 1.5rem));
+    height: min(370px, calc(var(--profile-rail-width) - 1.5rem));
+  }
+
+  .home-profile-layout .ring-three {
+    width: min(410px, calc(var(--profile-rail-width) - 0.5rem));
+    height: min(410px, calc(var(--profile-rail-width) - 0.5rem));
+  }
+
+  .home-profile-layout .floating-note {
+    min-width: 0;
+    max-width: 230px;
+  }
+
+  .home-profile-layout .note-one {
+    top: 8%;
+    left: 1rem;
+  }
+
+  .home-profile-layout .note-two {
+    top: 3%;
+    right: 1rem;
+  }
+
+  .home-profile-layout .portrait-identity {
+    bottom: clamp(1.1rem, 3vh, 2.2rem);
+    width: calc(100% - 2rem);
+  }
+
+  .home-profile-layout .portrait-profiles {
+    gap: 0.45rem;
+  }
+
+  .home-profile-layout .portrait-profiles a {
+    padding: 0.48rem 0.66rem;
+    font-size: 0.7rem;
+  }
+
+  .home-profile-layout .portrait-profiles i {
+    font-size: 1.15rem;
+  }
+
+  .home-profile-layout .content-shell,
+  .home-profile-layout .contact-band {
+    width: min(
+      calc(100% - var(--profile-rail-gap) - 3rem),
+      1120px
+    );
+  }
+}
+
 .circle-intro {
   display: grid;
   grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
