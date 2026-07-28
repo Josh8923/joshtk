@@ -745,7 +745,7 @@ img { max-width: 100%; }
  */
 @media (min-width: 1200px) {
   .home-profile-layout {
-    --profile-rail-width: clamp(350px, 26vw, 420px);
+    --profile-rail-width: clamp(380px, 28vw, 460px);
     --profile-content-gap: clamp(3rem, 4vw, 5rem);
     --profile-content-edge: clamp(2rem, 3vw, 4rem);
   }
@@ -803,7 +803,7 @@ img { max-width: 100%; }
   }
 
   .home-profile-layout .portrait-frame {
-    width: min(330px, calc(var(--profile-rail-width) - 3rem));
+    width: min(380px, calc(var(--profile-rail-width) - 2rem));
     aspect-ratio: 1;
     border-radius: 50%;
     transform: translateY(-6rem);
@@ -819,18 +819,18 @@ img { max-width: 100%; }
   }
 
   .home-profile-layout .ring-one {
-    width: min(330px, calc(var(--profile-rail-width) - 2.5rem));
-    height: min(330px, calc(var(--profile-rail-width) - 2.5rem));
+    width: min(380px, calc(var(--profile-rail-width) - 1.75rem));
+    height: min(380px, calc(var(--profile-rail-width) - 1.75rem));
   }
 
   .home-profile-layout .ring-two {
-    width: min(370px, calc(var(--profile-rail-width) - 1.5rem));
-    height: min(370px, calc(var(--profile-rail-width) - 1.5rem));
+    width: min(420px, calc(var(--profile-rail-width) - 0.9rem));
+    height: min(420px, calc(var(--profile-rail-width) - 0.9rem));
   }
 
   .home-profile-layout .ring-three {
-    width: min(410px, calc(var(--profile-rail-width) - 0.5rem));
-    height: min(410px, calc(var(--profile-rail-width) - 0.5rem));
+    width: min(455px, calc(var(--profile-rail-width) - 0.25rem));
+    height: min(455px, calc(var(--profile-rail-width) - 0.25rem));
   }
 
   .home-profile-layout .floating-note {
