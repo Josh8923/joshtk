@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Survivor and care-partner dyadic health research illustration</title>
+  <desc id="desc">Two connected figures with a shared health signal representing dyadic health research.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b34"/>
+      <stop offset="1" stop-color="#17413e"/>
+    </linearGradient>
+    <linearGradient id="link" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fb8ff"/>
+      <stop offset="1" stop-color="#58e2d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="350" cy="240" r="92" stroke="#8fb8ff" stroke-width="22"/>
+    <path d="M170 602c23-162 90-246 180-246s157 84 180 246" stroke="#8fb8ff" stroke-width="22"/>
+    <circle cx="850" cy="240" r="92" stroke="#58e2d1" stroke-width="22"/>
+    <path d="M670 602c23-162 90-246 180-246s157 84 180 246" stroke="#58e2d1" stroke-width="22"/>
+    <path d="M443 278h79l44-89 71 204 49-115h71" stroke="url(#link)" stroke-width="18"/>
+    <path d="M470 570c83 57 177 57 260 0" stroke="#d8fff8" stroke-width="10" opacity=".72"/>
+  </g>
+  <circle cx="600" cy="496" r="20" fill="#d8fff8"/>
+</svg>
