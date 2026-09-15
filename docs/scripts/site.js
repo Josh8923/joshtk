@@ -30,31 +30,6 @@
     setTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
   }
 
-  function installResearchFilters() {
-    var buttons = Array.from(document.querySelectorAll("[data-research-filter]"));
-    var cards = Array.from(document.querySelectorAll("[data-research-category]"));
-    if (!buttons.length || !cards.length) return;
-
-    buttons.forEach(function (button) {
-      button.addEventListener("click", function () {
-        var category = button.dataset.researchFilter;
-        buttons.forEach(function (item) {
-          var active = item === button;
-          item.classList.toggle("is-active", active);
-          item.setAttribute("aria-pressed", active ? "true" : "false");
-        });
-        cards.forEach(function (card) {
-          var categories = card.dataset.researchCategory.split(/\s+/);
-          var show = category === "all" || categories.includes(category);
-          card.hidden = !show;
-        });
-        var count = cards.filter(function (card) { return !card.hidden; }).length;
-        var result = document.querySelector("#research-result-count");
-        if (result) result.textContent = count + (count === 1 ? " project" : " projects");
-      });
-    });
-  }
-
   function installPublicationFilters() {
     var buttons = Array.from(document.querySelectorAll("[data-publication-filter]"));
     var entries = Array.from(document.querySelectorAll("[data-publication-status]"));
@@ -121,7 +96,6 @@
 
   function initializeSite() {
     installThemeToggle();
-    installResearchFilters();
     installPublicationFilters();
     installRevealMotion();
     updateYear();

@@ -204,109 +204,142 @@ ul.task-list li input[type="checkbox"] {
 <header class="page-hero">
   <div class="page-shell">
     <p class="eyebrow">Project portfolio</p>
-    <h1>Research projects across methods and applications.</h1>
-    <p class="page-lede">I develop and apply methods for clinical trials, digital biomarkers, survival and aging outcomes, causal inference, and longitudinal biomedical data. The work connects rigorous statistical questions with evidence from wearable sensors, imaging, clinical studies, and population health.</p>
+    <h1>A focused research program, organized by purpose.</h1>
+    <p class="page-lede">My work develops statistical methods for complex temporal, longitudinal, and time-to-event biomedical data. Each project below has one primary home so the portfolio is easy to follow, while the tags show the supporting methods without duplicating the work.</p>
   </div>
 </header>
 
 <section class="page-section">
   <div class="page-shell">
     <div class="section-heading-row research-program-heading reveal">
-      <h2 class="anchored">A connected methods program</h2>
-      <span class="text-link">Design · measurement · outcomes · decisions</span>
+      <h2 class="anchored">Four connected research themes</h2>
+      <span class="text-link">Design · measurement · states · outcomes</span>
     </div>
     <div class="method-grid reveal">
-      <article><span>01</span><h3 class="anchored">Adaptive clinical trials</h3><p>Bayesian and frequentist approaches for learning during a trial, revising design features, assessing subgroups, and supporting continuation, modification, or stopping decisions while preserving valid inference.</p></article>
-      <article><span>02</span><h3 class="anchored">Digital and imaging biomarkers</h3><p>Functional and longitudinal methods for wearable activity, heart-rate, sleep-wake, circadian, MRI, and PET data that retain timing, rhythm, intensity, variability, and distributional structure.</p></article>
-      <article><span>03</span><h3 class="anchored">Survival and aging outcomes</h3><p>Methods for competing risks, recurrent events, interval censoring, and informative observation processes in studies of aging, neuroimaging, hospitalization, functional change, and mortality.</p></article>
-      <article><span>04</span><h3 class="anchored">Causal and precision methods</h3><p>Estimand-centered analyses of treatment effects, treatment heterogeneity, mediation, and risk-guided care across drug development, neuroscience, oncology, and other biomedical applications.</p></article>
+      <article><span>01</span><h3 class="anchored">Adaptive clinical trials</h3><p>Bayesian and frequentist designs for interim learning, sample-size re-estimation, enrichment, estimands, and decisions to continue, modify, or stop a trial.</p></article>
+      <article><span>02</span><h3 class="anchored">Functional and distributional data</h3><p>Methods for wearable-derived digital biomarkers that preserve daily timing, rhythm, intensity, variability, and distributional shape.</p></article>
+      <article><span>03</span><h3 class="anchored">Bayesian latent-state and survival methods</h3><p>Hidden and semi-Markov models, competing risks, recurrent events, interval censoring, and informative observation processes for temporal and time-to-event data.</p></article>
+      <article><span>04</span><h3 class="anchored">Neurostatistics and Alzheimer’s disease</h3><p>Statistical methods for neuroimaging, cognition, disease progression, genomics, and heterogeneity in aging and Alzheimer’s disease research.</p></article>
     </div>
 
-    <div class="filter-row" aria-label="Filter research by category">
-      <button class="filter-chip is-active" type="button" data-research-filter="all" aria-pressed="true">All</button>
-      <button class="filter-chip" type="button" data-research-filter="methodology" aria-pressed="false">Statistical methodology</button>
-      <button class="filter-chip" type="button" data-research-filter="neuroscience" aria-pressed="false">Neuroscience</button>
-      <button class="filter-chip" type="button" data-research-filter="bayesian" aria-pressed="false">Bayesian modeling</button>
-      <button class="filter-chip" type="button" data-research-filter="survival" aria-pressed="false">Survival analysis</button>
-      <button class="filter-chip" type="button" data-research-filter="causal" aria-pressed="false">Causal inference</button>
-      <button class="filter-chip" type="button" data-research-filter="trials" aria-pressed="false">Clinical trials</button>
-      <button class="filter-chip" type="button" data-research-filter="biomarkers" aria-pressed="false">Digital biomarkers</button>
-      <button class="filter-chip" type="button" data-research-filter="applied" aria-pressed="false">Applied biostatistics</button>
-      <button class="filter-chip" type="button" data-research-filter="longitudinal" aria-pressed="false">Longitudinal analysis</button>
-    </div>
-    <p class="results-count" id="research-result-count" aria-live="polite">14 projects</p>
+    <nav class="project-jump reveal" aria-label="Jump to a project group">
+      <a href="#methods">Methodological development</a>
+      <a href="#neuro-digital">Neurostatistics and digital biomarkers</a>
+      <a href="#current-programs">Current research programs</a>
+      <a href="#earlier-work">Earlier clinical and population research</a>
+    </nav>
 
-    <div class="project-grid project-grid-full">
-      <article class="project-card reveal" data-research-category="methodology survival causal trials">
-        <div class="project-image"><img src="assets/projects/recurrent-events.png" alt=""><span>Statistical methodology</span></div>
-        <div class="project-body"><p class="card-meta">Independent methodological research · 2025 to present</p><h2 class="anchored">Orthogonal Estimation of Recurrent Event Treatment Effects with Terminal Events</h2><p>An estimand-driven framework for recurrent clinical outcomes when death or another terminal event changes how long recurrent events can be observed.</p><details><summary>Methods and scope</summary><p>Survival-standardized estimands, influence-function-based inference, covariate adjustment, analytic variance estimation, and simulation under covariate-adaptive randomization.</p></details><div class="tag-row"><span>Recurrent events</span><span>Causal inference</span><span>Clinical trials</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link" target="_blank" rel="noreferrer">View project ↗</a><a href="https://arxiv.org/html/2410.24163v3" target="_blank" rel="noreferrer">Related foundational work ↗</a></div></div>
-      </article>
+    <section class="project-group" id="methods">
+      <div class="project-group-heading reveal">
+        <div><p class="eyebrow">01 · Methodological development</p><h2 class="anchored">Methods for trials, events, and changing states</h2></div>
+        <p>Primary methodological projects focused on valid decisions, interpretable effects, and complex observation processes.</p>
+      </div>
+      <div class="project-grid project-grid-full">
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/adaptive-trials.svg" alt=""><span>Adaptive clinical trials</span></div>
+          <div class="project-body"><p class="card-meta">Bristol Myers Squibb · May to August 2026</p><h2 class="anchored">Adaptive Clinical-Trial Design and Sample-Size Re-estimation</h2><p>A simulation-based comparison of fixed and adaptive design strategies for making efficient, statistically valid decisions during clinical development.</p><details><summary>Methods and scope</summary><p>Fixed designs, group sequential monitoring, sample-size re-estimation, hybrid strategies, adaptive enrichment, Type I error, power, expected enrollment, bias, and robustness to design assumptions.</p></details><div class="tag-row"><span>Adaptive trials</span><span>Simulation</span><span>Drug development</span></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="neuroscience survival bayesian">
-        <div class="project-image"><img src="assets/projects/neuroimaging.png" alt=""><span>Neuroscience</span></div>
-        <div class="project-body"><p class="card-meta">National Alzheimer’s Coordinating Center data · 2025 to present</p><h2 class="anchored">Timing of First Neuroimaging in Alzheimer’s Disease</h2><p>A competing-risk investigation of when participants receive their first MRI or PET scan, with death before imaging treated as a competing event.</p><details><summary>Methods and scope</summary><p>Cause-specific accelerated failure time models, Cox models with time-varying effects, cumulative incidence profiles, subgroup trajectories, and hierarchical extensions.</p></details><div class="tag-row"><span>Alzheimer’s disease</span><span>Neuroimaging</span><span>Competing risks</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1fRKbwwGjyfJkRiwMm624xTdY8JAIaEnZ/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://rxdow6-josh-korley.shinyapps.io/shinny_app/" target="_blank" rel="noreferrer">ADMRI-Timing tool ↗</a><a href="https://drive.google.com/file/d/1_JqnlBQhP_CJpEvWiwIIXeMrkwe__jv5/view?usp=sharing" target="_blank" rel="noreferrer">Presentation slides ↗</a></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/recurrent-events.png" alt=""><span>Recurrent-event methodology</span></div>
+          <div class="project-body"><p class="card-meta">Independent methodological research · 2025 to present</p><h2 class="anchored">Orthogonal Estimation of Recurrent Event Treatment Effects with Terminal Events</h2><p>An estimand-driven framework for recurrent clinical outcomes when death or another terminal event changes how long recurrent events can be observed.</p><details><summary>Methods and scope</summary><p>Survival-standardized estimands, influence-function-based inference, covariate adjustment, analytic variance estimation, and simulation under covariate-adaptive randomization.</p></details><div class="tag-row"><span>Recurrent events</span><span>Causal inference</span><span>Clinical trials</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1aC86ZGDGAsAY_9rqKewwN1mkN_UC_NDX/view?usp=drive_link" target="_blank" rel="noreferrer">View project ↗</a><a href="https://arxiv.org/html/2410.24163v3" target="_blank" rel="noreferrer">Related foundational work ↗</a></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="neuroscience biomarkers longitudinal applied">
-        <div class="project-image"><img src="assets/projects/physical-activity.svg" alt=""><span>Neuroscience</span></div>
-        <div class="project-body"><p class="card-meta">USC · 2025 to present</p><h2 class="anchored">Wearable Activity Patterns and Cognitive Impairment</h2><p>Research on how the timing, intensity, variability, and distributional shape of daily physical activity relate to cognitive impairment among older adults in the NHATS cohort.</p><details><summary>Methods and scope</summary><p>Functional data analysis, local distributional summaries, covariate-adjusted modeling, sensitivity analysis, and processing of wearable-derived digital biomarkers beyond total activity counts.</p></details><div class="tag-row"><span>Cognitive aging</span><span>Digital biomarkers</span><span>Functional data</span></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/interval-censoring.png" alt=""><span>Survival methodology</span></div>
+          <div class="project-body"><p class="card-meta">USC · 2025</p><h2 class="anchored">Robust Survival Estimation under Interval Censoring</h2><p>A simulation and applied assessment of distribution-free, parametric, and Bayesian approaches to survival estimation under interval censoring.</p><details><summary>Methods and scope</summary><p>Turnbull nonparametric maximum likelihood estimation, expectation-maximization, Weibull accelerated failure time models, Bayesian accelerated failure time models, integrated squared error, and Brier scores.</p></details><div class="tag-row"><span>Interval censoring</span><span>Bayesian survival</span><span>Simulation</span></div><div class="card-links"><a href="https://arxiv.org/html/2509.02634v1" target="_blank" rel="noreferrer">Read preprint ↗</a></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="bayesian biomarkers longitudinal applied survival">
-        <div class="project-image"><img src="assets/projects/ecg.svg" alt=""><span>Bayesian modeling</span></div>
-        <div class="project-body"><p class="card-meta">Collaboration with the University of Warwick · 2025 to present</p><h2 class="anchored">Circadian Modeling of 24-Hour ECG Signals</h2><p>Subject-specific modeling of circadian rhythm disruption and cardiac risk using 24-hour ECG recordings from the MUSIC cohort.</p><details><summary>Methods and scope</summary><p>Bayesian hidden Markov models, semi-Markov models, transition-probability summaries, latent-state features, and survival outcomes.</p></details><div class="tag-row"><span>Hidden Markov models</span><span>ECG</span><span>Circadian rhythms</span></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/virus-states.svg" alt=""><span>Bayesian latent-state modeling</span></div>
+          <div class="project-body"><p class="card-meta">USC · Manuscript in preparation</p><h2 class="anchored">Covariate-Dependent Hidden Markov Modeling of Virus Activity Dynamics</h2><p>A flexible latent-state framework for characterizing changes in virus activity using mosquito abundance and social media signals.</p><details><summary>Methods and scope</summary><p>Covariate-dependent transition probabilities, hidden-state inference, temporal dynamics, mosquito abundance, and auxiliary population signals.</p></details><div class="tag-row"><span>Hidden Markov models</span><span>Bayesian modeling</span><span>Temporal data</span></div></div>
+        </article>
+      </div>
+    </section>
 
-      <article class="project-card reveal" data-research-category="neuroscience biomarkers bayesian longitudinal applied">
-        <div class="project-image"><img src="assets/projects/physical-activity.svg" alt=""><span>Digital biomarkers</span></div>
-        <div class="project-body"><p class="card-meta">ASPIRE-funded research · USC · Starting August 2026</p><h2 class="anchored">Fitbit-Derived Circadian Digital Phenotypes in cardiology, Alzheimer’s Disease and Related Dementias</h2><p>Research on wearable-derived activity, heart-rate, sleep-wake, and circadian signals as digital phenotypes of cognitive and functional change in aging and related dementias.</p><details><summary>Methods and scope</summary><p>Functional and longitudinal data analysis, circadian feature extraction, Bayesian hidden and semi-Markov models, and association of temporal patterns with cognition and Alzheimer’s disease and related dementia outcomes.</p></details><div class="tag-row"><span>ASPIRE</span><span>Wearable data</span><span>Circadian rhythms</span><span>ADRD</span></div></div>
-      </article>
+    <section class="project-group" id="neuro-digital">
+      <div class="project-group-heading reveal">
+        <div><p class="eyebrow">02 · Neurostatistics and digital biomarkers</p><h2 class="anchored">Signals of brain, behavior, and aging</h2></div>
+        <p>Projects that preserve timing and heterogeneity in neuroimaging, wearable, circadian, and cognitive-aging data.</p>
+      </div>
+      <div class="project-grid project-grid-full">
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/neuroimaging.png" alt=""><span>Neuroimaging and aging</span></div>
+          <div class="project-body"><p class="card-meta">National Alzheimer’s Coordinating Center data · 2025 to present</p><h2 class="anchored">Timing of First Neuroimaging in Alzheimer’s Disease</h2><p>A competing-risk investigation of when participants receive their first magnetic resonance imaging or positron emission tomography scan, with death before imaging treated as a competing event.</p><details><summary>Methods and scope</summary><p>Cause-specific accelerated failure time models, Cox models with time-varying effects, cumulative incidence profiles, subgroup trajectories, and hierarchical extensions.</p></details><div class="tag-row"><span>Alzheimer’s disease</span><span>Neuroimaging</span><span>Competing risks</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1fRKbwwGjyfJkRiwMm624xTdY8JAIaEnZ/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://rxdow6-josh-korley.shinyapps.io/shinny_app/" target="_blank" rel="noreferrer">ADMRI-Timing tool ↗</a><a href="https://drive.google.com/file/d/1_JqnlBQhP_CJpEvWiwIIXeMrkwe__jv5/view?usp=sharing" target="_blank" rel="noreferrer">Presentation slides ↗</a></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="neuroscience applied">
-        <div class="project-image"><img src="assets/projects/all-of-us-genomics.svg" alt=""><span>Genomics and neuroscience</span></div>
-        <div class="project-body"><p class="card-meta">CHQ Junior Scholar research · August 2026 to May 2027</p><h2 class="anchored">All of Us Genomics in Alzheimer’s Disease and Neurocognitive Health</h2><p>Developing a focused research question and analysis plan for genomic factors related to Alzheimer’s disease and neurocognitive outcomes using National Institutes of Health All of Us Research Program data.</p><details><summary>Research context</summary><p>Junior Scholar research at the South Carolina SmartState Center for Healthcare Quality under the mentorship of Kesheng Wang, PhD, and Xueying Yang, PhD.</p></details><div class="tag-row"><span>All of Us</span><span>Genomics</span><span>Alzheimer’s disease</span><span>Neurocognitive health</span></div><div class="card-links"><a href="https://chq.sc.edu/junior-scholar-program/" target="_blank" rel="noreferrer">CHQ Junior Scholar Program ↗</a><a href="https://allofus.nih.gov/" target="_blank" rel="noreferrer">All of Us Research Program ↗</a></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/physical-activity.svg" alt=""><span>Functional and distributional data</span></div>
+          <div class="project-body"><p class="card-meta">USC · 2025 to present</p><h2 class="anchored">Wearable Activity Patterns and Cognitive Impairment</h2><p>Research on how the timing, intensity, variability, and distributional shape of daily physical activity relate to cognitive impairment among older adults in the National Health and Aging Trends Study.</p><details><summary>Methods and scope</summary><p>Functional data analysis, local distributional summaries, covariate-adjusted modeling, sensitivity analysis, and wearable-derived digital biomarkers beyond total activity counts.</p></details><div class="tag-row"><span>Cognitive aging</span><span>Digital biomarkers</span><span>Functional data</span></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="applied longitudinal">
-        <div class="project-image"><img src="assets/projects/icings-fam-dyads.svg" alt=""><span>Dyadic health research</span></div>
-        <div class="project-body"><p class="card-meta">Planned NIH-funded collaboration · Beginning 2026</p><h2 class="anchored">iCINGS FAM: COVID-19 Survivor–Care-Partner Dyadic Research</h2><p>Selected to serve as a biostatistician on Integrating Community-based Intervention Under Nurse Guidance with Families (iCINGS FAM), led by principal investigator Gayenell Magwood, PhD, RN, FAHA, FAAN.</p><details><summary>Planned contribution</summary><p>Support statistical analyses of survivor–care-partner dyadic relationships, family functioning, quality of life, chronic-disease symptom management, and COVID-19 recovery. This collaboration is separate from my CHQ All of Us genomics project.</p></details><div class="tag-row"><span>Biostatistics</span><span>Dyadic data</span><span>COVID-19 recovery</span><span>Health equity</span></div><div class="card-links"><a href="https://sc.edu/study/colleges_schools/nursing/research/current_research/icingsfam.php" target="_blank" rel="noreferrer">Official study page ↗</a><a href="https://reporter.nih.gov/project-details/10308981" target="_blank" rel="noreferrer">NIH project record ↗</a></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/ecg.svg" alt=""><span>Circadian and cardiac signals</span></div>
+          <div class="project-body"><p class="card-meta">Collaboration with the University of Warwick · 2025 to present</p><h2 class="anchored">Latent-State Modeling of Circadian Patterns in 24-Hour Electrocardiogram Signals</h2><p>Subject-specific modeling of circadian rhythm disruption and cardiac risk using 24-hour electrocardiogram recordings from the MUSIC cohort.</p><details><summary>Methods and scope</summary><p>Bayesian hidden Markov models, semi-Markov models, transition-probability summaries, latent-state features, and survival outcomes.</p></details><div class="tag-row"><span>Hidden Markov models</span><span>Electrocardiogram</span><span>Circadian rhythms</span></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="methodology survival bayesian">
-        <div class="project-image"><img src="assets/projects/interval-censoring.png" alt=""><span>Survival analysis</span></div>
-        <div class="project-body"><p class="card-meta">USC · 2025</p><h2 class="anchored">Robust Survival Estimation under Interval Censoring</h2><p>A simulation and applied assessment of distribution-free, parametric, and Bayesian approaches to survival estimation under interval censoring.</p><details><summary>Methods and scope</summary><p>Turnbull NPMLE, expectation maximization, Weibull accelerated failure time models, Bayesian accelerated failure time models, integrated squared error, and Brier scores.</p></details><div class="tag-row"><span>Interval censoring</span><span>Bayesian AFT</span><span>EM algorithm</span></div><div class="card-links"><a href="https://arxiv.org/html/2509.02634v1" target="_blank" rel="noreferrer">Read preprint ↗</a></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/physical-activity.png" alt=""><span>Wearable-derived digital phenotypes</span></div>
+          <div class="project-body"><p class="card-meta">ASPIRE-funded research · USC · Starting August 2026</p><h2 class="anchored">Fitbit-Derived Circadian Digital Phenotypes in Cardiology, Alzheimer’s Disease, and Related Dementias</h2><p>Research on wearable-derived activity, heart-rate, sleep-wake, and circadian signals as digital phenotypes of cognitive and functional change in aging and related dementias.</p><details><summary>Methods and scope</summary><p>Functional and longitudinal data analysis, circadian feature extraction, Bayesian hidden and semi-Markov models, and associations between temporal patterns and cognition.</p></details><div class="tag-row"><span>ASPIRE</span><span>Wearable data</span><span>Circadian rhythms</span><span>Alzheimer’s disease and related dementias</span></div></div>
+        </article>
+      </div>
+    </section>
 
-      <article class="project-card reveal" data-research-category="causal survival applied">
-        <div class="project-image"><img src="assets/projects/prostate.png" alt=""><span>Causal inference</span></div>
-        <div class="project-body"><p class="card-meta">WMU · 2024 to 2025</p><h2 class="anchored">Individualized Treatment Effects in Advanced Prostate Cancer</h2><p>A causal-survival analysis of treatment-effect heterogeneity for risk-guided therapy in advanced prostate cancer.</p><details><summary>Methods and scope</summary><p>Weibull accelerated failure time modeling, treatment-by-covariate interactions, individualized time ratios, delta-method inference, and bootstrap uncertainty estimation.</p></details><div class="tag-row"><span>Treatment heterogeneity</span><span>Survival analysis</span><span>Precision medicine</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1k0xkbo2NvVKXhuJaR6ogImU0DpjHYqJG/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://arxiv.org/abs/2508.16894" target="_blank" rel="noreferrer">arXiv preprint ↗</a></div></div>
-      </article>
+    <section class="project-group" id="current-programs">
+      <div class="project-group-heading reveal">
+        <div><p class="eyebrow">03 · Current fellowship and collaboration</p><h2 class="anchored">Two distinct research programs</h2></div>
+        <p>The CHQ Junior Scholar work and iCINGS FAM collaboration are presented side by side, but their aims, teams, and roles remain separate.</p>
+      </div>
+      <div class="project-grid project-grid-full">
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/all-of-us-genomics.svg" alt=""><span>CHQ Junior Scholar research</span></div>
+          <div class="project-body"><p class="card-meta">South Carolina SmartState Center for Healthcare Quality · August 2026 to May 2027</p><h2 class="anchored">All of Us Genomics in Alzheimer’s Disease and Neurocognitive Health</h2><p>Developing a focused research question and analysis plan for genomic factors related to Alzheimer’s disease and neurocognitive outcomes using National Institutes of Health All of Us Research Program data.</p><details><summary>Research context</summary><p>Junior Scholar research under the mentorship of Kesheng Wang, PhD, and Xueying Yang, PhD.</p></details><div class="tag-row"><span>All of Us</span><span>Genomics</span><span>Alzheimer’s disease</span><span>Neurocognitive health</span></div><div class="card-links"><a href="https://chq.sc.edu/junior-scholar-program/" target="_blank" rel="noreferrer">CHQ Junior Scholar Program ↗</a><a href="https://allofus.nih.gov/" target="_blank" rel="noreferrer">All of Us Research Program ↗</a></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="trials bayesian">
-        <div class="project-image"><img src="assets/projects/psoriasis.png" alt=""><span>Clinical trials</span></div>
-        <div class="project-body"><p class="card-meta">UConn Biopharmaceutical Summer Academy · 2025</p><h2 class="anchored">Bayesian Adaptive Dose Finding in a Phase II Psoriasis Trial</h2><p>Dose selection and decision reliability under realistic missing-data and intercurrent-event settings in a simulated Phase II psoriasis trial.</p><details><summary>Methods and scope</summary><p>Bayesian adaptive design, historical borrowing, multiplicity control, estimands, PASI75 and PASI50 endpoints, and MCAR, MAR, and MNAR sensitivity analyses.</p></details><div class="tag-row"><span>Adaptive trials</span><span>Dose finding</span><span>Missing data</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://events.stat.uconn.edu/SIP2025/posters2025.html" target="_blank" rel="noreferrer">Conference posters ↗</a></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/icings-fam-dyads.svg" alt=""><span>NIH-funded collaborative research</span></div>
+          <div class="project-body"><p class="card-meta">iCINGS FAM · Planned collaboration beginning 2026</p><h2 class="anchored">COVID-19 Survivor and Care-Partner Dyadic Research</h2><p>Selected to serve as a biostatistician on Integrating Community-based Intervention Under Nurse Guidance with Families, led by principal investigator Gayenell Magwood, PhD, RN, FAHA, FAAN.</p><details><summary>Planned contribution</summary><p>Support statistical analyses of survivor and care-partner dyads, family functioning, quality of life, chronic-disease symptom management, and COVID-19 recovery.</p></details><div class="tag-row"><span>Dyadic data</span><span>COVID-19 recovery</span><span>Quality of life</span><span>Health equity</span></div><div class="card-links"><a href="https://sc.edu/study/colleges_schools/nursing/research/current_research/icingsfam.php" target="_blank" rel="noreferrer">Official study page ↗</a><a href="https://reporter.nih.gov/project-details/10308981" target="_blank" rel="noreferrer">NIH project record ↗</a></div></div>
+        </article>
+      </div>
+    </section>
 
-      <article class="project-card reveal" data-research-category="causal survival applied">
-        <div class="project-image"><img src="assets/projects/heart-failure.svg" alt=""><span>Causal inference</span></div>
-        <div class="project-body"><p class="card-meta">WMU · 2024</p><h2 class="anchored">Heart Failure Survival Analysis with Predictive and Causal Methods</h2><p>An applied analysis of survival prediction, prognostic factors, and clinical mediation pathways in heart failure.</p><details><summary>Methods and scope</summary><p>Logistic regression, random forest, support vector machines, penalized regression, and structural equation modeling.</p></details><div class="tag-row"><span>Heart failure</span><span>Machine learning</span><span>Mediation</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1yxbHYS2-DJrxy3ugZRqdY7FLHxU2ddvD/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a></div></div>
-      </article>
+    <section class="project-group" id="earlier-work">
+      <div class="project-group-heading reveal">
+        <div><p class="eyebrow">04 · Earlier clinical and population research</p><h2 class="anchored">Foundational projects across health applications</h2></div>
+        <p>Selected earlier work demonstrating development in causal, trial, predictive, time-series, and longitudinal analysis.</p>
+      </div>
+      <div class="project-grid project-grid-full">
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/prostate.png" alt=""><span>Individualized treatment effects</span></div>
+          <div class="project-body"><p class="card-meta">WMU · 2024 to 2025</p><h2 class="anchored">Individualized Treatment Effects in Advanced Prostate Cancer</h2><p>A causal-survival analysis of treatment-effect heterogeneity for risk-guided therapy in advanced prostate cancer.</p><details><summary>Methods and scope</summary><p>Weibull accelerated failure time modeling, treatment-by-covariate interactions, individualized time ratios, delta-method inference, and bootstrap uncertainty estimation.</p></details><div class="tag-row"><span>Treatment heterogeneity</span><span>Survival analysis</span><span>Precision medicine</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1k0xkbo2NvVKXhuJaR6ogImU0DpjHYqJG/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://arxiv.org/abs/2508.16894" target="_blank" rel="noreferrer">arXiv preprint ↗</a></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="trials neuroscience applied causal">
-        <div class="project-image"><img src="assets/projects/alzheimer-trial.png" alt=""><span>Clinical trials</span></div>
-        <div class="project-body"><p class="card-meta">WMU · 2024</p><h2 class="anchored">Alzheimer’s Disease Clinical Trial Subgroup Analysis</h2><p>An investigation of heterogeneity in cognitive decline and treatment response using ACTC Solanezumab trial data.</p><details><summary>Methods and scope</summary><p>Regression, subgroup analysis, interaction modeling, MMSE and ARIA endpoints, APOE4 status, centiloid level, education, and BMI.</p></details><div class="tag-row"><span>Alzheimer’s disease</span><span>Subgroups</span><span>Clinical trials</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/psoriasis.png" alt=""><span>Adaptive dose finding</span></div>
+          <div class="project-body"><p class="card-meta">UConn Biopharmaceutical Summer Academy · 2025</p><h2 class="anchored">Bayesian Adaptive Dose Finding in a Phase II Psoriasis Trial</h2><p>Dose selection and decision reliability under realistic missing-data and intercurrent-event settings in a simulated Phase II psoriasis trial.</p><details><summary>Methods and scope</summary><p>Bayesian adaptive design, historical borrowing, multiplicity control, estimands, Psoriasis Area and Severity Index endpoints, and missing-data sensitivity analyses.</p></details><div class="tag-row"><span>Adaptive trials</span><span>Dose finding</span><span>Missing data</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1YEkaC1MmaK_5HWHmnN7e8gxvXVzBD5xe/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://events.stat.uconn.edu/SIP2025/posters2025.html" target="_blank" rel="noreferrer">Conference posters ↗</a></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="applied">
-        <div class="project-image"><img src="assets/projects/lung.jpg" alt=""><span>Applied biostatistics</span></div>
-        <div class="project-body"><p class="card-meta">Collaborative research · 2024 to 2025</p><h2 class="anchored">Forecasting Lung Cancer Mortality</h2><p>A comparative assessment of time-series models for forecasting lung cancer mortality in the United States.</p><details><summary>Methods and scope</summary><p>Simple exponential smoothing, Holt methods, and ARIMA models.</p></details><div class="tag-row"><span>Cancer</span><span>Time series</span><span>Forecasting</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://arxiv.org/abs/2508.16052" target="_blank" rel="noreferrer">arXiv preprint ↗</a></div></div>
-      </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/heart-failure.svg" alt=""><span>Predictive and causal analysis</span></div>
+          <div class="project-body"><p class="card-meta">WMU · 2024</p><h2 class="anchored">Heart Failure Survival Analysis with Predictive and Causal Methods</h2><p>An analysis of survival prediction, prognostic factors, and clinical mediation pathways in heart failure.</p><details><summary>Methods and scope</summary><p>Logistic regression, random forest, support vector machines, penalized regression, and structural equation modeling.</p></details><div class="tag-row"><span>Heart failure</span><span>Machine learning</span><span>Mediation</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1yxbHYS2-DJrxy3ugZRqdY7FLHxU2ddvD/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a></div></div>
+        </article>
 
-      <article class="project-card reveal" data-research-category="longitudinal applied">
-        <div class="project-image"><img src="assets/projects/longitudinal.png" alt=""><span>Longitudinal analysis</span></div>
-        <div class="project-body"><p class="card-meta">WMU · 2024</p><h2 class="anchored">Longitudinal Modeling of HAART and CD4 Trajectories</h2><p>Two related investigations of treatment response, small samples, and unbalanced longitudinal designs in HIV research.</p><details><summary>Methods and scope</summary><p>Generalized least squares, linear mixed-effects models, GEE, GLMM, interaction modeling, and simulation across sample sizes.</p></details><div class="tag-row"><span>HIV</span><span>Mixed models</span><span>Longitudinal data</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1ecNOPwr_wPABnQ4uFG3by2b46Ino-ZJ_/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://drive.google.com/file/d/1bMr6XSYoqPTzmEmTaCPri5JieLxC9Wu0/view?usp=sharing" target="_blank" rel="noreferrer">Method comparison project ↗</a></div></div>
-      </article>
-    </div>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/alzheimer-trial.png" alt=""><span>Clinical-trial subgroup analysis</span></div>
+          <div class="project-body"><p class="card-meta">WMU · 2024</p><h2 class="anchored">Alzheimer’s Disease Clinical Trial Subgroup Analysis</h2><p>An investigation of heterogeneity in cognitive decline and treatment response using Alzheimer’s Clinical Trial Consortium solanezumab trial data.</p><details><summary>Methods and scope</summary><p>Regression, subgroup analysis, interaction modeling, cognitive and amyloid-related imaging abnormality endpoints, apolipoprotein E ε4 status, centiloid level, education, and body mass index.</p></details><div class="tag-row"><span>Alzheimer’s disease</span><span>Subgroups</span><span>Clinical trials</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1PvXF9zrJi6iwHgfnFV8PQIMbzKx5LwF2/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/lung.jpg" alt=""><span>Cancer mortality forecasting</span></div>
+          <div class="project-body"><p class="card-meta">Collaborative research · 2024 to 2025</p><h2 class="anchored">Forecasting Lung Cancer Mortality</h2><p>A comparative assessment of time-series models for forecasting lung cancer mortality in the United States.</p><details><summary>Methods and scope</summary><p>Simple exponential smoothing, Holt methods, and autoregressive integrated moving average models.</p></details><div class="tag-row"><span>Cancer</span><span>Time series</span><span>Forecasting</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1RFPNQ0ctz2Zea-7nzTEO_7yNASjlMVhE/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://arxiv.org/abs/2508.16052" target="_blank" rel="noreferrer">arXiv preprint ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/projects/longitudinal.png" alt=""><span>Longitudinal health outcomes</span></div>
+          <div class="project-body"><p class="card-meta">WMU · 2024</p><h2 class="anchored">Longitudinal Modeling of Antiretroviral Therapy and CD4 Trajectories</h2><p>Two related investigations of treatment response, small samples, and unbalanced longitudinal designs in human immunodeficiency virus research.</p><details><summary>Methods and scope</summary><p>Generalized least squares, linear mixed-effects models, generalized estimating equations, generalized linear mixed models, interaction modeling, and simulation across sample sizes.</p></details><div class="tag-row"><span>Human immunodeficiency virus</span><span>Mixed models</span><span>Longitudinal data</span></div><div class="card-links"><a href="https://drive.google.com/file/d/1ecNOPwr_wPABnQ4uFG3by2b46Ino-ZJ_/view?usp=sharing" target="_blank" rel="noreferrer">View project ↗</a><a href="https://drive.google.com/file/d/1bMr6XSYoqPTzmEmTaCPri5JieLxC9Wu0/view?usp=sharing" target="_blank" rel="noreferrer">Method comparison project ↗</a></div></div>
+        </article>
+      </div>
+    </section>
   </div>
 </section>
 

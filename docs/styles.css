@@ -369,6 +369,15 @@ img { max-width: 100%; }
 .method-grid p { margin: 0; color: var(--text-soft); font-size: 0.84rem; line-height: 1.72; }
 .research-program-heading { margin-bottom: 0; }
 
+.project-jump { display: flex; flex-wrap: wrap; gap: 0.55rem; margin: 2.5rem 0 0; padding: 1.15rem; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+.project-jump a { padding: 0.62rem 0.82rem; border: 1px solid var(--line); border-radius: 999px; color: var(--text-soft); font-family: "JetBrains Mono", monospace; font-size: 0.65rem; font-weight: 700; text-decoration: none; transition: color 180ms ease, border-color 180ms ease, background 180ms ease; }
+.project-jump a:hover { border-color: var(--aqua); background: color-mix(in srgb, var(--aqua) 8%, var(--surface)); color: var(--aqua); }
+.project-group { padding-top: 5.5rem; scroll-margin-top: 5rem; }
+.project-group-heading { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr); gap: clamp(2rem, 6vw, 6rem); align-items: end; margin-bottom: 1.6rem; padding-bottom: 1.3rem; border-bottom: 1px solid var(--line); }
+.project-group-heading .eyebrow { margin-bottom: 0.8rem; }
+.project-group-heading h2 { max-width: 760px; margin: 0; font-size: clamp(2rem, 4vw, 3.8rem); line-height: 1.03; }
+.project-group-heading > p { margin: 0; color: var(--muted); font-size: 0.88rem; line-height: 1.75; }
+
 .education-preview { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 .education-preview article { min-height: 245px; padding: 1.55rem; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); }
 .education-preview article > span { color: var(--aqua); font-family: "JetBrains Mono", monospace; font-size: 0.68rem; }
@@ -945,6 +954,9 @@ img { max-width: 100%; }
   gap: 1rem;
 }
 
+.people-grid-two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.people-grid-one { grid-template-columns: minmax(0, 1fr); max-width: 760px; }
+
 .person-card {
   position: relative;
   display: flex;
@@ -1045,11 +1057,15 @@ img { max-width: 100%; }
   .people-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .people-grid-one {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 760px) {
   .circle-intro,
-  .people-grid {
+  .people-grid,
+  .project-group-heading {
     grid-template-columns: 1fr;
   }
 
